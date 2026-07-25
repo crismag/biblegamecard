@@ -1,0 +1,15 @@
+collector_id: "L000"
+character_name: ""
+references:
+  - reference: ""
+    translation: ""
+    usage: "identity"
+    supports:
+      - ""
+    quotation: ""
+    quotation_status: "reference_only"
+    notes: ""
+review:
+  status: "draft"
+  reviewer: ""
+  last_reviewed: ""
