@@ -12,41 +12,43 @@
 - [x] Art direction guide
 - [x] Production pipeline and stage gates
 - [x] Gameplay design guide
-- [x] Collector numbering and registry policy as a dedicated document
+- [x] Collector numbering and registry policy
 - [x] Prompt compilation guide
-- [ ] RAG chunking and provenance guide
+- [x] RAG chunking and provenance guide
 
 ## Templates
 - [x] Character specification
 - [x] Gameplay specification
 - [x] Artwork specification
 - [x] Prompt source specification
-- [ ] Theology notes template
-- [ ] Scripture references template
+- [x] Theology notes template
+- [x] Scripture references template
 - [x] Review checklist template
 - [x] Revision history template
-- [ ] Card package README template
+- [x] Card package README template
 
 ## Schemas
 - [x] Character specification schema
-- [ ] Gameplay schema
-- [ ] Artwork schema
-- [ ] Registry schema
-- [ ] Prompt-source schema
+- [x] Gameplay schema
+- [x] Artwork schema
+- [x] Legendary registry schema
+- [x] Prompt-source schema
 
 ## Registry and tracking
 - [x] Core Legendary plan
 - [x] Machine-readable Legendary registry
 - [x] Master production tracker
 - [x] Reference image inventory
-- [ ] Decision log
-- [ ] Release checklist
+- [x] Decision log
+- [x] Release checklist
 
 ## Automation readiness
-- [ ] Schema validation command
-- [ ] New-card package generator
-- [ ] Prompt compiler contract
-- [ ] Generated-artifact manifest
+- [x] Schema-validator contract
+- [x] New-card package generator contract
+- [x] Prompt compiler contract
+- [x] Generated-artifact manifest contract
 
-## Completion rule
-Phase 1 can enter review when all documents needed to create a complete Legendary card package exist and no unresolved architecture decision blocks Phase 2. Automation utilities may be delivered incrementally, but their contracts must be defined before official generation begins.
+## Phase status
+**Ready for review and Phase 2 initiation.**
+
+The foundation now contains the standards, templates, schemas, traceability rules, and automation contracts required to create complete Legendary card packages. Executable automation utilities may be implemented incrementally during Phase 2, but they must conform to the contracts in `docs/AUTOMATION_CONTRACTS.md`.
