@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legendary Card Registry",
+  "type": "object",
+  "required": ["cards"],
+  "properties": {
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["collector_id", "name", "title", "status"],
+        "properties": {
+          "collector_id": {"type": "string", "pattern": "^L[0-9]{3}$"},
+          "name": {"type": "string"},
+          "title": {"type": "string"},
+          "status": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
