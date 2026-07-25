@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/crismag/biblegamecard/schemas/gameplay.schema.json",
+  "title": "Bible Game Card Gameplay Specification",
+  "type": "object",
+  "required": ["collector_id", "role", "attributes", "ability", "design_rationale", "status"],
+  "properties": {
+    "collector_id": {"type": "string", "pattern": "^[A-Z][0-9]{3}$"},
+    "role": {"type": "string", "minLength": 2},
+    "attributes": {"type": "object", "additionalProperties": {"type": ["integer", "number", "string"]}},
+    "ability": {
+      "type": "object",
+      "required": ["name", "effect"],
+      "properties": {
+        "name": {"type": "string", "minLength": 2},
+        "effect": {"type": "string", "minLength": 5},
+        "trigger": {"type": "string"},
+        "cost": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "keywords": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "design_rationale": {"type": "string", "minLength": 10},
+    "status": {"enum": ["draft", "review", "approved", "superseded"]}
+  },
+  "additionalProperties": true
+}
