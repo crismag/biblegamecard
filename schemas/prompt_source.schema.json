@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prompt Source Specification",
+  "type": "object",
+  "required": ["collector_id", "subject", "scene", "style", "constraints", "status"],
+  "properties": {
+    "collector_id": {"type": "string", "pattern": "^[A-Z][0-9]{3}$"},
+    "subject": {"type": "object"},
+    "scene": {"type": "object"},
+    "style": {"type": "object"},
+    "constraints": {"type": "object"},
+    "negative": {"type": "array", "items": {"type": "string"}},
+    "target_adapters": {"type": "object"},
+    "status": {"enum": ["draft", "review", "approved", "superseded"]}
+  },
+  "additionalProperties": true
+}
