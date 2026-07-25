@@ -1,0 +1,36 @@
+schema_version: 1.0
+collector_id: L000
+slug: character_slug
+name: Character Name
+title: Defining Title
+rarity: legendary
+set: core_legendary
+status: planned
+content_version: 0.1.0
+
+identity:
+  testament: old_or_new
+  role_categories: []
+  defining_contribution: ""
+  summary: ""
+
+biblical_basis:
+  primary_passages: []
+  supporting_passages: []
+  explicit_facts: []
+  responsible_inferences: []
+  disputed_points: []
+
+canonical_appearance:
+  life_stage: ""
+  build: ""
+  face_and_hair: ""
+  clothing: []
+  carried_items: []
+  prohibited_elements: []
+
+provenance:
+  created_by: ""
+  reviewed_by: []
+  last_reviewed: null
+  source_notes: ""
