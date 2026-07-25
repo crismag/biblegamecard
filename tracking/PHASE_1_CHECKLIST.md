@@ -11,9 +11,9 @@
 - [x] Theology and content guide
 - [x] Art direction guide
 - [x] Production pipeline and stage gates
-- [ ] Gameplay design guide
-- [ ] Collector numbering and registry policy as a dedicated document
-- [ ] Prompt compilation guide
+- [x] Gameplay design guide
+- [x] Collector numbering and registry policy as a dedicated document
+- [x] Prompt compilation guide
 - [ ] RAG chunking and provenance guide
 
 ## Templates
@@ -23,8 +23,8 @@
 - [x] Prompt source specification
 - [ ] Theology notes template
 - [ ] Scripture references template
-- [ ] Review checklist template
-- [ ] Revision history template
+- [x] Review checklist template
+- [x] Revision history template
 - [ ] Card package README template
 
 ## Schemas
