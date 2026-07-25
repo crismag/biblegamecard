@@ -1,0 +1,26 @@
+schema_version: 1.0
+collector_id: L000
+role: ""
+playstyle: ""
+
+attributes:
+  courage: null
+  wisdom: null
+  faith: null
+  leadership: null
+  endurance: null
+
+keywords: []
+
+ability:
+  name: ""
+  type: passive_active_triggered
+  concept: ""
+  rules_text_draft: ""
+  biblical_rationale: ""
+  balance_notes: ""
+
+synergies: []
+counters: []
+design_risks: []
+review_status: draft

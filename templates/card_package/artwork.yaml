@@ -1,0 +1,47 @@
+schema_version: 1.0
+collector_id: L000
+visual_version: 0.1.0
+
+subject:
+  pose: ""
+  expression: ""
+  action: ""
+  silhouette_priority: ""
+
+scene:
+  setting: ""
+  narrative_moment: ""
+  foreground: []
+  midground: []
+  background: []
+
+composition:
+  camera_angle: ""
+  framing: ""
+  focal_point: ""
+  text_safe_zones: []
+
+lighting:
+  source: ""
+  mood: ""
+  contrast: ""
+
+palette:
+  primary: []
+  accents: []
+  avoid: []
+
+symbols:
+  required: []
+  optional: []
+  prohibited: []
+
+continuity:
+  canonical_features: []
+  reference_notes: ""
+
+quality_targets:
+  - premium collectible card illustration
+  - cinematic full-art composition
+  - readable character silhouette
+  - print-safe detail hierarchy
