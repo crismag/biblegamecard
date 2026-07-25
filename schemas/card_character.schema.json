@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/crismag/biblegamecard/schemas/card_character.schema.json",
+  "title": "BibleGameCard Character Specification",
+  "type": "object",
+  "required": ["schema_version", "collector_id", "slug", "name", "title", "rarity", "set", "status", "identity", "biblical_basis"],
+  "properties": {
+    "schema_version": {"type": "number"},
+    "collector_id": {"type": "string", "pattern": "^[A-Z][0-9]{3}$"},
+    "slug": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "name": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "rarity": {"enum": ["legendary", "epic", "rare", "common", "verse", "doctrine"]},
+    "set": {"type": "string", "minLength": 1},
+    "status": {"enum": ["planned", "researching", "spec_draft", "spec_review", "spec_approved", "prompt_ready", "generated", "asset_review", "approved", "released", "retired"]},
+    "content_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "identity": {
+      "type": "object",
+      "required": ["testament", "defining_contribution", "summary"],
+      "properties": {
+        "testament": {"enum": ["old", "new", "intertestamental", "thematic"]},
+        "role_categories": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "defining_contribution": {"type": "string"},
+        "summary": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "biblical_basis": {
+      "type": "object",
+      "required": ["primary_passages", "explicit_facts"],
+      "properties": {
+        "primary_passages": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "supporting_passages": {"type": "array", "items": {"type": "string"}},
+        "explicit_facts": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "responsible_inferences": {"type": "array", "items": {"type": "string"}},
+        "disputed_points": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
