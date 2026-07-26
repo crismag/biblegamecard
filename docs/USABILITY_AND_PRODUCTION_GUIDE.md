@@ -2,56 +2,38 @@
 
 ## Purpose
 
-This document is the entry point for using BibleGameCard as an operational content and asset-production repository.
+BibleGameCard is an operational, knowledge-first production repository for biblical card-game content. It is more than a documentation archive, but it is not a self-contained image model or finished game application.
 
-BibleGameCard is not only a documentation archive. It is intended to become the authoritative source system that feeds artwork generation, card rendering, game-data export, story development, and release packaging.
-
-The repository follows a knowledge-first model:
+Its responsibility is to preserve authoritative knowledge and turn it into deterministic, traceable production inputs:
 
 ```text
 canonical knowledge
     -> validated structured records
-    -> compiled prompts and exports
-    -> generated artwork and card assets
-    -> reviewed release packages
-    -> web, mobile, physical, and story products
+    -> deterministic prompt compilation
+    -> provider-adapted generation inputs
+    -> external image-generation runtime
+    -> reviewed artwork and card assets
+    -> web, mobile, print, and story products
 ```
 
-Generated files are outputs. They do not replace canonical source records.
+Generated files remain outputs. They do not replace canonical source records.
 
 ## Who this guide is for
 
-Use this package when working as a:
-
-- biblical-content author;
-- gameplay designer;
-- art director;
-- prompt author;
-- image-generation operator;
-- card-layout designer;
-- web or mobile game developer;
-- story or campaign designer;
-- reviewer or release manager;
-- AI coding agent operating through Codex or another repository-connected tool.
+Use this package when working as a biblical-content author, gameplay designer, art director, prompt author, image-generation operator, card-layout designer, game developer, reviewer, release manager, or repository-connected AI agent.
 
 ## Documentation map
 
-1. [Repository Quick Start](HOW_TO_USE_THE_REPOSITORY.md) — practical repository navigation, editing, validation, and contribution workflow.
-2. [Game and Asset Production Workflow](GAME_AND_ASSET_PRODUCTION_WORKFLOW.md) — end-to-end path from canonical knowledge to images, rendered cards, and release assets.
-3. [Game Development Integration Guide](GAME_DEVELOPMENT_INTEGRATION_GUIDE.md) — how structured card, ability, character, and story records can feed web, mobile, and game-engine applications.
-4. [Production Operations Guide](PRODUCTION_OPERATIONS_GUIDE.md) — review gates, versioning, release discipline, generated artifacts, and operational controls.
+1. [Repository Quick Start](HOW_TO_USE_THE_REPOSITORY.md) — navigation, editing, validation, compilation, and contribution workflow.
+2. [Executable Prompt Compiler Architecture](PROMPT_COMPILER_ARCHITECTURE.md) — implemented compiler, adapters, outputs, drift checking, and lifecycle.
+3. [Local Image-Generation Integration](LOCAL_IMAGE_GENERATION.md) — ComfyUI boundary, feasibility experiment, provider-adapter plan, and local workflow.
+4. [Game and Asset Production Workflow](GAME_AND_ASSET_PRODUCTION_WORKFLOW.md) — end-to-end source-to-release stages.
+5. [Game Development Integration Guide](GAME_DEVELOPMENT_INTEGRATION_GUIDE.md) — future compiled game-data consumers.
+6. [Production Operations Guide](PRODUCTION_OPERATIONS_GUIDE.md) — review gates, versioning, releases, and operational controls.
 
-These guides complement the stricter standards already in the repository:
-
-- [Canonical Character Knowledge Model](CANONICAL_CHARACTER_KNOWLEDGE_MODEL.md)
-- [Production Validation Standard](PRODUCTION_VALIDATION_STANDARD.md)
-- [Artwork Review Standard](ARTWORK_REVIEW_STANDARD.md)
-- [Repository Architecture](REPOSITORY_ARCHITECTURE.md)
-- [Production Pipeline](PRODUCTION_PIPELINE.md)
+These guides complement the stricter canonical, validation, and artwork-review standards elsewhere under `docs/`.
 
 ## Operating model
-
-The repository is organised into four conceptual layers.
 
 ### 1. Canonical source layer
 
@@ -64,9 +46,7 @@ schemas/
 templates/
 ```
 
-This layer stores authoritative facts, approved project interpretations, gameplay identity, art direction, prompt-source data, relationships, timelines, and controlled identifiers.
-
-Edit this layer when making an actual source decision.
+This layer stores authoritative facts, project interpretations, gameplay identity, art direction, prompt-source data, relationships, timelines, and controlled identifiers. Edit this layer when making an actual source decision.
 
 ### 2. Review and production package layer
 
@@ -79,9 +59,7 @@ planning/
 docs/
 ```
 
-This layer organises human review, production status, package-level guidance, and operational planning.
-
-It may point to canonical data, but it must not silently override canonical sources.
+This layer organises human review, package-level guidance, production status, and planning. It may project canonical data but must not silently override it.
 
 ### 3. Generated layer
 
@@ -92,40 +70,29 @@ generated/
 dist/
 ```
 
-This layer contains reproducible outputs such as:
-
-- assembled knowledge;
-- compiled prompts;
-- traceability manifests;
-- readiness reports;
-- generated image candidates;
-- rendered card images;
-- game-ready JSON;
-- print sheets;
-- release packages.
+Current reproducible outputs include assembled knowledge, compiled prompts, manifests, traceability, regeneration metadata, and readiness reports. Future outputs include image metadata, rendered cards, game-ready JSON, print sheets, and release packages.
 
 Do not manually edit a generated file when a repository tool owns it.
 
-### 4. Consumer layer
+### 4. External runtime and consumer layer
 
-This is normally outside the canonical repository or represented under future application directories.
+Image runtimes and product consumers are separate from the canonical repository.
 
-Consumers may include:
+Examples:
 
-- web game;
-- mobile game;
-- game server;
-- card catalogue;
-- deck builder;
+- ComfyUI with FLUX, Stable Diffusion, or another local model;
+- a cloud image-generation API;
+- web or mobile game;
+- game server or deck builder;
 - print workflow;
 - campaign or RPG engine;
-- AI-assisted content tools.
+- AI-assisted operator interface.
 
-Consumers read exported artifacts. They should not interpret every authoring YAML file independently.
+The repository may version runtime workflows and adapter configuration, but it should not vendor model weights or treat an external runtime as canonical source.
 
 ## Core authority rule
 
-When records disagree, use this general precedence:
+When records disagree, use this precedence unless a stricter package standard applies:
 
 1. approved canonical knowledge and review evidence;
 2. machine-readable registries and schemas;
@@ -133,62 +100,67 @@ When records disagree, use this general precedence:
 4. generated outputs;
 5. human-facing trackers and temporary notes.
 
-Exact package standards may define a more specific rule. Follow the stricter applicable standard.
+## Current capabilities
 
-## Expected production evolution
+Implemented:
 
-The repository is being developed incrementally.
+- canonical character knowledge model;
+- production-grade package validation and deterministic assembly;
+- Legendary prompt-development profiles for L001-L018;
+- prompt-development validation and readiness reporting;
+- deterministic provider-neutral prompt compilation;
+- OpenAI, FLUX, and SDXL prompt adapters;
+- generation manifests, traceability, regeneration commands, and lifecycle registry;
+- committed Joshua compilation artifacts.
 
-Current and near-term capabilities:
+Compilation produces generation inputs and remains at `NOT_GENERATED`. It does not call an image provider.
 
-- canonical character knowledge;
-- Legendary prompt-development profiles;
-- schema validation;
-- deterministic assembly;
-- prompt readiness reporting;
-- production and artwork review gates.
+## Near-term production plan
 
-Planned production capabilities:
+The next operational work is not another broad architecture layer. It is a controlled image-generation vertical slice:
 
-- prompt compilation adapters;
-- image-generation request manifests;
-- image candidate metadata and review;
-- approved artwork registry;
+1. prove ComfyUI and one suitable local model on the target workstation;
+2. export one stable, core-node API workflow;
+3. compile L010 Joshua with the FLUX adapter;
+4. connect immutable compiled artifacts to the workflow;
+5. record request, workflow, model, seed, dimensions, source commit, and output checksums;
+6. generate unapproved candidates;
+7. apply human artwork review;
+8. use the result to design approved-asset handling and card rendering.
+
+Collection authoring may continue in parallel, but generation infrastructure must not falsely advance review or approval states.
+
+## Later capabilities
+
+Planned after the vertical slice:
+
+- controlled ComfyUI and cloud-provider adapters;
+- image candidate registry and review evidence;
+- approved artwork masters;
 - structured card mechanics and abilities;
 - card-layout rendering;
 - print, web, and mobile export profiles;
 - game-data compiler;
-- story and campaign content export;
-- release packaging and CI automation.
+- story and campaign export;
+- release packaging and CI automation;
+- optional CLI, local web UI, MCP, or LLM-operated production console.
 
-## Recommended first vertical slice
+## Recommended proof before scaling
 
-The first complete proof of repository usability should produce:
+The first proof should be deliberately small:
 
 ```text
-8 Legendary character records
-8 generation-ready prompt sources
-8 reviewed artwork candidates
-8 structured playable cards
-1 approved card-frame system
-1 small exported deck
-1 simple playable web battle
-1 printable test sheet
+1 canonical character: Joshua
+1 deterministic compiled prompt set
+1 versioned ComfyUI API workflow
+1 recorded local image model
+1 reproducible generation request
+several unapproved image candidates
+1 completed human review decision
 ```
 
-This vertical slice proves the full path from source knowledge to physical and digital use before scaling to the entire collection.
+After that works, expand to one rendered card, one game-data record, and then a small multi-card vertical slice.
 
 ## Definition of repository usability
 
-The repository is operationally useful when a contributor can:
-
-1. locate the authoritative source for a character or card;
-2. make a controlled change;
-3. validate it;
-4. regenerate affected outputs;
-5. review the resulting diff;
-6. produce an image, card, game-data, or story artifact without copying facts manually;
-7. trace the artifact back to source versions;
-8. release it without confusing draft, generated, reviewed, and approved states.
-
-The accompanying guides describe how to perform those activities.
+The repository is operationally useful when a contributor can locate an authoritative source, make a controlled change, validate it, regenerate affected outputs, review the diff, invoke an external production runtime without copying facts manually, trace the result back to source versions, and distinguish draft, generated, reviewed, approved, and released states.
