@@ -8,6 +8,11 @@ The current milestone is to complete the L010 Joshua production reference, valid
 
 ## Start here
 
+- [Repository usability and production guide](docs/USABILITY_AND_PRODUCTION_GUIDE.md)
+- [How to use the repository](docs/HOW_TO_USE_THE_REPOSITORY.md)
+- [Game and asset production workflow](docs/GAME_AND_ASSET_PRODUCTION_WORKFLOW.md)
+- [Game development integration guide](docs/GAME_DEVELOPMENT_INTEGRATION_GUIDE.md)
+- [Production operations guide](docs/PRODUCTION_OPERATIONS_GUIDE.md)
 - [Master production tracker](tracking/MASTER_TRACKER.md)
 - [Legendary character plan](registry/LEGENDARY_CHARACTER_PLAN.md)
 - [Machine-readable Legendary registry](registry/legendary_cards.json)
