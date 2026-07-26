@@ -8,7 +8,7 @@ This roadmap tracks the transition from repository foundation to repeatable bibl
 | Milestone | Status | Exit criteria |
 |---|---|---|
 | Repository Foundation | Complete | Core governance, schemas, registries, templates, and production boundaries are available. |
-| Art and Prompt Foundation | In progress | Visual language, design guides, prompt grammar, templates, versioning, and model guidance are approved. |
+| Art and Prompt Foundation | In review | Visual language, design guides, prompt grammar, templates, versioning, and model guidance are approved. |
 | Joshua Reference Package | Pending | Joshua is completed from canonical knowledge through reviewed artwork and card layout. |
 | Reference Archetypes | Pending | Leader, queen, king, prophet, and apostle archetypes validate visual cohesion. |
 | Core Legendary Production | Pending | All L001-L034 packages and approved assets are complete. |
@@ -16,7 +16,7 @@ This roadmap tracks the transition from repository foundation to repeatable bibl
 | Game Integration | Pending | Card data and assets are consumable by the first playable digital or physical prototype. |
 
 ## Current objective
-Complete the Art and Prompt Foundation before producing additional official character artwork.
+Review and approve the Art and Prompt Foundation before producing additional official character artwork.
 
 ## Current batch
 - Establish the project visual language.
@@ -24,6 +24,13 @@ Complete the Art and Prompt Foundation before producing additional official char
 - Establish reusable style modules and a negative-prompt library.
 - Define prompt compilation grammar, templates, versioning, and model-specific adaptation.
 - Record design rationale and prepare the Joshua reference implementation.
+
+## Review checklist
+- Confirm the visual language reflects the intended premium biblical collectible identity.
+- Confirm sacred depiction, miracle, symbolism, and historical boundaries are acceptable.
+- Confirm prompt grammar and templates are sufficiently model-neutral.
+- Confirm versioning and provenance requirements are practical.
+- Merge the documentation batch before starting the Joshua reference package.
 
 ## Next gated milestone
 **Joshua Reference Package** begins only after this documentation batch is reviewed and merged.
