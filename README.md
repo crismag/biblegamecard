@@ -37,3 +37,7 @@ The current milestone is to define and complete the 34-card **Core Legendary Col
 ## Branch
 
 Foundation work is currently maintained on `setup/card-context-foundation` until reviewed and merged into `main`.
+
+## Canonical validation
+
+Install the locked Ruby dependencies with `bundle install`, then run `bundle exec ruby tools/validate_character_knowledge.rb --all`, `bundle exec ruby -Itest test/validate_character_knowledge_test.rb`, and `bundle exec ruby tools/assemble_character_knowledge.rb --check --all`. Artwork readiness is computed from review evidence and remains blocked independently of structural validation.

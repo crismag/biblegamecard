@@ -16,3 +16,50 @@ generation_state:
   generation_request_path: cards/L010_joshua/generation_request.yaml
   blocking_reasons: [G1_TO_G4_NOT_APPROVED, MODEL_ADAPTER_NOT_SELECTED, PHASE_3C_DOES_NOT_AUTHORIZE_GENERATION]
 required_review_roles: [BIBLICAL_THEOLOGICAL, GAMEPLAY, HISTORICAL, ART, PROMPT, TECHNICAL, PRINT, PRODUCTION]
+gates:
+  - gate_id: G1_CANONICAL
+    state: review_requested
+    package_version: 2.0.0
+    artifact_version: 1.0.0
+    required_roles: [TECHNICAL]
+    approvals: []
+    open_findings: []
+    evidence_paths: [docs/PRODUCTION_VALIDATION_STANDARD.md]
+  - gate_id: G2_THEOLOGY
+    state: review_requested
+    package_version: 2.0.0
+    artifact_version: 1.0.0
+    required_roles: [BIBLICAL_THEOLOGICAL, HISTORICAL]
+    approvals: []
+    open_findings:
+      - {id: FINDING_THEOLOGY_001, severity: high, summary: Confirm the Ark and divine agency boundaries before generation., blocking: true}
+    evidence_paths: [cards/L010_joshua/review_checklist.md]
+  - gate_id: G3_GAMEPLAY
+    state: review_requested
+    package_version: 2.0.0
+    artifact_version: 1.0.0
+    required_roles: [GAMEPLAY, BIBLICAL_THEOLOGICAL]
+    approvals: []
+    open_findings: []
+    evidence_paths: [cards/L010_joshua/gameplay_identity.md]
+  - gate_id: G4_ART_DIRECTION
+    state: review_requested
+    package_version: 2.0.0
+    artifact_version: 1.0.0
+    required_roles: [ART, HISTORICAL, BIBLICAL_THEOLOGICAL]
+    approvals: []
+    open_findings:
+      - {id: FINDING_ART_001, severity: medium, summary: Confirm whether visible bronze torso armour should remain optional., blocking: true}
+    evidence_paths: [cards/L010_joshua/artwork_review.md]
+  - gate_id: G5_COMPILED_PROMPT
+    state: review_requested
+    package_version: 2.0.0
+    artifact_version: 1.0.0
+    required_roles: [PROMPT, BIBLICAL_THEOLOGICAL, ART]
+    approvals: []
+    open_findings: []
+    evidence_paths: [cards/L010_joshua/prompt_traceability.md]
+generation_readiness:
+  required_gate_ids: [G1_CANONICAL, G2_THEOLOGY, G3_GAMEPLAY, G4_ART_DIRECTION, G5_COMPILED_PROMPT]
+  adapter_selected: false
+  output_settings_recorded: false

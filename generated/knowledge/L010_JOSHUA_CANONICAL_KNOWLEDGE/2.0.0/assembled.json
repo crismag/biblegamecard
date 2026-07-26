@@ -1,0 +1,2075 @@
+{
+  "manifest": {
+    "schema_version": "1.0.0",
+    "package_id": "L010_JOSHUA_CANONICAL_KNOWLEDGE",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "collector_id": "L010",
+    "package_version": "2.0.0",
+    "knowledge_version": "1.0.0",
+    "master_schema": "schemas/knowledge/canonical_character_package.schema.json",
+    "documents": {
+      "character": "character.yaml",
+      "references": "references.yaml",
+      "timeline": "timeline.yaml",
+      "relationships": "relationships.yaml",
+      "symbols": "symbols.yaml",
+      "gameplay": "gameplay.yaml",
+      "art": "art.yaml",
+      "prompt": "prompt.yaml",
+      "review": "review.yaml",
+      "version_history": "version_history.yaml"
+    },
+    "registries": {
+      "entities": "knowledge/entities/biblical_entities.yaml",
+      "locations": "knowledge/entities/locations.yaml",
+      "symbols": "knowledge/entities/symbols.yaml"
+    },
+    "human_views": {
+      "root": "cards/L010_joshua",
+      "authority": "derived_review_view",
+      "edit_policy": "Change canonical data first; then update or regenerate the human view in the same commit.",
+      "compatibility_pointers": {
+        "cards/L010_joshua/character.yaml": "character",
+        "cards/L010_joshua/gameplay.yaml": "gameplay",
+        "cards/L010_joshua/artwork.yaml": "art",
+        "cards/L010_joshua/continuity.yaml": "art",
+        "cards/L010_joshua/prompt_source.yaml": "prompt"
+      },
+      "projections": {
+        "identity.md": [
+          "character.identity",
+          "character.names",
+          "character.titles",
+          "character.leadership",
+          "character.lifespan",
+          "character.summary"
+        ],
+        "biblical_basis.md": [
+          "references.references",
+          "character.failures_and_limits"
+        ],
+        "timeline.md": [
+          "timeline.events"
+        ],
+        "relationships.md": [
+          "relationships.relationships"
+        ],
+        "legacy.md": [
+          "character.leadership",
+          "character.virtues",
+          "character.failures_and_limits",
+          "character.summary"
+        ],
+        "gameplay_identity.md": [
+          "gameplay"
+        ],
+        "symbolism.md": [
+          "symbols"
+        ],
+        "art_direction.md": [
+          "art"
+        ],
+        "context.md": [
+          "character",
+          "gameplay",
+          "art",
+          "prompt"
+        ],
+        "prompt_source.md": [
+          "prompt.semantic_components"
+        ]
+      }
+    },
+    "consumers": [
+      "website",
+      "mobile_app",
+      "deck_builder",
+      "card_search",
+      "prompt_compiler",
+      "lore_explorer",
+      "ai_assistant",
+      "gameplay_engine",
+      "rpg_dialogue",
+      "story_mode",
+      "analytics"
+    ]
+  },
+  "character": {
+    "schema_version": "1.0.0",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "metadata": {
+      "collector_id": "L010",
+      "slug": "joshua",
+      "rarity": "legendary",
+      "set_id": "CORE_LEGENDARY",
+      "package_version": "2.0.0",
+      "knowledge_version": "1.0.0",
+      "canonical_status": "review_requested"
+    },
+    "identity": {
+      "entity_id": "JOSHUA_SON_OF_NUN",
+      "testament": "old",
+      "nation_entity_id": "ISRAEL",
+      "tribe": "Ephraim",
+      "historical_period_tags": [
+        "EXODUS_WILDERNESS",
+        "ENTRY_INTO_CANAAN",
+        "PRE_JUDGES"
+      ],
+      "role_tags": [
+        "ASSISTANT",
+        "SCOUT",
+        "MILITARY_LEADER",
+        "COMMISSIONED_SUCCESSOR",
+        "COVENANT_LEADER",
+        "LAND_ALLOTMENT_LEADER"
+      ],
+      "occupation_status": "not_explicitly_stated"
+    },
+    "names": {
+      "primary": {
+        "display": "Joshua son of Nun",
+        "hebrew": "יְהוֹשֻׁעַ",
+        "transliteration": "Yehoshua",
+        "lexical_meaning": "YHWH is salvation / the LORD saves",
+        "meaning_classification": "traditional_lexical_understanding"
+      },
+      "aliases": [
+        {
+          "id": "HOSHEA_SON_OF_NUN",
+          "display": "Hoshea son of Nun",
+          "hebrew": "הוֹשֵׁעַ",
+          "transliteration": "Hoshea",
+          "lexical_meaning": "salvation",
+          "reference_ids": [
+            "REF_NUMBERS_13_8_16"
+          ]
+        }
+      ]
+    },
+    "titles": {
+      "project_title": {
+        "text": "The Conqueror",
+        "classification": "project_interpretation"
+      },
+      "scriptural_descriptors": [
+        {
+          "descriptor": "Moses' assistant or servant",
+          "reference_ids": [
+            "REF_EXODUS_24_13",
+            "REF_EXODUS_33_11"
+          ]
+        },
+        {
+          "descriptor": "commissioned successor to Moses",
+          "reference_ids": [
+            "REF_NUMBERS_27_18_23",
+            "REF_DEUTERONOMY_31_1_23"
+          ]
+        },
+        {
+          "descriptor": "servant of the LORD at death",
+          "reference_ids": [
+            "REF_JOSHUA_23_1_24_33"
+          ]
+        }
+      ]
+    },
+    "leadership": {
+      "predecessor_entity_id": "MOSES",
+      "named_successor_entity_id": null,
+      "calling": "Lead Israel across the Jordan, apportion the land, act courageously, and keep the law.",
+      "calling_reference_ids": [
+        "REF_DEUTERONOMY_31_1_23",
+        "REF_JOSHUA_1_1_18"
+      ],
+      "authority_model": "received_commission_under_divine_authority"
+    },
+    "virtues": [
+      {
+        "id": "COURAGE_UNDER_COMMISSION",
+        "label": "Courage",
+        "reference_ids": [
+          "REF_JOSHUA_1_1_18"
+        ]
+      },
+      {
+        "id": "FAITH_IN_GODS_PROMISE",
+        "label": "Faith",
+        "reference_ids": [
+          "REF_NUMBERS_14_6_9_30_38"
+        ]
+      },
+      {
+        "id": "COVENANT_OBEDIENCE",
+        "label": "Obedience",
+        "reference_ids": [
+          "REF_JOSHUA_8_30_35",
+          "REF_JOSHUA_23_1_24_33"
+        ]
+      },
+      {
+        "id": "CORPORATE_LEADERSHIP",
+        "label": "Leadership",
+        "reference_ids": [
+          "REF_NUMBERS_27_18_23",
+          "REF_JOSHUA_1_1_18"
+        ]
+      }
+    ],
+    "failures_and_limits": [
+      {
+        "id": "GIBEON_COUNSEL_NOT_SOUGHT",
+        "classification": "scripture_explicit",
+        "summary": "Israel's leaders did not ask counsel from the LORD before the Gibeonite treaty; Joshua made peace and a covenant with them.",
+        "reference_ids": [
+          "REF_JOSHUA_9_1_10_43"
+        ]
+      },
+      {
+        "id": "VICTORY_NOT_AUTOMATIC",
+        "classification": "responsible_synthesis",
+        "summary": "Defeat at Ai demonstrates that Joshua's command did not make victory automatic amid covenant violation.",
+        "reference_ids": [
+          "REF_JOSHUA_7_1_8_29"
+        ]
+      },
+      {
+        "id": "LAND_REMAINED",
+        "classification": "scripture_explicit",
+        "summary": "The narrative states that very much land remained to be possessed.",
+        "reference_ids": [
+          "REF_JOSHUA_13_1_21_45"
+        ]
+      },
+      {
+        "id": "REST_NOT_ULTIMATE",
+        "classification": "new_testament_interpretation",
+        "summary": "Hebrews distinguishes Joshua's rest from the further rest proclaimed afterward.",
+        "reference_ids": [
+          "REF_HEBREWS_4_8"
+        ]
+      }
+    ],
+    "lifespan": {
+      "death_age_years": 110,
+      "death_age_reference_ids": [
+        "REF_JOSHUA_23_1_24_33"
+      ],
+      "burial_location_id": "TIMNATH_SERAH",
+      "absolute_dates": null,
+      "chronology_note": "Absolute dates are intentionally unresolved because the project does not adjudicate disputed chronologies."
+    },
+    "location_ids": [
+      "REPHIDIM",
+      "WILDERNESS_SINAI",
+      "KADESH_BARNEA_REGION",
+      "PLAINS_OF_MOAB",
+      "JORDAN_RIVER",
+      "GILGAL",
+      "JERICHO",
+      "AI",
+      "MOUNT_EBAL",
+      "GIBEON",
+      "CANAAN",
+      "SHILOH",
+      "SHECHEM",
+      "TIMNATH_SERAH"
+    ],
+    "summary": {
+      "defining_contribution": "Led Israel across the Jordan and through the land-entry campaigns, apportioned inheritance, and renewed covenant at Shechem.",
+      "canonical_summary": "Joshua son of Nun, an Ephraimite and Moses' commissioned successor, leads with courage grounded in the LORD's presence and obedience to the law."
+    },
+    "classification_policy": {
+      "scripture": "Claim explicitly stated or directly reported in the cited passage.",
+      "traditional_understanding": "Received interpretive or lexical understanding, not an explicit narrative gloss.",
+      "responsible_synthesis": "Project synthesis constrained by multiple cited passages.",
+      "project_interpretation": "Creative product decision that must not be presented as Scripture."
+    }
+  },
+  "references": {
+    "schema_version": "1.0.0",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "references": [
+      {
+        "id": "REF_EXODUS_17_8_16",
+        "testament": "old",
+        "book": "Exodus",
+        "segments": [
+          {
+            "chapter": 17,
+            "verse_start": 8,
+            "verse_end": 16
+          }
+        ],
+        "context": "Battle against Amalek",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_EXODUS_24_13",
+        "testament": "old",
+        "book": "Exodus",
+        "segments": [
+          {
+            "chapter": 24,
+            "verse_start": 13,
+            "verse_end": 13
+          }
+        ],
+        "context": "Joshua accompanies Moses at Sinai",
+        "importance": "supporting"
+      },
+      {
+        "id": "REF_EXODUS_32_17_18",
+        "testament": "old",
+        "book": "Exodus",
+        "segments": [
+          {
+            "chapter": 32,
+            "verse_start": 17,
+            "verse_end": 18
+          }
+        ],
+        "context": "Joshua descends Sinai with Moses",
+        "importance": "supporting"
+      },
+      {
+        "id": "REF_EXODUS_33_11",
+        "testament": "old",
+        "book": "Exodus",
+        "segments": [
+          {
+            "chapter": 33,
+            "verse_start": 11,
+            "verse_end": 11
+          }
+        ],
+        "context": "Joshua remains near the tent",
+        "importance": "supporting"
+      },
+      {
+        "id": "REF_NUMBERS_11_24_29",
+        "testament": "old",
+        "book": "Numbers",
+        "segments": [
+          {
+            "chapter": 11,
+            "verse_start": 24,
+            "verse_end": 29
+          }
+        ],
+        "context": "Joshua responds to Eldad and Medad",
+        "importance": "supporting"
+      },
+      {
+        "id": "REF_NUMBERS_13_8_16",
+        "testament": "old",
+        "book": "Numbers",
+        "segments": [
+          {
+            "chapter": 13,
+            "verse_start": 8,
+            "verse_end": 8
+          },
+          {
+            "chapter": 13,
+            "verse_start": 16,
+            "verse_end": 16
+          }
+        ],
+        "context": "Tribal assignment and renaming from Hoshea to Joshua",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_NUMBERS_14_6_9_30_38",
+        "testament": "old",
+        "book": "Numbers",
+        "segments": [
+          {
+            "chapter": 14,
+            "verse_start": 6,
+            "verse_end": 9
+          },
+          {
+            "chapter": 14,
+            "verse_start": 30,
+            "verse_end": 30
+          },
+          {
+            "chapter": 14,
+            "verse_start": 38,
+            "verse_end": 38
+          }
+        ],
+        "context": "Joshua and Caleb's faithful report and survival",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_NUMBERS_27_18_23",
+        "testament": "old",
+        "book": "Numbers",
+        "segments": [
+          {
+            "chapter": 27,
+            "verse_start": 18,
+            "verse_end": 23
+          }
+        ],
+        "context": "Public commissioning before Eleazar and Israel",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_DEUTERONOMY_31_1_23",
+        "testament": "old",
+        "book": "Deuteronomy",
+        "segments": [
+          {
+            "chapter": 31,
+            "verse_start": 1,
+            "verse_end": 23
+          }
+        ],
+        "context": "Moses and the LORD charge Joshua",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_DEUTERONOMY_34_9_12",
+        "testament": "old",
+        "book": "Deuteronomy",
+        "segments": [
+          {
+            "chapter": 34,
+            "verse_start": 9,
+            "verse_end": 12
+          }
+        ],
+        "context": "Joshua's wisdom and succession; Moses' unique standing",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_1_1_18",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 1,
+            "verse_start": 1,
+            "verse_end": 18
+          }
+        ],
+        "context": "Commission and assumption of leadership",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_2_1_24",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 2,
+            "verse_start": 1,
+            "verse_end": 24
+          }
+        ],
+        "context": "Spies and Rahab",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_3_1_4_24",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 3,
+            "verse_start": 1,
+            "verse_end": 17
+          },
+          {
+            "chapter": 4,
+            "verse_start": 1,
+            "verse_end": 24
+          }
+        ],
+        "context": "Jordan crossing and memorial stones",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_5_1_15",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 5,
+            "verse_start": 1,
+            "verse_end": 15
+          }
+        ],
+        "context": "Gilgal covenant signs, Passover, and commander encounter",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_6_1_27",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 6,
+            "verse_start": 1,
+            "verse_end": 27
+          }
+        ],
+        "context": "Jericho and Rahab's rescue",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_7_1_8_29",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 7,
+            "verse_start": 1,
+            "verse_end": 26
+          },
+          {
+            "chapter": 8,
+            "verse_start": 1,
+            "verse_end": 29
+          }
+        ],
+        "context": "Achan, defeat, judgment, and Ai",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_8_30_35",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 8,
+            "verse_start": 30,
+            "verse_end": 35
+          }
+        ],
+        "context": "Altar and reading of the law at Mount Ebal",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_9_1_10_43",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 9,
+            "verse_start": 1,
+            "verse_end": 27
+          },
+          {
+            "chapter": 10,
+            "verse_start": 1,
+            "verse_end": 43
+          }
+        ],
+        "context": "Gibeonite treaty and southern campaign",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_11_1_12_24",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 11,
+            "verse_start": 1,
+            "verse_end": 23
+          },
+          {
+            "chapter": 12,
+            "verse_start": 1,
+            "verse_end": 24
+          }
+        ],
+        "context": "Northern campaign and defeated-kings summary",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_13_1_21_45",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 13,
+            "verse_start": 1,
+            "verse_end": 33
+          },
+          {
+            "chapter": 14,
+            "verse_start": 1,
+            "verse_end": 15
+          },
+          {
+            "chapter": 15,
+            "verse_start": 1,
+            "verse_end": 63
+          },
+          {
+            "chapter": 16,
+            "verse_start": 1,
+            "verse_end": 10
+          },
+          {
+            "chapter": 17,
+            "verse_start": 1,
+            "verse_end": 18
+          },
+          {
+            "chapter": 18,
+            "verse_start": 1,
+            "verse_end": 28
+          },
+          {
+            "chapter": 19,
+            "verse_start": 1,
+            "verse_end": 51
+          },
+          {
+            "chapter": 20,
+            "verse_start": 1,
+            "verse_end": 9
+          },
+          {
+            "chapter": 21,
+            "verse_start": 1,
+            "verse_end": 45
+          }
+        ],
+        "context": "Remaining land, allotments, Joshua's inheritance, refuge and Levitical towns",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_22_1_34",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 22,
+            "verse_start": 1,
+            "verse_end": 34
+          }
+        ],
+        "context": "Eastern tribes return and altar dispute",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JOSHUA_23_1_24_33",
+        "testament": "old",
+        "book": "Joshua",
+        "segments": [
+          {
+            "chapter": 23,
+            "verse_start": 1,
+            "verse_end": 16
+          },
+          {
+            "chapter": 24,
+            "verse_start": 1,
+            "verse_end": 33
+          }
+        ],
+        "context": "Farewell, covenant renewal, death, burial, and influence",
+        "importance": "primary"
+      },
+      {
+        "id": "REF_JUDGES_2_6_9",
+        "testament": "old",
+        "book": "Judges",
+        "segments": [
+          {
+            "chapter": 2,
+            "verse_start": 6,
+            "verse_end": 9
+          }
+        ],
+        "context": "Joshua's death and burial recalled",
+        "importance": "supporting"
+      },
+      {
+        "id": "REF_1_KINGS_16_34",
+        "testament": "old",
+        "book": "1 Kings",
+        "segments": [
+          {
+            "chapter": 16,
+            "verse_start": 34,
+            "verse_end": 34
+          }
+        ],
+        "context": "Joshua's word concerning Jericho recalled",
+        "importance": "supporting"
+      },
+      {
+        "id": "REF_NEHEMIAH_8_17",
+        "testament": "old",
+        "book": "Nehemiah",
+        "segments": [
+          {
+            "chapter": 8,
+            "verse_start": 17,
+            "verse_end": 17
+          }
+        ],
+        "context": "Joshua-era comparison at the Feast of Booths",
+        "importance": "supporting"
+      },
+      {
+        "id": "REF_ACTS_7_45",
+        "testament": "new",
+        "book": "Acts",
+        "segments": [
+          {
+            "chapter": 7,
+            "verse_start": 45,
+            "verse_end": 45
+          }
+        ],
+        "context": "Joshua brings the tabernacle into the land",
+        "importance": "supporting"
+      },
+      {
+        "id": "REF_HEBREWS_4_8",
+        "testament": "new",
+        "book": "Hebrews",
+        "segments": [
+          {
+            "chapter": 4,
+            "verse_start": 8,
+            "verse_end": 8
+          }
+        ],
+        "context": "Joshua's rest distinguished from the further rest",
+        "importance": "supporting"
+      }
+    ]
+  },
+  "timeline": {
+    "schema_version": "1.0.0",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "ordering": "canonical_narrative",
+    "absolute_dates_status": "intentionally_unresolved",
+    "events": [
+      {
+        "event_id": "EVT_JOSHUA_AMALEK",
+        "sequence": 10,
+        "title": "Leads battle against Amalek",
+        "reference_ids": [
+          "REF_EXODUS_17_8_16"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "MOSES",
+          "ISRAEL"
+        ],
+        "location_ids": [
+          "REPHIDIM"
+        ],
+        "summary": "Joshua commands Israel's fighters while the narrative locates victory beyond military action alone.",
+        "importance": "formative"
+      },
+      {
+        "event_id": "EVT_JOSHUA_SINAI_ASSISTANT",
+        "sequence": 20,
+        "title": "Assists Moses at Sinai",
+        "reference_ids": [
+          "REF_EXODUS_24_13",
+          "REF_EXODUS_32_17_18"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "MOSES"
+        ],
+        "location_ids": [
+          "WILDERNESS_SINAI"
+        ],
+        "summary": "Joshua accompanies Moses and descends with him.",
+        "importance": "formative"
+      },
+      {
+        "event_id": "EVT_JOSHUA_TENT",
+        "sequence": 30,
+        "title": "Remains near the tent",
+        "reference_ids": [
+          "REF_EXODUS_33_11"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "MOSES"
+        ],
+        "location_ids": [
+          "WILDERNESS_SINAI"
+        ],
+        "summary": "Joshua's assistant role continues near the tent without assuming Moses' unique role.",
+        "importance": "supporting"
+      },
+      {
+        "event_id": "EVT_JOSHUA_ELDAD_MEDAD",
+        "sequence": 40,
+        "title": "Responds to Eldad and Medad",
+        "reference_ids": [
+          "REF_NUMBERS_11_24_29"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "MOSES",
+          "ISRAEL_ELDERS_OFFICERS"
+        ],
+        "location_ids": [
+          "WILDERNESS_SINAI"
+        ],
+        "summary": "Joshua's loyalty to Moses becomes an occasion for instruction about prophetic participation.",
+        "importance": "supporting"
+      },
+      {
+        "event_id": "EVT_JOSHUA_SCOUTS",
+        "sequence": 50,
+        "title": "Scouts Canaan and stands with Caleb",
+        "reference_ids": [
+          "REF_NUMBERS_13_8_16",
+          "REF_NUMBERS_14_6_9_30_38"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "CALEB_SON_OF_JEPHUNNEH",
+          "ISRAEL"
+        ],
+        "location_ids": [
+          "KADESH_BARNEA_REGION",
+          "CANAAN"
+        ],
+        "summary": "Joshua and Caleb urge trust in the LORD against the majority report.",
+        "importance": "defining"
+      },
+      {
+        "event_id": "EVT_JOSHUA_COMMISSIONED",
+        "sequence": 60,
+        "title": "Commissioned before Eleazar and Israel",
+        "reference_ids": [
+          "REF_NUMBERS_27_18_23"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "MOSES",
+          "ELEAZAR_SON_OF_AARON",
+          "ISRAEL"
+        ],
+        "location_ids": [
+          "PLAINS_OF_MOAB"
+        ],
+        "summary": "Responsibility is publicly transferred under divine direction.",
+        "importance": "defining"
+      },
+      {
+        "event_id": "EVT_JOSHUA_CHARGED",
+        "sequence": 70,
+        "title": "Charged by Moses and the LORD",
+        "reference_ids": [
+          "REF_DEUTERONOMY_31_1_23"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "MOSES",
+          "YHWH",
+          "ISRAEL"
+        ],
+        "location_ids": [
+          "PLAINS_OF_MOAB"
+        ],
+        "summary": "Courage is grounded in divine presence and the assigned commission.",
+        "importance": "defining"
+      },
+      {
+        "event_id": "EVT_JOSHUA_ASSUMES_LEADERSHIP",
+        "sequence": 80,
+        "title": "Assumes leadership after Moses' death",
+        "reference_ids": [
+          "REF_DEUTERONOMY_34_9_12",
+          "REF_JOSHUA_1_1_18"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "MOSES",
+          "YHWH",
+          "ISRAEL"
+        ],
+        "location_ids": [
+          "PLAINS_OF_MOAB"
+        ],
+        "summary": "Joshua begins the land-entry commission as Moses' successor.",
+        "importance": "defining"
+      },
+      {
+        "event_id": "EVT_JOSHUA_SPIES_RAHAB",
+        "sequence": 90,
+        "title": "Sends spies and receives Rahab's aid",
+        "reference_ids": [
+          "REF_JOSHUA_2_1_24"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "RAHAB_OF_JERICHO",
+          "ISRAEL"
+        ],
+        "location_ids": [
+          "JERICHO"
+        ],
+        "summary": "The spies' oath establishes the promise later honored toward Rahab's household.",
+        "importance": "primary"
+      },
+      {
+        "event_id": "EVT_JOSHUA_JORDAN",
+        "sequence": 100,
+        "title": "Leads the Jordan crossing and memorial",
+        "reference_ids": [
+          "REF_JOSHUA_3_1_4_24"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "ISRAEL",
+          "ISRAEL_PRIESTS"
+        ],
+        "location_ids": [
+          "JORDAN_RIVER",
+          "GILGAL"
+        ],
+        "summary": "Israel crosses on dry ground and establishes twelve memorial stones for future teaching.",
+        "importance": "defining"
+      },
+      {
+        "event_id": "EVT_JOSHUA_GILGAL",
+        "sequence": 110,
+        "title": "Renews covenant signs and observes Passover",
+        "reference_ids": [
+          "REF_JOSHUA_5_1_15"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "ISRAEL"
+        ],
+        "location_ids": [
+          "GILGAL"
+        ],
+        "summary": "Entry is framed by covenant practice and Passover.",
+        "importance": "primary"
+      },
+      {
+        "event_id": "EVT_JOSHUA_COMMANDER_ENCOUNTER",
+        "sequence": 120,
+        "title": "Encounters the commander of the LORD's army",
+        "reference_ids": [
+          "REF_JOSHUA_5_1_15"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "COMMANDER_LORDS_ARMY"
+        ],
+        "location_ids": [
+          "JERICHO"
+        ],
+        "summary": "Joshua is placed beneath rather than identified with the mysterious commander.",
+        "importance": "defining"
+      },
+      {
+        "event_id": "EVT_JOSHUA_JERICHO",
+        "sequence": 130,
+        "title": "Jericho falls and Rahab is spared",
+        "reference_ids": [
+          "REF_JOSHUA_6_1_27"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "ISRAEL",
+          "ISRAEL_PRIESTS",
+          "RAHAB_OF_JERICHO"
+        ],
+        "location_ids": [
+          "JERICHO"
+        ],
+        "summary": "Ordered obedience precedes the wall's fall and Joshua honors the oath concerning Rahab.",
+        "importance": "defining"
+      },
+      {
+        "event_id": "EVT_JOSHUA_ACHAN_AI",
+        "sequence": 140,
+        "title": "Faces Achan's violation and returns to Ai",
+        "reference_ids": [
+          "REF_JOSHUA_7_1_8_29"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "ACHAN_SON_OF_CARMI",
+          "ISRAEL"
+        ],
+        "location_ids": [
+          "AI"
+        ],
+        "summary": "Defeat, exposed violation, judgment, and renewed action show that victory is not automatic.",
+        "importance": "primary"
+      },
+      {
+        "event_id": "EVT_JOSHUA_EBAL",
+        "sequence": 150,
+        "title": "Builds altar and reads the law at Ebal",
+        "reference_ids": [
+          "REF_JOSHUA_8_30_35"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "ISRAEL",
+          "ISRAEL_PRIESTS"
+        ],
+        "location_ids": [
+          "MOUNT_EBAL"
+        ],
+        "summary": "Covenant instruction remains central to Joshua's leadership.",
+        "importance": "defining"
+      },
+      {
+        "event_id": "EVT_JOSHUA_GIBEON_SOUTH",
+        "sequence": 160,
+        "title": "Makes the Gibeonite treaty and leads the southern campaign",
+        "reference_ids": [
+          "REF_JOSHUA_9_1_10_43"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "ISRAEL",
+          "GIBEONITES",
+          "CANAANITE_KINGS"
+        ],
+        "location_ids": [
+          "GIBEON",
+          "CANAAN"
+        ],
+        "summary": "The account includes failed counsel, oath obligation, defense, and military deliverance.",
+        "importance": "primary"
+      },
+      {
+        "event_id": "EVT_JOSHUA_NORTH",
+        "sequence": 170,
+        "title": "Leads northern campaign",
+        "reference_ids": [
+          "REF_JOSHUA_11_1_12_24"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "ISRAEL",
+          "CANAANITE_KINGS"
+        ],
+        "location_ids": [
+          "CANAAN"
+        ],
+        "summary": "Campaign summaries consolidate land-entry leadership while later text still notes remaining land.",
+        "importance": "primary"
+      },
+      {
+        "event_id": "EVT_JOSHUA_ALLOTMENTS",
+        "sequence": 180,
+        "title": "Oversees allotments and receives Timnath-serah",
+        "reference_ids": [
+          "REF_JOSHUA_13_1_21_45"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "ELEAZAR_SON_OF_AARON",
+          "ISRAEL",
+          "CALEB_SON_OF_JEPHUNNEH"
+        ],
+        "location_ids": [
+          "CANAAN",
+          "SHILOH",
+          "HEBRON",
+          "TIMNATH_SERAH"
+        ],
+        "summary": "Joshua stewards tribal inheritance and receives his own inheritance after the tribes.",
+        "importance": "defining"
+      },
+      {
+        "event_id": "EVT_JOSHUA_EASTERN_ALTAR",
+        "sequence": 190,
+        "title": "Resolves the eastern-tribes altar dispute",
+        "reference_ids": [
+          "REF_JOSHUA_22_1_34"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "EASTERN_TRIBES",
+          "ISRAEL",
+          "ISRAEL_PRIESTS"
+        ],
+        "location_ids": [
+          "CANAAN"
+        ],
+        "summary": "Inquiry and explanation prevent covenant misunderstanding from becoming conflict.",
+        "importance": "primary"
+      },
+      {
+        "event_id": "EVT_JOSHUA_SHECHEM",
+        "sequence": 200,
+        "title": "Gives farewell and renews covenant at Shechem",
+        "reference_ids": [
+          "REF_JOSHUA_23_1_24_33"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "ISRAEL",
+          "ISRAEL_ELDERS_OFFICERS"
+        ],
+        "location_ids": [
+          "SHECHEM"
+        ],
+        "summary": "Joshua calls Israel to exclusive service of the LORD and records covenant witness.",
+        "importance": "defining"
+      },
+      {
+        "event_id": "EVT_JOSHUA_DEATH",
+        "sequence": 210,
+        "title": "Dies and is buried at Timnath-serah",
+        "reference_ids": [
+          "REF_JOSHUA_23_1_24_33",
+          "REF_JUDGES_2_6_9"
+        ],
+        "participant_entity_ids": [
+          "JOSHUA_SON_OF_NUN",
+          "ISRAEL",
+          "ISRAEL_ELDERS_OFFICERS"
+        ],
+        "location_ids": [
+          "TIMNATH_SERAH"
+        ],
+        "summary": "Joshua dies at 110; the narrative records continued influence through the elders who outlive him.",
+        "importance": "defining"
+      }
+    ]
+  },
+  "relationships": {
+    "schema_version": "1.0.0",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "relationships": [
+      {
+        "id": "REL_JOSHUA_YHWH",
+        "target_entity_id": "YHWH",
+        "relationship_types": [
+          "CALLED_BY",
+          "COMMISSIONED_BY",
+          "SERVES"
+        ],
+        "direction": "outgoing",
+        "importance": "primary",
+        "influence": "Source of Joshua's authority, presence, covenant accountability, and victory.",
+        "reference_ids": [
+          "REF_NUMBERS_27_18_23",
+          "REF_DEUTERONOMY_31_1_23",
+          "REF_JOSHUA_1_1_18",
+          "REF_JOSHUA_23_1_24_33"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_MOSES",
+        "target_entity_id": "MOSES",
+        "relationship_types": [
+          "ASSISTANT_TO",
+          "MENTORED_BY",
+          "SUCCEEDS"
+        ],
+        "direction": "outgoing",
+        "importance": "primary",
+        "influence": "Moses prepares, commissions, and publicly confirms Joshua without erasing Moses' unique prophetic standing.",
+        "reference_ids": [
+          "REF_EXODUS_17_8_16",
+          "REF_EXODUS_24_13",
+          "REF_NUMBERS_27_18_23",
+          "REF_DEUTERONOMY_34_9_12"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_CALEB",
+        "target_entity_id": "CALEB_SON_OF_JEPHUNNEH",
+        "relationship_types": [
+          "FELLOW_SCOUT",
+          "FAITHFUL_ALLY"
+        ],
+        "direction": "bidirectional",
+        "importance": "primary",
+        "influence": "They share a faithful minority report; Caleb retains a distinct inheritance story.",
+        "reference_ids": [
+          "REF_NUMBERS_14_6_9_30_38",
+          "REF_JOSHUA_13_1_21_45"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_ELEAZAR",
+        "target_entity_id": "ELEAZAR_SON_OF_AARON",
+        "relationship_types": [
+          "COMMISSIONED_BEFORE",
+          "ALLOTMENT_PARTNER"
+        ],
+        "direction": "outgoing",
+        "importance": "supporting",
+        "influence": "Joshua's leadership is publicly accountable and works with priestly office.",
+        "reference_ids": [
+          "REF_NUMBERS_27_18_23",
+          "REF_JOSHUA_13_1_21_45"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_RAHAB",
+        "target_entity_id": "RAHAB_OF_JERICHO",
+        "relationship_types": [
+          "HONORS_OATH_TO",
+          "SPARES_HOUSEHOLD_OF"
+        ],
+        "direction": "outgoing",
+        "importance": "primary",
+        "influence": "Connects Jericho with oath-keeping and rescue; no personal pre-rescue meeting is stated.",
+        "reference_ids": [
+          "REF_JOSHUA_2_1_24",
+          "REF_JOSHUA_6_1_27"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_PRIESTS",
+        "target_entity_id": "ISRAEL_PRIESTS",
+        "relationship_types": [
+          "LEADS_WITH",
+          "COVENANT_PROCESSION_WITH"
+        ],
+        "direction": "outgoing",
+        "importance": "primary",
+        "influence": "Priests carry the ark and trumpets in ordered covenant action rather than serving as decorative soldiers.",
+        "reference_ids": [
+          "REF_JOSHUA_3_1_4_24",
+          "REF_JOSHUA_6_1_27"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_ISRAEL",
+        "target_entity_id": "ISRAEL",
+        "relationship_types": [
+          "LEADS",
+          "INSTRUCTS",
+          "GATHERS_IN_COVENANT"
+        ],
+        "direction": "outgoing",
+        "importance": "primary",
+        "influence": "Joshua's leadership is corporate and covenantal.",
+        "reference_ids": [
+          "REF_JOSHUA_1_1_18",
+          "REF_JOSHUA_8_30_35",
+          "REF_JOSHUA_23_1_24_33"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_ELDERS",
+        "target_entity_id": "ISRAEL_ELDERS_OFFICERS",
+        "relationship_types": [
+          "LEADS_WITH",
+          "INFLUENCES"
+        ],
+        "direction": "outgoing",
+        "importance": "supporting",
+        "influence": "Elders share public responsibility and continue influence after Joshua's death.",
+        "reference_ids": [
+          "REF_JOSHUA_1_1_18",
+          "REF_JOSHUA_23_1_24_33",
+          "REF_JUDGES_2_6_9"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_ACHAN",
+        "target_entity_id": "ACHAN_SON_OF_CARMI",
+        "relationship_types": [
+          "CONFRONTS_COVENANT_VIOLATION_OF"
+        ],
+        "direction": "outgoing",
+        "importance": "supporting",
+        "influence": "The Ai crisis demonstrates covenant accountability and the limits of command.",
+        "reference_ids": [
+          "REF_JOSHUA_7_1_8_29"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_GIBEONITES",
+        "target_entity_id": "GIBEONITES",
+        "relationship_types": [
+          "COVENANTS_WITH",
+          "DEFENDS"
+        ],
+        "direction": "outgoing",
+        "importance": "supporting",
+        "influence": "Records failed counsel, oath obligation, and subsequent defense.",
+        "reference_ids": [
+          "REF_JOSHUA_9_1_10_43"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_EASTERN_TRIBES",
+        "target_entity_id": "EASTERN_TRIBES",
+        "relationship_types": [
+          "COMMANDS",
+          "RELEASES",
+          "RESOLVES_DISPUTE_WITH"
+        ],
+        "direction": "outgoing",
+        "importance": "supporting",
+        "influence": "Shows shared service, misunderstanding, investigation, and restored peace.",
+        "reference_ids": [
+          "REF_JOSHUA_1_1_18",
+          "REF_JOSHUA_22_1_34"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_COMMANDER",
+        "target_entity_id": "COMMANDER_LORDS_ARMY",
+        "relationship_types": [
+          "ENCOUNTERS",
+          "SUBMITS_BEFORE"
+        ],
+        "direction": "outgoing",
+        "importance": "primary",
+        "influence": "Reorients Joshua beneath divine command; the figure's further identity remains unresolved.",
+        "reference_ids": [
+          "REF_JOSHUA_5_1_15"
+        ]
+      },
+      {
+        "id": "REL_JOSHUA_CANAANITE_KINGS",
+        "target_entity_id": "CANAANITE_KINGS",
+        "relationship_types": [
+          "MILITARY_OPPONENT_OF"
+        ],
+        "direction": "outgoing",
+        "importance": "supporting",
+        "influence": "Supplies campaign context without authorizing racial caricature or spectacle of suffering.",
+        "reference_ids": [
+          "REF_JOSHUA_9_1_10_43",
+          "REF_JOSHUA_11_1_12_24"
+        ]
+      }
+    ]
+  },
+  "symbols": {
+    "schema_version": "1.0.0",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "symbol_uses": [
+      {
+        "symbol_id": "SWORD_OF_COMMAND",
+        "usage": "approved",
+        "scene_constraints": [
+          "single_sword",
+          "sheathed_or_lowered",
+          "no_blood",
+          "no_magical_glow"
+        ],
+        "reference_ids": [
+          "REF_JOSHUA_5_1_15"
+        ]
+      },
+      {
+        "symbol_id": "RAMS_HORN_TRUMPETS",
+        "usage": "required_for_reference_art",
+        "scene_constraints": [
+          "carried_by_priests",
+          "grounded_background_detail"
+        ],
+        "reference_ids": [
+          "REF_JOSHUA_6_1_27"
+        ]
+      },
+      {
+        "symbol_id": "ARK_OF_COVENANT",
+        "usage": "required_for_reference_art",
+        "scene_constraints": [
+          "closed",
+          "carried_by_priests_on_poles",
+          "not_weaponized",
+          "not_carried_by_Joshua"
+        ],
+        "reference_ids": [
+          "REF_JOSHUA_3_1_4_24",
+          "REF_JOSHUA_6_1_27"
+        ]
+      },
+      {
+        "symbol_id": "JORDAN_WATER",
+        "usage": "approved_for_Jordan_scene_only",
+        "scene_constraints": [
+          "do_not_combine_literally_with_Jericho"
+        ],
+        "reference_ids": [
+          "REF_JOSHUA_3_1_4_24"
+        ]
+      },
+      {
+        "symbol_id": "TWELVE_MEMORIAL_STONES",
+        "usage": "approved_for_Jordan_scene_only",
+        "scene_constraints": [
+          "exactly_twelve",
+          "grounded",
+          "no_runes"
+        ],
+        "reference_ids": [
+          "REF_JOSHUA_3_1_4_24"
+        ]
+      },
+      {
+        "symbol_id": "JERICHO_WALL",
+        "usage": "required_for_reference_art",
+        "scene_constraints": [
+          "intact_in_pre_fall_scene",
+          "middle_distance",
+          "no_casualties"
+        ],
+        "reference_ids": [
+          "REF_JOSHUA_6_1_27"
+        ]
+      },
+      {
+        "symbol_id": "INHERITANCE_HORIZON",
+        "usage": "approved",
+        "scene_constraints": [
+          "no_disputed_border_map"
+        ],
+        "reference_ids": [
+          "REF_JOSHUA_1_1_18",
+          "REF_JOSHUA_13_1_21_45"
+        ]
+      },
+      {
+        "symbol_id": "COVENANT_WITNESS",
+        "usage": "approved_for_covenant_scene_only",
+        "scene_constraints": [
+          "not_clutter_in_reference_art"
+        ],
+        "reference_ids": [
+          "REF_JOSHUA_8_30_35",
+          "REF_JOSHUA_23_1_24_33"
+        ]
+      },
+      {
+        "symbol_id": "UNMARKED_COMMAND_BANNER",
+        "usage": "optional_project_symbol",
+        "scene_constraints": [
+          "unmarked",
+          "no_sacred_text",
+          "no_invented_tribal_emblem"
+        ],
+        "reference_ids": []
+      }
+    ],
+    "prohibited_visual_concepts": [
+      {
+        "id": "PERSONAL_DIVINE_MAGIC",
+        "reason": "Joshua must not control divine power.",
+        "source": "theological_guardrail"
+      },
+      {
+        "id": "IDENTIFIED_COMMANDER_DUPLICATE",
+        "reason": "The commander of the LORD's army must not be merged with Joshua.",
+        "source": "interpretive_guardrail"
+      },
+      {
+        "id": "ANACHRONISTIC_EQUIPMENT",
+        "reason": "Medieval",
+        "Roman": null,
+        "modern": null,
+        "and fantasy equipment contradict the art profile.": null,
+        "source": "historical_guardrail"
+      },
+      {
+        "id": "MULTI_EVENT_COLLAGE",
+        "reason": "Jordan",
+        "Jericho": null,
+        "Ebal": null,
+        "and Shechem must not appear as one literal moment.": null,
+        "source": "narrative_guardrail"
+      }
+    ]
+  },
+  "gameplay": {
+    "schema_version": "1.0.0",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "profile_version": "1.0.0",
+    "rarity": "legendary",
+    "archetype": "BATTLE_COMMANDER",
+    "roles": {
+      "primary": "LEADER",
+      "secondary": [
+        "TEMPO",
+        "COORDINATED_AGGRESSION",
+        "OBJECTIVE_CONTROL"
+      ]
+    },
+    "theme": "Ordered allied participation creates an opening against fortifications and converts secured ground into inheritance.",
+    "player_promise": "My army advances together, barriers open, and claimed ground becomes inheritance.",
+    "keywords": [
+      "COMMAND",
+      "COURAGE",
+      "FORMATION",
+      "ADVANCE",
+      "CLAIM",
+      "MEMORIAL"
+    ],
+    "preferred_mechanics": [
+      {
+        "id": "COMMAND_FORMATION",
+        "concept": "Reward multiple allied roles acting in sequence.",
+        "rationale_reference_ids": [
+          "REF_JOSHUA_6_1_27"
+        ]
+      },
+      {
+        "id": "COURAGE",
+        "concept": "Resist fear or morale disruption under covenant conditions.",
+        "rationale_reference_ids": [
+          "REF_JOSHUA_1_1_18"
+        ]
+      },
+      {
+        "id": "FORTIFICATION_BREACH",
+        "concept": "Answer defenses after coordinated preparation rather than personal magic.",
+        "rationale_reference_ids": [
+          "REF_JOSHUA_6_1_27"
+        ]
+      },
+      {
+        "id": "CROSSING_PATH",
+        "concept": "Open a route through terrain or control effects using event or support framing.",
+        "rationale_reference_ids": [
+          "REF_JOSHUA_3_1_4_24"
+        ]
+      },
+      {
+        "id": "MEMORIAL_INHERITANCE",
+        "concept": "Place persistent advantage after securing and holding an objective.",
+        "rationale_reference_ids": [
+          "REF_JOSHUA_3_1_4_24",
+          "REF_JOSHUA_13_1_21_45"
+        ]
+      },
+      {
+        "id": "COVENANT_ACCOUNTABILITY",
+        "concept": "Leadership loses efficiency when formation acts presumptuously or breaks faith.",
+        "rationale_reference_ids": [
+          "REF_JOSHUA_7_1_8_29",
+          "REF_JOSHUA_9_1_10_43"
+        ]
+      }
+    ],
+    "strengths": [
+      "COORDINATED_ALLIED_TURNS",
+      "POSITIONING",
+      "STATIC_DEFENSE_PRESSURE",
+      "FEAR_RESISTANCE",
+      "OBJECTIVE_CONVERSION"
+    ],
+    "weaknesses": [
+      "FORMATION_DEPENDENCE",
+      "PREPARATION_DISRUPTION",
+      "COVENANT_ACCOUNTABILITY",
+      "LIMITED_SOLO_DUELING"
+    ],
+    "synergy_tags": [
+      "ISRAEL",
+      "PRIEST_SUPPORT",
+      "COVENANT",
+      "MEMORIAL",
+      "INHERITANCE"
+    ],
+    "differentiation": [
+      {
+        "other_character_id": "MOSES",
+        "distinction": "Moses liberates and controls barriers; Joshua advances",
+        "coordinates": null,
+        "and claims objectives.": null
+      },
+      {
+        "other_character_id": "CALEB_SON_OF_JEPHUNNEH",
+        "distinction": "Caleb is an enduring individual claimant; Joshua is a whole-army commander."
+      }
+    ],
+    "signature_ability": {
+      "name": "Walls Fall Down",
+      "rules_text": null,
+      "concept": "Break a fortification only after coordinated allied participation, then convert the opened objective into persistent positional advantage.",
+      "rationale_reference_ids": [
+        "REF_JOSHUA_6_1_27"
+      ]
+    },
+    "prohibited_mechanic_tags": [
+      "ARK_AS_MAGICAL_WEAPON",
+      "REWARD_CRUELTY",
+      "ETHNIC_TARGETING",
+      "JOSHUA_OWNS_DIVINE_MIRACLE"
+    ],
+    "balance_state": "philosophy_only",
+    "review_state": "review_requested"
+  },
+  "art": {
+    "schema_version": "1.0.0",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "profile_version": "1.0.0",
+    "classification_note": "Physical appearance is project interpretation; Scripture does not describe Joshua's face, hair, beard, build, or campaign age.",
+    "life_stage": {
+      "preferred": "MATURE_ADULT",
+      "numeric_age": null,
+      "allowed_variants": [
+        "EVENT_SPECIFIC_REVIEWED_VARIANT"
+      ]
+    },
+    "body": {
+      "build": "sturdy_mobile_campaign_conditioned",
+      "proportion": "credible_human"
+    },
+    "face": {
+      "regional_direction": "weathered_Levantine_features",
+      "expression": "focused_resolve_and_alert_humility",
+      "texture": "natural_skin_with_weathering"
+    },
+    "hair": {
+      "color": "dark_with_modest_greying",
+      "length": "short_to_medium",
+      "styling": "practical"
+    },
+    "beard": {
+      "color": "dark_with_modest_greying",
+      "length": "short_to_medium",
+      "styling": "practical"
+    },
+    "wardrobe": {
+      "tunic_materials": [
+        "linen",
+        "wool"
+      ],
+      "cloak": "practical_weathered_mantle",
+      "belt": "leather",
+      "footwear": "simple_sandals_or_footwear",
+      "armor": "restrained_plausible_leather_or_bronze_defense"
+    },
+    "weapon": {
+      "validation_policy": "exact",
+      "type": "bronze_age_plausible_sword",
+      "count": 1,
+      "state": "sheathed_or_lowered",
+      "interaction": "believable_hand_belt_and_scabbard_contact"
+    },
+    "pose": {
+      "stance": "stable_three_quarter",
+      "primary_gesture": "open_hand_signals_ordered_advance",
+      "secondary_gesture": "other_hand_near_sword",
+      "pose_language": [
+        "grounded",
+        "restrained_authority",
+        "alert_gaze"
+      ]
+    },
+    "scene": {
+      "mode": "SYNTHESIZED_IDENTITY_PORTRAIT",
+      "narrative_event_id": "EVT_JOSHUA_JERICHO",
+      "temporal_position": "PRE_FALL",
+      "location_id": "JERICHO",
+      "environment": "dry_limestone_terrain_with_sparse_scrub_and_light_dust",
+      "weather": "clear_dry_dawn",
+      "background": "intact_Jericho_fortifications_in_middle_distance",
+      "supporting_entity_ids": [
+        "ISRAEL",
+        "ISRAEL_PRIESTS"
+      ],
+      "required_symbol_ids": [
+        "SWORD_OF_COMMAND",
+        "RAMS_HORN_TRUMPETS",
+        "ARK_OF_COVENANT",
+        "JERICHO_WALL"
+      ]
+    },
+    "composition": {
+      "aspect_ratio": "2:3",
+      "framing": "vertical_three_quarter_figure",
+      "camera": "slightly_below_eye_level",
+      "subject_position": "central_left",
+      "focal_order": [
+        "Joshua_face_and_signaling_hand",
+        "procession_and_ark",
+        "Jericho"
+      ],
+      "safe_zones": [
+        "quiet_upper_region",
+        "simplified_lower_margins"
+      ],
+      "thumbnail_requirements": [
+        "clear_head_shoulders",
+        "readable_command_arm",
+        "mantle_edge",
+        "single_sword_line"
+      ]
+    },
+    "lighting": {
+      "family": "WARM_DIRECTIONAL_DAWN",
+      "key_behavior": "controlled_contrast_on_face_and_signaling_hand",
+      "separation": "atmospheric_background_separation",
+      "theological_constraint": "sunlight_does_not_personify_God"
+    },
+    "palette": {
+      "primary": [
+        "sun_baked_ochre",
+        "limestone",
+        "muted_indigo",
+        "weathered_leather_brown"
+      ],
+      "accents": [
+        "restrained_bronze",
+        "dusty_red_brown"
+      ],
+      "prohibited": [
+        "neon_gold",
+        "electric_blue_magic",
+        "oversaturated_orange_teal",
+        "halo_radiance"
+      ]
+    },
+    "rendering": {
+      "style_module_ids": [
+        "STYLE_BIBLICAL_REALISM",
+        "STYLE_PAINTERLY_PREMIUM"
+      ],
+      "material_priorities": [
+        "cloth",
+        "leather",
+        "bronze",
+        "stone",
+        "dust",
+        "natural_skin"
+      ],
+      "quality_targets": [
+        "face_clarity",
+        "coherent_hands",
+        "sword_contact",
+        "ark_poles",
+        "procession_scale",
+        "material_separation",
+        "thumbnail_readability",
+        "print_safe_detail"
+      ]
+    },
+    "negative_concept_ids": [
+      "PERSONAL_DIVINE_MAGIC",
+      "IDENTIFIED_COMMANDER_DUPLICATE",
+      "ANACHRONISTIC_EQUIPMENT",
+      "MULTI_EVENT_COLLAGE"
+    ],
+    "continuity": {
+      "stable_field_paths": [
+        "face",
+        "hair",
+        "beard",
+        "body.build",
+        "palette",
+        "pose.pose_language",
+        "weapon",
+        "lighting.family"
+      ],
+      "approved_environment_location_ids": [
+        "JERICHO",
+        "JORDAN_RIVER",
+        "MOUNT_EBAL",
+        "SHECHEM"
+      ],
+      "approved_reference_asset_ids": []
+    },
+    "review_state": "review_requested"
+  },
+  "prompt": {
+    "schema_version": "1.0.0",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "profile_version": "1.0.0",
+    "asset_id": "L010-JOSHUA-ART-01",
+    "semantic_components": {
+      "subject": {
+        "field_refs": [
+          "character.identity",
+          "character.names.primary",
+          "character.leadership",
+          "art.life_stage",
+          "art.body",
+          "art.face",
+          "art.hair",
+          "art.beard"
+        ]
+      },
+      "identity": {
+        "field_refs": [
+          "character.summary",
+          "character.titles.project_title",
+          "gameplay.archetype",
+          "gameplay.theme"
+        ]
+      },
+      "narrative": {
+        "field_refs": [
+          "art.scene.mode",
+          "art.scene.narrative_event_id",
+          "art.scene.temporal_position"
+        ]
+      },
+      "action": {
+        "field_refs": [
+          "art.pose",
+          "art.weapon"
+        ]
+      },
+      "relationships_and_symbols": {
+        "field_refs": [
+          "art.scene.supporting_entity_ids",
+          "art.scene.required_symbol_ids",
+          "symbols.symbol_uses"
+        ]
+      },
+      "environment": {
+        "field_refs": [
+          "art.scene.location_id",
+          "art.scene.environment",
+          "art.scene.weather",
+          "art.scene.background"
+        ]
+      },
+      "composition": {
+        "field_refs": [
+          "art.composition"
+        ]
+      },
+      "lighting_and_color": {
+        "field_refs": [
+          "art.lighting",
+          "art.palette"
+        ]
+      },
+      "rendering": {
+        "field_refs": [
+          "art.rendering.style_module_ids",
+          "art.rendering.material_priorities"
+        ]
+      },
+      "quality": {
+        "field_refs": [
+          "art.rendering.quality_targets",
+          "art.composition.thumbnail_requirements"
+        ]
+      },
+      "negative": {
+        "field_refs": [
+          "art.negative_concept_ids",
+          "art.palette.prohibited",
+          "symbols.prohibited_visual_concepts"
+        ]
+      }
+    },
+    "compiler": {
+      "grammar_path": "knowledge/prompt_engineering/PROMPT_GRAMMAR.md",
+      "compiler_contract_path": "knowledge/prompt_engineering/PROMPT_COMPILER.md",
+      "clause_order": [
+        "subject",
+        "identity",
+        "narrative",
+        "action",
+        "relationships_and_symbols",
+        "environment",
+        "composition",
+        "lighting_and_color",
+        "rendering",
+        "quality",
+        "output",
+        "negative"
+      ],
+      "module_ids": [
+        "VISUAL_LANGUAGE",
+        "STYLE_BIBLICAL_REALISM",
+        "STYLE_PAINTERLY_PREMIUM",
+        "COMP_HERO_THREE_QUARTER",
+        "LIGHT_DAWN",
+        "NEGATIVE_PROMPT_LIBRARY"
+      ],
+      "model_adapter": null
+    },
+    "output": {
+      "aspect_ratio_field_ref": "art.composition.aspect_ratio",
+      "clean_artwork_only": true,
+      "embedded_typography": false
+    },
+    "compiled_artifact": {
+      "version": "1.0.0",
+      "path": "generated/prompts/L010-JOSHUA-ART-01/1.0.0/prompt.txt",
+      "traceability_path": "generated/prompts/L010-JOSHUA-ART-01/1.0.0/prompt_traceability.yaml",
+      "approval_state": "review_requested"
+    }
+  },
+  "review": {
+    "schema_version": "1.0.0",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "review_state": {
+      "canonical_knowledge": "review_requested",
+      "scripture_references": "review_requested",
+      "graph_integrity": "validated",
+      "gameplay": "review_requested",
+      "art": "review_requested",
+      "prompt_source": "review_requested",
+      "compiled_prompt": "review_requested",
+      "generated_artwork": "blocked",
+      "card_layout": "blocked",
+      "release": "blocked"
+    },
+    "generation_state": {
+      "state": "blocked",
+      "generation_request_path": "cards/L010_joshua/generation_request.yaml",
+      "blocking_reasons": [
+        "G1_TO_G4_NOT_APPROVED",
+        "MODEL_ADAPTER_NOT_SELECTED",
+        "PHASE_3C_DOES_NOT_AUTHORIZE_GENERATION"
+      ]
+    },
+    "required_review_roles": [
+      "BIBLICAL_THEOLOGICAL",
+      "GAMEPLAY",
+      "HISTORICAL",
+      "ART",
+      "PROMPT",
+      "TECHNICAL",
+      "PRINT",
+      "PRODUCTION"
+    ],
+    "gates": [
+      {
+        "gate_id": "G1_CANONICAL",
+        "state": "review_requested",
+        "package_version": "2.0.0",
+        "artifact_version": "1.0.0",
+        "required_roles": [
+          "TECHNICAL"
+        ],
+        "approvals": [],
+        "open_findings": [],
+        "evidence_paths": [
+          "docs/PRODUCTION_VALIDATION_STANDARD.md"
+        ]
+      },
+      {
+        "gate_id": "G2_THEOLOGY",
+        "state": "review_requested",
+        "package_version": "2.0.0",
+        "artifact_version": "1.0.0",
+        "required_roles": [
+          "BIBLICAL_THEOLOGICAL",
+          "HISTORICAL"
+        ],
+        "approvals": [],
+        "open_findings": [
+          {
+            "id": "FINDING_THEOLOGY_001",
+            "severity": "high",
+            "summary": "Confirm the Ark and divine agency boundaries before generation.",
+            "blocking": true
+          }
+        ],
+        "evidence_paths": [
+          "cards/L010_joshua/review_checklist.md"
+        ]
+      },
+      {
+        "gate_id": "G3_GAMEPLAY",
+        "state": "review_requested",
+        "package_version": "2.0.0",
+        "artifact_version": "1.0.0",
+        "required_roles": [
+          "GAMEPLAY",
+          "BIBLICAL_THEOLOGICAL"
+        ],
+        "approvals": [],
+        "open_findings": [],
+        "evidence_paths": [
+          "cards/L010_joshua/gameplay_identity.md"
+        ]
+      },
+      {
+        "gate_id": "G4_ART_DIRECTION",
+        "state": "review_requested",
+        "package_version": "2.0.0",
+        "artifact_version": "1.0.0",
+        "required_roles": [
+          "ART",
+          "HISTORICAL",
+          "BIBLICAL_THEOLOGICAL"
+        ],
+        "approvals": [],
+        "open_findings": [
+          {
+            "id": "FINDING_ART_001",
+            "severity": "medium",
+            "summary": "Confirm whether visible bronze torso armour should remain optional.",
+            "blocking": true
+          }
+        ],
+        "evidence_paths": [
+          "cards/L010_joshua/artwork_review.md"
+        ]
+      },
+      {
+        "gate_id": "G5_COMPILED_PROMPT",
+        "state": "review_requested",
+        "package_version": "2.0.0",
+        "artifact_version": "1.0.0",
+        "required_roles": [
+          "PROMPT",
+          "BIBLICAL_THEOLOGICAL",
+          "ART"
+        ],
+        "approvals": [],
+        "open_findings": [],
+        "evidence_paths": [
+          "cards/L010_joshua/prompt_traceability.md"
+        ]
+      }
+    ],
+    "generation_readiness": {
+      "required_gate_ids": [
+        "G1_CANONICAL",
+        "G2_THEOLOGY",
+        "G3_GAMEPLAY",
+        "G4_ART_DIRECTION",
+        "G5_COMPILED_PROMPT"
+      ],
+      "adapter_selected": false,
+      "output_settings_recorded": false
+    }
+  },
+  "version_history": {
+    "schema_version": "1.0.0",
+    "character_id": "JOSHUA_SON_OF_NUN",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "date": "2026-07-26",
+        "scope": "canonical_knowledge_model",
+        "author": "OpenAI Codex",
+        "reason": "Establish normalized, graph-ready machine-readable Joshua knowledge as the authoritative source for documentation and tooling.",
+        "changes": [
+          "structured_scripture_ranges",
+          "normalized_entity_relationships",
+          "normalized_locations",
+          "structured_events",
+          "gameplay_profile",
+          "art_profile",
+          "semantic_prompt_components",
+          "review_and_generation_state"
+        ],
+        "review_state": "review_requested"
+      }
+    ]
+  }
+}

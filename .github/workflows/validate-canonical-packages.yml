@@ -1,0 +1,23 @@
+name: Validate canonical packages
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+      - name: Test validator behavior
+        run: bundle exec ruby -Itest test/validate_character_knowledge_test.rb
+      - name: Validate every canonical package
+        run: bundle exec ruby tools/validate_character_knowledge.rb --all
+      - name: Verify deterministic generated knowledge
+        run: bundle exec ruby tools/assemble_character_knowledge.rb --check --all
+      - name: Ensure checks do not modify tracked artifacts
+        run: git diff --exit-code

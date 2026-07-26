@@ -28,6 +28,7 @@ wardrobe:
   footwear: simple_sandals_or_footwear
   armor: restrained_plausible_leather_or_bronze_defense
 weapon:
+  validation_policy: exact
   type: bronze_age_plausible_sword
   count: 1
   state: sheathed_or_lowered
