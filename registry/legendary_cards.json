@@ -6,9 +6,9 @@
     "planned_count": 34,
     "official_art_version": "V2",
     "official_approved_count": 0,
-    "next_collector_id": "L009"
+    "next_collector_id": "L026"
   },
-  "status_note": "Prototype status is based on conversation history and must be audited when source images are imported.",
+  "status_note": "Prototype status is based on conversation history and must be audited when source images are imported. Reference-package production order is tracked separately from collector-number order.",
   "cards": [
     {"collector_id":"L001","name":"Noah","title":"Guardian of Creation","archetype":"Fortress Guardian","traits":["Obedience","Protection","Endurance"],"ability":"Ark of Salvation","prototype_status":"reported_generated","official_status":"V2_PENDING"},
     {"collector_id":"L002","name":"Abraham","title":"Father of Faith","archetype":"Covenant Founder","traits":["Faith","Leadership","Covenant"],"ability":"Count the Stars","prototype_status":"reported_generated","official_status":"V2_PENDING"},
