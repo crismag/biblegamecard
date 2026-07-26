@@ -1,0 +1,216 @@
+---
+schema_version: 0.1.0
+collector_id: L017
+character_name: Saul
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: The First King
+  depicted_life_stage: young adult newly acclaimed king before later decline
+  era: Iron Age I early Israelite monarchy
+  culture: Benjaminite Israel at the national assembly in Mizpah
+biblical_basis:
+  primary_passages:
+  - 1 Samuel 10:17-27
+  secondary_passages:
+  - 1 Samuel 9:1-10:16
+  - 1 Samuel 11:1-15
+  - 1 Samuel 13:1-15:35
+  defining_scene: Early Saul steps from among the baggage into public acclamation
+    at Mizpah, visibly uncertain beneath the weight of new authority
+  claims:
+  - statement: Saul is selected by lot before the tribes, is found hidden among the
+      baggage, and stands taller than the people when presented.
+    classification: scripture
+    source_refs:
+    - 1 Samuel 10:17-24
+  - statement: Some acclaim Saul while others despise him; Saul initially keeps silent.
+    classification: scripture
+    source_refs:
+    - 1 Samuel 10:24-27
+  - statement: Selecting the Mizpah acclamation preserves one early-Saul identity—promising
+      authority mixed with insecurity—without merging later jealousy or collapse.
+    classification: project_interpretation
+    source_refs:
+    - knowledge/THEOLOGY_AND_CONTENT_GUIDE.md
+gameplay_identity:
+  archetype: Unstable Authority
+  traits:
+  - Authority
+  - Potential
+  - Insecurity
+  signature_ability: Crown Under Pressure
+  strategic_identity: Rallies allies with immediate royal presence, but benefits become
+    fragile when pressure, impatience, or isolation accumulates; moral complexity
+    is a cost structure, not an evil label.
+  differentiation:
+  - Samuel confers and critiques authority from a prophetic role; Saul bears the unstable
+    burden of Israel’s first kingship.
+  - David’s selected scene centers precise faith before Goliath; Saul’s centers public
+    authority shadowed by insecurity.
+visual_identity:
+  presentation:
+  - Imposing young Benjaminite man, notably tall among peers, with capable bearing
+    interrupted by visible hesitation.
+  - 'Neither villainous scowl nor triumphant despot: expression combines surprise,
+    guardedness, and emerging duty.'
+  wardrobe:
+  - Well-made but restrained Israelite tunic and mantle with a simple belt, indicating
+    family standing without mature royal luxury.
+  - No crown, black villain armour, later spear fixation, torn robe, or decadent palace
+    styling.
+  materials:
+  - woven wool and linen, leather, wood, rope and packed earth
+  - restrained bronze on ordinary assembly equipment
+  accessories:
+  - simple period-appropriate personal fastening or pouch only where described
+  signature_objects:
+  - stacked travel baggage behind Saul as the narrative recognition cue
+  - plain unmarked staff or lowered spear held by an attendant, not brandished by
+    Saul
+  environment:
+  - Open assembly ground at Mizpah with tribal groups arranged around a central presentation
+    space.
+  supporting_figures:
+  - Samuel presents Saul; the gathered people remain lower in scale with mixed but
+    restrained reactions.
+  continuity_constraints:
+  - Use only early Saul at Mizpah; exclude later jealousy, David, the thrown spear,
+    Endor, battlefield death, and torn kingship imagery.
+  - Height is relative and plausible, not giantism; uncertainty must not become cowardly
+    caricature or evil visual coding.
+  - Avoid unsupported certainty about exact facial geometry, complexion shade, height,
+    or physique beyond narrative-relative cues.
+composition:
+  focal_action: Saul steps clear of the baggage and turns toward the acclaim while
+    Samuel presents him to the assembly.
+  pose: Tall upright figure with one hand half-raised in uncertain acknowledgment
+    and the other relaxed, shoulders bearing new attention.
+  camera: Eye-level medium-full portrait with Saul visibly taller than nearby figures
+    but within credible human range.
+  foreground:
+  - Rope-tied travel packs and an open path locate the reveal without comic hiding.
+  middle_ground:
+  - Saul dominates beside a smaller, composed Samuel; nearest hands rise in acclaim
+    below shoulder level.
+  background:
+  - Tribal assembly groups ring the dry Mizpah ground beneath a neutral sky.
+  card_frame_safe_space: Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - public expectation
+  - uncertain authority
+  - morally complex promise
+  lighting:
+  - Clear neutral morning light gives Saul no sinister shadow or royal halo; subtle
+    contrast isolates him from the crowd.
+  palette:
+  - earth ochre
+  - wool grey
+  - muted blue
+  - leather brown
+  - restrained bronze
+  textures:
+  - woven mantle, rope, leather baggage, packed earth, weathered wood, and natural
+    skin
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically grounded materials
+  - clear silhouette, coherent anatomy, layered depth, restrained drama, and print-ready
+    finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, game UI, typography, modern
+    objects, medieval European clothing or architecture, fantasy armour, science-fiction
+    elements, anime, cartoon proportions, extra limbs, extra fingers, duplicate subject,
+    malformed hands, distorted face, blurry focal subject, visible human depiction
+    of God the Father; evil king, demonic face, black armour, tyrant throne, crown,
+    palace, thrown spear, David rivalry, Witch of Endor, battlefield death, torn robe,
+    split personality collage, giant proportions, comic coward hiding inside luggage
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Saul, The First King, depicted as young adult newly acclaimed king before
+    later decline in Early Saul steps from among the baggage into public acclamation
+    at Mizpah, visibly uncertain beneath the weight of new authority. Saul steps clear
+    of the baggage and turns toward the acclaim while Samuel presents him to the assembly.
+    Tall upright figure with one hand half-raised in uncertain acknowledgment and
+    the other relaxed, shoulders bearing new attention. Present Imposing young Benjaminite
+    man, notably tall among peers, with capable bearing interrupted by visible hesitation.
+    Dress the character in Well-made but restrained Israelite tunic and mantle with
+    a simple belt, indicating family standing without mature royal luxury. Include
+    stacked travel baggage behind Saul as the narrative recognition cue, and plain
+    unmarked staff or lowered spear held by an attendant, not brandished by Saul.
+    Set the scene in Open assembly ground at Mizpah with tribal groups arranged around
+    a central presentation space. Samuel presents Saul; the gathered people remain
+    lower in scale with mixed but restrained reactions. Compose with Eye-level medium-full
+    portrait with Saul visibly taller than nearby figures but within credible human
+    range. Foreground: Rope-tied travel packs and an open path locate the reveal without
+    comic hiding. Middle ground: Saul dominates beside a smaller, composed Samuel;
+    nearest hands rise in acclaim below shoulder level. Background: Tribal assembly
+    groups ring the dry Mizpah ground beneath a neutral sky. Preserve quiet upper
+    and lower margins for later card-frame overlays; keep face, hands, signature objects,
+    and grounded feet inside the central crop without including text or UI. Light
+    the scene so that Clear neutral morning light gives Saul no sinister shadow or
+    royal halo; subtle contrast isolates him from the crowd. Use a restrained palette
+    of earth ochre, wool grey, muted blue, leather brown, restrained bronze. Render
+    woven mantle, rope, leather baggage, packed earth, weathered wood, and natural
+    skin in cinematic painterly realism with coherent anatomy, a strong readable silhouette,
+    historical restraint, layered depth, reverence, and premium print-ready finish.
+    Honor these continuity limits: Use only early Saul at Mizpah; exclude later jealousy,
+    David, the thrown spear, Endor, battlefield death, and torn kingship imagery.
+    Height is relative and plausible, not giantism; uncertainty must not become cowardly
+    caricature or evil visual coding. Artwork only, with no typography, border, logo,
+    or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
+    typography, modern objects, medieval European clothing or architecture, fantasy
+    armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
+    fingers, duplicate subject, malformed hands, distorted face, blurry focal subject,
+    visible human depiction of God the Father, evil king, demonic face, black armour,
+    tyrant throne, crown, palace, thrown spear, David rivalry, Witch of Endor, battlefield
+    death, torn robe, split personality collage, giant proportions, comic coward hiding
+    inside luggage
+  variations:
+  - A tighter character crop preserving the same life stage, action, signature objects,
+    agency constraints, and narrative instant.
+  - A wider environmental crop preserving focal dominance, sparse supporting figures,
+    scene clarity, and all continuity constraints.
+traceability:
+  prompt_clauses:
+  - clause: Canonical identity, selected life stage, era, culture, and defining scene
+    source_paths:
+    - identity
+    - biblical_basis.primary_passages
+    - biblical_basis.claims
+  - clause: Character-specific gameplay archetype, traits, ability, strategy, and
+      differentiation
+    source_paths:
+    - gameplay_identity
+    - registry/legendary_prompt_development.json
+  - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+      figures, and continuity limits
+    source_paths:
+    - visual_identity
+    - biblical_basis.claims
+    - knowledge/ART_DIRECTION_GUIDE.md
+  - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+      vertical composition
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+  - clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+      and character-specific exclusions
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_development/legendary/README.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: human review may refine historically plausible material details
+    without changing the selected scene, gameplay identity, or theological guardrails.'

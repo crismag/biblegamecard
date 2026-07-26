@@ -1,0 +1,210 @@
+---
+schema_version: 0.1.0
+collector_id: L014
+character_name: Deborah
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: Mother in Israel
+  depicted_life_stage: mature judge and prophetess exercising public leadership
+  era: Iron Age I judges narrative setting
+  culture: Israelite highland community between Ramah and Bethel
+biblical_basis:
+  primary_passages:
+  - Judges 4:4-16
+  secondary_passages:
+  - Judges 5:1-31
+  defining_scene: Deborah gives Barak the decisive command beneath her palm while
+    Israelite elders listen and the distant road leads toward Mount Tabor
+  claims:
+  - statement: Deborah is identified as a prophetess and judge, and Israelites come
+      to her for judgment beneath her palm.
+    classification: scripture
+    source_refs:
+    - Judges 4:4-5
+  - statement: Deborah summons Barak, communicates the command concerning Mount Tabor,
+      accompanies him, and announces the day of deliverance.
+    classification: scripture
+    source_refs:
+    - Judges 4:6-10
+    - Judges 4:14
+  - statement: The consultation beneath the palm unifies wisdom, prophecy, and leadership
+      without recasting Deborah as queen or armored combatant.
+    classification: project_interpretation
+    source_refs:
+    - docs/ARTWORK_REVIEW_STANDARD.md
+gameplay_identity:
+  archetype: Leadership Synergy
+  traits:
+  - Wisdom
+  - Prophecy
+  - Courage
+  signature_ability: Rise, Barak
+  strategic_identity: Activates and coordinates another leader, improving allied timing
+    and resolve through prophetic guidance and sound judgment rather than direct combat.
+  differentiation:
+  - Gideon personally executes a small-force night tactic; Deborah enables allied
+    action through judgment, prophecy, and decisive counsel.
+  - Ruth’s influence grows through loyal daily faithfulness; Deborah holds recognized
+    public authority over Israel.
+visual_identity:
+  presentation:
+  - Mature Israelite woman seated or rising with composed authority, attentive intelligence,
+    and a direct, encouraging gaze.
+  - Leadership is communicated by attention, gesture, and community response—not crown,
+    glamour, masculinity, or combat armour.
+  wardrobe:
+  - Layered woven dress and mantle appropriate to highland daily public life, with
+    restrained dyed border and practical head covering.
+  - No royal gown, tiara, chainmail, sword belt, exposed fantasy armour, or modern
+    cosmetics.
+  materials:
+  - woven wool and linen, palm fibre, leather, wood and limestone
+  - clay tablets or plain tally pieces as non-textual judgment props
+  accessories:
+  - simple period-appropriate personal fastening or pouch only where described
+  signature_objects:
+  - the recognizable palm of Deborah shading the judgment place
+  - an open directing hand toward the Mount Tabor road
+  environment:
+  - Highland judgment place beneath a broad date palm, with stone seating and the
+    road toward Mount Tabor visible beyond.
+  supporting_figures:
+  - Barak stands attentively before Deborah; two elders wait at a respectful distance.
+  continuity_constraints:
+  - Deborah remains the visual and decisional focal point while Barak listens; do
+    not shift hero status to the male commander.
+  - Avoid royal, warrior-princess, and mystical-oracle shorthand; prophecy has no
+    glowing eyes, aura, or floating symbols.
+  - Avoid unsupported certainty about exact facial geometry, complexion shade, height,
+    or physique beyond narrative-relative cues.
+composition:
+  focal_action: Deborah rises slightly from the judgment seat and extends an open
+    hand toward the road as Barak receives her command.
+  pose: Balanced upright movement with one hand directing and the other resting near
+    a plain judgment staff, face fully visible.
+  camera: Eye-level medium portrait that gives Deborah greater scale and illumination
+    than every supporting figure.
+  foreground:
+  - Palm shadow and a low limestone seat frame her without creating a throne.
+  middle_ground:
+  - Deborah dominates; Barak stands one step lower and elders remain separated.
+  background:
+  - The highland road bends toward distant Mount Tabor under an opening sky.
+  card_frame_safe_space: Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - wise authority
+  - prophetic clarity
+  - shared courage
+  lighting:
+  - Filtered palm light models Deborah’s face and directing hand; a brighter distant
+    road supports direction without supernatural glow.
+  palette:
+  - date-palm green
+  - limestone cream
+  - earth umber
+  - muted indigo
+  - warm sand
+  textures:
+  - woven cloth, palm bark, limestone, leather, weathered wood, and natural skin
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically grounded materials
+  - clear silhouette, coherent anatomy, layered depth, restrained drama, and print-ready
+    finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, game UI, typography, modern
+    objects, medieval European clothing or architecture, fantasy armour, science-fiction
+    elements, anime, cartoon proportions, extra limbs, extra fingers, duplicate subject,
+    malformed hands, distorted face, blurry focal subject, visible human depiction
+    of God the Father; fantasy queen, crown, tiara, throne, warrior princess, chainmail
+    dress, sword heroine, revealing armour, magical oracle, glowing eyes, floating
+    runes, medieval court, Barak as focal hero, passive decorative woman
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Deborah, Mother in Israel, depicted as mature judge and prophetess exercising
+    public leadership in Deborah gives Barak the decisive command beneath her palm
+    while Israelite elders listen and the distant road leads toward Mount Tabor. Deborah
+    rises slightly from the judgment seat and extends an open hand toward the road
+    as Barak receives her command. Balanced upright movement with one hand directing
+    and the other resting near a plain judgment staff, face fully visible. Present
+    Mature Israelite woman seated or rising with composed authority, attentive intelligence,
+    and a direct, encouraging gaze. Dress the character in Layered woven dress and
+    mantle appropriate to highland daily public life, with restrained dyed border
+    and practical head covering. Include the recognizable palm of Deborah shading
+    the judgment place, and an open directing hand toward the Mount Tabor road. Set
+    the scene in Highland judgment place beneath a broad date palm, with stone seating
+    and the road toward Mount Tabor visible beyond. Barak stands attentively before
+    Deborah; two elders wait at a respectful distance. Compose with Eye-level medium
+    portrait that gives Deborah greater scale and illumination than every supporting
+    figure. Foreground: Palm shadow and a low limestone seat frame her without creating
+    a throne. Middle ground: Deborah dominates; Barak stands one step lower and elders
+    remain separated. Background: The highland road bends toward distant Mount Tabor
+    under an opening sky. Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI. Light the scene so that Filtered palm light
+    models Deborah’s face and directing hand; a brighter distant road supports direction
+    without supernatural glow. Use a restrained palette of date-palm green, limestone
+    cream, earth umber, muted indigo, warm sand. Render woven cloth, palm bark, limestone,
+    leather, weathered wood, and natural skin in cinematic painterly realism with
+    coherent anatomy, a strong readable silhouette, historical restraint, layered
+    depth, reverence, and premium print-ready finish. Honor these continuity limits:
+    Deborah remains the visual and decisional focal point while Barak listens; do
+    not shift hero status to the male commander. Avoid royal, warrior-princess, and
+    mystical-oracle shorthand; prophecy has no glowing eyes, aura, or floating symbols.
+    Artwork only, with no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
+    typography, modern objects, medieval European clothing or architecture, fantasy
+    armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
+    fingers, duplicate subject, malformed hands, distorted face, blurry focal subject,
+    visible human depiction of God the Father, fantasy queen, crown, tiara, throne,
+    warrior princess, chainmail dress, sword heroine, revealing armour, magical oracle,
+    glowing eyes, floating runes, medieval court, Barak as focal hero, passive decorative
+    woman
+  variations:
+  - A tighter character crop preserving the same life stage, action, signature objects,
+    agency constraints, and narrative instant.
+  - A wider environmental crop preserving focal dominance, sparse supporting figures,
+    scene clarity, and all continuity constraints.
+traceability:
+  prompt_clauses:
+  - clause: Canonical identity, selected life stage, era, culture, and defining scene
+    source_paths:
+    - identity
+    - biblical_basis.primary_passages
+    - biblical_basis.claims
+  - clause: Character-specific gameplay archetype, traits, ability, strategy, and
+      differentiation
+    source_paths:
+    - gameplay_identity
+    - registry/legendary_prompt_development.json
+  - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+      figures, and continuity limits
+    source_paths:
+    - visual_identity
+    - biblical_basis.claims
+    - knowledge/ART_DIRECTION_GUIDE.md
+  - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+      vertical composition
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+  - clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+      and character-specific exclusions
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_development/legendary/README.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: human review may refine historically plausible material details
+    without changing the selected scene, gameplay identity, or theological guardrails.'

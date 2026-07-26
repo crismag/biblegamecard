@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
   "source_directory": "knowledge/prompt_development/legendary",
-  "profile_count": 8,
-  "generation_ready_count": 8,
+  "profile_count": 18,
+  "generation_ready_count": 18,
   "profiles": [
     {
       "collector_id": "L001",
@@ -113,6 +113,156 @@
       "collector_id": "L008",
       "character_name": "Moses",
       "profile_path": "knowledge/prompt_development/legendary/L008_moses.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L009",
+      "character_name": "Aaron",
+      "profile_path": "knowledge/prompt_development/legendary/L009_aaron.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L010",
+      "character_name": "Joshua",
+      "profile_path": "knowledge/prompt_development/legendary/L010_joshua.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L011",
+      "character_name": "Caleb",
+      "profile_path": "knowledge/prompt_development/legendary/L011_caleb.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L012",
+      "character_name": "Samson",
+      "profile_path": "knowledge/prompt_development/legendary/L012_samson.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L013",
+      "character_name": "Gideon",
+      "profile_path": "knowledge/prompt_development/legendary/L013_gideon.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L014",
+      "character_name": "Deborah",
+      "profile_path": "knowledge/prompt_development/legendary/L014_deborah.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L015",
+      "character_name": "Ruth",
+      "profile_path": "knowledge/prompt_development/legendary/L015_ruth.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L016",
+      "character_name": "Samuel",
+      "profile_path": "knowledge/prompt_development/legendary/L016_samuel.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L017",
+      "character_name": "Saul",
+      "profile_path": "knowledge/prompt_development/legendary/L017_saul.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L018",
+      "character_name": "David",
+      "profile_path": "knowledge/prompt_development/legendary/L018_david.yaml",
       "declared_content_state": "GENERATION_READY_DRAFT",
       "computed_generation_ready": true,
       "missing_required_fields": [],

@@ -1,0 +1,213 @@
+---
+schema_version: 0.1.0
+collector_id: L009
+character_name: Aaron
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: The High Priest
+  depicted_life_stage: mature high priest in active tabernacle service
+  era: Late Bronze Age Exodus wilderness narrative setting
+  culture: Israelite wilderness camp and tabernacle context
+biblical_basis:
+  primary_passages:
+  - Exodus 28:1-43
+  - Leviticus 9:1-24
+  secondary_passages:
+  - Exodus 30:7-10
+  - Numbers 6:22-27
+  defining_scene: Aaron stands at the altar after completing the inaugural offerings,
+    blessing Israel as fire from the LORD consumes the offering
+  claims:
+  - statement: Aaron is consecrated as high priest, wears prescribed sacred garments,
+      offers the commanded sacrifices, and blesses the people.
+    classification: scripture
+    source_refs:
+    - Exodus 28:1-43
+    - Leviticus 8:1-9:24
+  - statement: The breastpiece, ephod, turban, linen layers, altar, basin, and tabernacle
+      court identify priestly service without implying magical ownership.
+    classification: scripture
+    source_refs:
+    - Exodus 28:4-39
+    - Exodus 30:17-21
+  - statement: The scene emphasizes mediated worship and blessing rather than combat
+      or fantasy spellcasting.
+    classification: project_interpretation
+    source_refs:
+    - knowledge/THEOLOGY_AND_CONTENT_GUIDE.md
+gameplay_identity:
+  archetype: Priestly Support
+  traits:
+  - Priesthood
+  - Blessing
+  - Service
+  signature_ability: Priestly Blessing
+  strategic_identity: Sustains allies through consecrated service, blessing, and restored
+    readiness; sacred objects signify office and worship, never equipment for personal
+    magic.
+  differentiation:
+  - Unlike Moses, Aaron serves at the altar and strengthens the community through
+    priestly mediation rather than leading an escape.
+  - Unlike Samuel, Aaron’s identity centers on hereditary high-priestly liturgy rather
+    than prophetic transition and royal anointing.
+visual_identity:
+  presentation:
+  - Mature Israelite high priest whose composed attention communicates reverent service
+    and communal responsibility.
+  - Credible human anatomy and broadly Levantine appearance; exact facial features
+    and complexion are not asserted.
+  wardrobe:
+  - 'Scripture-led high-priestly ensemble: fine linen tunic, blue robe, patterned
+    ephod, breastpiece, sash, and linen turban.'
+  - Garments are finely woven and dignified, not jeweled fantasy armour or a medieval
+    mitre.
+  materials:
+  - fine woven linen and dyed wool
+  - restrained gold settings, stone seals, bronze altar, wood, ash, and natural skin
+  accessories:
+  - simple period-appropriate personal fastening or pouch only where described
+  signature_objects:
+  - priestly breastpiece secured over the ephod
+  - bronze altar with consumed offering and rising natural smoke
+  environment:
+  - Tabernacle court in the wilderness, with woven hangings, bronze altar, and entrance
+    to the tent arranged as subordinate context.
+  supporting_figures:
+  - Israelite assembly bows beyond the altar at reduced scale.
+  continuity_constraints:
+  - Keep breastpiece, ephod, robe, sash, and turban physically coherent and consistent
+    with Exodus 28.
+  - Fire belongs to the altar event and divine action; Aaron emits no glow, beam,
+    flame, or spell effect.
+  - Avoid unsupported certainty about exact facial geometry, complexion shade, height,
+    or physique beyond narrative-relative cues.
+composition:
+  focal_action: Aaron raises both open hands in blessing beyond the bronze altar as
+    the offering is consumed.
+  pose: Stable frontal three-quarter stance, hands open at shoulder height, solemn
+    face unobstructed, garments hanging with believable weight.
+  camera: Eye-level medium-full portrait across one corner of the altar, keeping garments
+    legible without making Aaron gigantic.
+  foreground:
+  - Bronze altar edge, ash, and restrained natural flame establish service without
+    blocking his hands.
+  middle_ground:
+  - Aaron is the sole dominant figure between altar and tabernacle entrance.
+  background:
+  - Woven court hangings and a bowed assembly recede into warm wilderness air.
+  card_frame_safe_space: Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - reverent blessing
+  - ordered holiness
+  - communal assurance
+  lighting:
+  - Warm firelight and desert daylight model cloth and face; no object or person radiates
+    supernatural light.
+  palette:
+  - linen ivory
+  - deep blue
+  - muted crimson
+  - restrained gold
+  - bronze umber
+  textures:
+  - woven linen and wool, hammered metal, engraved stones, wood grain, ash, and dust
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically grounded materials
+  - clear silhouette, coherent anatomy, layered depth, restrained drama, and print-ready
+    finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, game UI, typography, modern
+    objects, medieval European clothing or architecture, fantasy armour, science-fiction
+    elements, anime, cartoon proportions, extra limbs, extra fingers, duplicate subject,
+    malformed hands, distorted face, blurry focal subject, visible human depiction
+    of God the Father; fantasy high priest, medieval bishop, papal mitre, wizard robes,
+    spellcasting, glowing hands, magical breastplate, floating gems, weaponized incense,
+    battle pose, excessive jewels, invented temple architecture
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Aaron, The High Priest, depicted as mature high priest in active tabernacle
+    service in Aaron stands at the altar after completing the inaugural offerings,
+    blessing Israel as fire from the LORD consumes the offering. Aaron raises both
+    open hands in blessing beyond the bronze altar as the offering is consumed. Stable
+    frontal three-quarter stance, hands open at shoulder height, solemn face unobstructed,
+    garments hanging with believable weight. Present Mature Israelite high priest
+    whose composed attention communicates reverent service and communal responsibility.
+    Dress the character in Scripture-led high-priestly ensemble: fine linen tunic,
+    blue robe, patterned ephod, breastpiece, sash, and linen turban. Include priestly
+    breastpiece secured over the ephod, and bronze altar with consumed offering and
+    rising natural smoke. Set the scene in Tabernacle court in the wilderness, with
+    woven hangings, bronze altar, and entrance to the tent arranged as subordinate
+    context. Israelite assembly bows beyond the altar at reduced scale. Compose with
+    Eye-level medium-full portrait across one corner of the altar, keeping garments
+    legible without making Aaron gigantic. Foreground: Bronze altar edge, ash, and
+    restrained natural flame establish service without blocking his hands. Middle
+    ground: Aaron is the sole dominant figure between altar and tabernacle entrance.
+    Background: Woven court hangings and a bowed assembly recede into warm wilderness
+    air. Preserve quiet upper and lower margins for later card-frame overlays; keep
+    face, hands, signature objects, and grounded feet inside the central crop without
+    including text or UI. Light the scene so that Warm firelight and desert daylight
+    model cloth and face; no object or person radiates supernatural light. Use a restrained
+    palette of linen ivory, deep blue, muted crimson, restrained gold, bronze umber.
+    Render woven linen and wool, hammered metal, engraved stones, wood grain, ash,
+    and dust in cinematic painterly realism with coherent anatomy, a strong readable
+    silhouette, historical restraint, layered depth, reverence, and premium print-ready
+    finish. Honor these continuity limits: Keep breastpiece, ephod, robe, sash, and
+    turban physically coherent and consistent with Exodus 28. Fire belongs to the
+    altar event and divine action; Aaron emits no glow, beam, flame, or spell effect.
+    Artwork only, with no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
+    typography, modern objects, medieval European clothing or architecture, fantasy
+    armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
+    fingers, duplicate subject, malformed hands, distorted face, blurry focal subject,
+    visible human depiction of God the Father, fantasy high priest, medieval bishop,
+    papal mitre, wizard robes, spellcasting, glowing hands, magical breastplate, floating
+    gems, weaponized incense, battle pose, excessive jewels, invented temple architecture
+  variations:
+  - A tighter character crop preserving the same life stage, action, signature objects,
+    agency constraints, and narrative instant.
+  - A wider environmental crop preserving focal dominance, sparse supporting figures,
+    scene clarity, and all continuity constraints.
+traceability:
+  prompt_clauses:
+  - clause: Canonical identity, selected life stage, era, culture, and defining scene
+    source_paths:
+    - identity
+    - biblical_basis.primary_passages
+    - biblical_basis.claims
+  - clause: Character-specific gameplay archetype, traits, ability, strategy, and
+      differentiation
+    source_paths:
+    - gameplay_identity
+    - registry/legendary_prompt_development.json
+  - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+      figures, and continuity limits
+    source_paths:
+    - visual_identity
+    - biblical_basis.claims
+    - knowledge/ART_DIRECTION_GUIDE.md
+  - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+      vertical composition
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+  - clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+      and character-specific exclusions
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_development/legendary/README.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: human review may refine historically plausible material details
+    without changing the selected scene, gameplay identity, or theological guardrails.'

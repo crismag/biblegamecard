@@ -1,0 +1,208 @@
+---
+schema_version: 0.1.0
+collector_id: L011
+character_name: Caleb
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: The Faithful Veteran
+  depicted_life_stage: vigorous elder claimant at eighty-five years
+  era: Late Bronze Age land-allotment narrative setting
+  culture: Judahite settlement in the hill country of Canaan
+biblical_basis:
+  primary_passages:
+  - Joshua 14:6-15
+  secondary_passages:
+  - Numbers 13:25-14:38
+  - Joshua 15:13-19
+  defining_scene: Eighty-five-year-old Caleb points toward Hebron’s rugged heights
+    while receiving his inheritance request before Joshua
+  claims:
+  - statement: Caleb recalls that he was forty when sent as a spy and eighty-five
+      when requesting the hill country, declaring his strength for the task.
+    classification: scripture
+    source_refs:
+    - Joshua 14:6-12
+  - statement: Caleb followed the LORD fully and survived the wilderness generation
+      with Joshua.
+    classification: scripture
+    source_refs:
+    - Numbers 14:24
+    - Numbers 14:30
+    - Joshua 14:8-9
+  - statement: A lean, durable elder rather than a frail old man or youthful duplicate
+      of Joshua translates faithful endurance visually.
+    classification: project_interpretation
+    source_refs:
+    - docs/ARTWORK_REVIEW_STANDARD.md
+gameplay_identity:
+  archetype: Faithful Veteran
+  traits:
+  - Courage
+  - Faith
+  - Endurance
+  signature_ability: Give Me This Mountain
+  strategic_identity: Builds durable resolve across long play, then commits personally
+    to one difficult objective; endurance and faithful claim distinguish him from
+    formation command.
+  differentiation:
+  - Joshua signals a coordinated national formation; Caleb personally claims a hard
+    inheritance after decades of waiting.
+  - Samson breaks an immediate obstacle through episodic empowerment; Caleb succeeds
+    through sustained faith and seasoned courage.
+visual_identity:
+  presentation:
+  - Vigorous elder with silvered hair, sun-weathered face, upright bearing, and lean
+    campaign-conditioned strength without youthful smoothness.
+  - Quiet confidence and patient resolve, visually distinct from Joshua’s formal command
+    gesture.
+  wardrobe:
+  - Practical Judahite wool tunic and mantle suited to upland travel, leather belt,
+    sandals, and restrained campaign protection.
+  - No crown, general’s cape, heavy plate armour, or frailty props.
+  materials:
+  - coarse wool, linen, leather, restrained bronze
+  - limestone, scrub wood, dust, and natural skin
+  accessories:
+  - simple period-appropriate personal fastening or pouch only where described
+  signature_objects:
+  - plain walking spear used as grounded campaign equipment
+  - rugged Hebron ridge indicated beyond his extended hand
+  environment:
+  - Rocky hill-country overlook facing Hebron, with terraced slopes and sparse scrub.
+  supporting_figures:
+  - Joshua and allotment witnesses remain small and respectfully attentive behind
+    Caleb.
+  continuity_constraints:
+  - Show advanced age through silvering and weathering while keeping posture capable
+    and anatomy credible.
+  - Do not reuse Joshua’s open-hand formation pose, muted indigo mantle, or priestly
+    procession.
+  - Avoid unsupported certainty about exact facial geometry, complexion shade, height,
+    or physique beyond narrative-relative cues.
+composition:
+  focal_action: Caleb plants his spear and points with his free hand toward the steep
+    Hebron ridge he requests.
+  pose: Upright side-facing stance braced naturally on uneven stone, chest open but
+    not bodybuilder-like.
+  camera: Eye-level medium-full portrait from slightly behind the pointing arm, giving
+    equal clarity to face and mountain.
+  foreground:
+  - Angular limestone and a hardy low shrub frame his grounded feet.
+  middle_ground:
+  - Caleb occupies the dominant plane with Joshua and witnesses reduced behind him.
+  background:
+  - Hebron’s layered ridge rises as the clear destination beneath a broad sky.
+  card_frame_safe_space: Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - seasoned courage
+  - patient faithfulness
+  - earned resolve
+  lighting:
+  - Clear late-afternoon hill light reveals age, cloth, and stone without heroic glow.
+  palette:
+  - limestone cream
+  - weathered brown
+  - olive scrub
+  - rust ochre
+  - dusty red
+  textures:
+  - creased natural skin, coarse wool, worn leather, limestone, and dry vegetation
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically grounded materials
+  - clear silhouette, coherent anatomy, layered depth, restrained drama, and print-ready
+    finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, game UI, typography, modern
+    objects, medieval European clothing or architecture, fantasy armour, science-fiction
+    elements, anime, cartoon proportions, extra limbs, extra fingers, duplicate subject,
+    malformed hands, distorted face, blurry focal subject, visible human depiction
+    of God the Father; frail invalid, walking cane dependency, youthful Joshua lookalike,
+    royal crown, superhero veteran, bodybuilder anatomy, glowing mountain, magical
+    spear, modern hiking gear, medieval knight
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Caleb, The Faithful Veteran, depicted as vigorous elder claimant at eighty-five
+    years in Eighty-five-year-old Caleb points toward Hebron’s rugged heights while
+    receiving his inheritance request before Joshua. Caleb plants his spear and points
+    with his free hand toward the steep Hebron ridge he requests. Upright side-facing
+    stance braced naturally on uneven stone, chest open but not bodybuilder-like.
+    Present Vigorous elder with silvered hair, sun-weathered face, upright bearing,
+    and lean campaign-conditioned strength without youthful smoothness. Dress the
+    character in Practical Judahite wool tunic and mantle suited to upland travel,
+    leather belt, sandals, and restrained campaign protection. Include plain walking
+    spear used as grounded campaign equipment, and rugged Hebron ridge indicated beyond
+    his extended hand. Set the scene in Rocky hill-country overlook facing Hebron,
+    with terraced slopes and sparse scrub. Joshua and allotment witnesses remain small
+    and respectfully attentive behind Caleb. Compose with Eye-level medium-full portrait
+    from slightly behind the pointing arm, giving equal clarity to face and mountain.
+    Foreground: Angular limestone and a hardy low shrub frame his grounded feet. Middle
+    ground: Caleb occupies the dominant plane with Joshua and witnesses reduced behind
+    him. Background: Hebron’s layered ridge rises as the clear destination beneath
+    a broad sky. Preserve quiet upper and lower margins for later card-frame overlays;
+    keep face, hands, signature objects, and grounded feet inside the central crop
+    without including text or UI. Light the scene so that Clear late-afternoon hill
+    light reveals age, cloth, and stone without heroic glow. Use a restrained palette
+    of limestone cream, weathered brown, olive scrub, rust ochre, dusty red. Render
+    creased natural skin, coarse wool, worn leather, limestone, and dry vegetation
+    in cinematic painterly realism with coherent anatomy, a strong readable silhouette,
+    historical restraint, layered depth, reverence, and premium print-ready finish.
+    Honor these continuity limits: Show advanced age through silvering and weathering
+    while keeping posture capable and anatomy credible. Do not reuse Joshua’s open-hand
+    formation pose, muted indigo mantle, or priestly procession. Artwork only, with
+    no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
+    typography, modern objects, medieval European clothing or architecture, fantasy
+    armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
+    fingers, duplicate subject, malformed hands, distorted face, blurry focal subject,
+    visible human depiction of God the Father, frail invalid, walking cane dependency,
+    youthful Joshua lookalike, royal crown, superhero veteran, bodybuilder anatomy,
+    glowing mountain, magical spear, modern hiking gear, medieval knight
+  variations:
+  - A tighter character crop preserving the same life stage, action, signature objects,
+    agency constraints, and narrative instant.
+  - A wider environmental crop preserving focal dominance, sparse supporting figures,
+    scene clarity, and all continuity constraints.
+traceability:
+  prompt_clauses:
+  - clause: Canonical identity, selected life stage, era, culture, and defining scene
+    source_paths:
+    - identity
+    - biblical_basis.primary_passages
+    - biblical_basis.claims
+  - clause: Character-specific gameplay archetype, traits, ability, strategy, and
+      differentiation
+    source_paths:
+    - gameplay_identity
+    - registry/legendary_prompt_development.json
+  - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+      figures, and continuity limits
+    source_paths:
+    - visual_identity
+    - biblical_basis.claims
+    - knowledge/ART_DIRECTION_GUIDE.md
+  - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+      vertical composition
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+  - clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+      and character-specific exclusions
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_development/legendary/README.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: human review may refine historically plausible material details
+    without changing the selected scene, gameplay identity, or theological guardrails.'

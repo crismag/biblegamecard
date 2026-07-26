@@ -1,0 +1,214 @@
+---
+schema_version: 0.1.0
+collector_id: L012
+character_name: Samson
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: The Empowered Judge
+  depicted_life_stage: adult judge during a moment of divinely granted strength
+  era: Iron Age I judges narrative setting
+  culture: Israelite and Philistine borderland context
+biblical_basis:
+  primary_passages:
+  - Judges 15:9-20
+  secondary_passages:
+  - Judges 13:1-25
+  - Judges 16:15-31
+  defining_scene: After the Spirit of the LORD rushes upon him, Samson snaps ordinary
+    rope bindings as Philistine attackers approach
+  claims:
+  - statement: Samson’s birth calling includes Nazirite consecration from the womb
+      and his hair is not to be cut.
+    classification: scripture
+    source_refs:
+    - Judges 13:2-7
+  - statement: The Spirit of the LORD rushes upon Samson and his bindings become as
+      flax burned with fire; the text locates empowerment in divine action.
+    classification: scripture
+    source_refs:
+    - Judges 15:14
+  - statement: Long uncut hair functions as a visible sign of consecration, not a
+      magical power source or glowing weapon.
+    classification: project_interpretation
+    source_refs:
+    - Judges 13:5
+    - Judges 16:17
+    - knowledge/THEOLOGY_AND_CONTENT_GUIDE.md
+gameplay_identity:
+  archetype: Single-Target Breakthrough
+  traits:
+  - Might
+  - Calling
+  - Resolve
+  signature_ability: Strength from the LORD
+  strategic_identity: Breaks one binding, guard, or fortified target through a costly
+    burst of God-given empowerment; he is powerful but not innately magical or broadly
+    tactical.
+  differentiation:
+  - Caleb’s strength is durable veteran readiness; Samson’s breakthrough is an exceptional
+    moment of divine empowerment.
+  - Gideon multiplies a small force through strategy; Samson acts as a solitary, volatile
+    deliverer.
+visual_identity:
+  presentation:
+  - Powerful adult with believable functional musculature, exertion, weight, and human
+    proportions—strong but never comic-book enormous.
+  - Long uncut hair reads as a consecration sign; the face shows strain and dependence
+    rather than invulnerable confidence.
+  wardrobe:
+  - Simple borderland tunic with a durable belt and sandals, disordered by capture
+    but modest and intact.
+  - No cape, skintight costume, metal bracers, emblem, or gladiator fantasy gear.
+  materials:
+  - coarse wool, rope fibre, leather, dust, natural hair and skin
+  - weathered limestone and scrub
+  accessories:
+  - simple period-appropriate personal fastening or pouch only where described
+  signature_objects:
+  - broken ordinary rope bindings falling from both wrists
+  - long uncut hair rendered naturally without glow or animated movement
+  environment:
+  - Rocky borderland at Lehi, with Philistine attackers held as a restrained distant
+    threat.
+  supporting_figures:
+  - A small, separated line of Philistine figures approaches in the background without
+    becoming a crowded battle.
+  continuity_constraints:
+  - Strength must be communicated by rope tension, planted feet, and anatomical exertion,
+    not gigantic anatomy or energy effects.
+  - 'Hair is symbolic and natural: no light, sparks, supernatural motion, or causal
+    beam from it.'
+  - Avoid unsupported certainty about exact facial geometry, complexion shade, height,
+    or physique beyond narrative-relative cues.
+composition:
+  focal_action: Samson pulls his bound wrists apart at chest height as frayed rope
+    breaks and falls.
+  pose: Wide planted stance with bent knees and engaged shoulders, anatomically credible
+    strain, long hair moving only with bodily motion.
+  camera: Low but restrained medium-full portrait that preserves human scale and clear
+    wrist anatomy.
+  foreground:
+  - Falling rope fibres and disturbed dust clarify the single breakthrough action.
+  middle_ground:
+  - Samson alone dominates the scene, with generous negative space around his silhouette.
+  background:
+  - Rocky slope and a small distant Philistine line establish danger without battle
+    clutter.
+  card_frame_safe_space: Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - dangerous urgency
+  - dependent empowerment
+  - costly resolve
+  lighting:
+  - Hard natural daylight catches rope fibres and muscle tension; a subtle environmental
+    break in cloud may imply divine agency without a beam.
+  palette:
+  - dust umber
+  - sunlit stone
+  - muted red-brown
+  - natural black-brown hair
+  - wool beige
+  textures:
+  - frayed rope, coarse cloth, natural hair, dusty skin, leather, and rough stone
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically grounded materials
+  - clear silhouette, coherent anatomy, layered depth, restrained drama, and print-ready
+    finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, game UI, typography, modern
+    objects, medieval European clothing or architecture, fantasy armour, science-fiction
+    elements, anime, cartoon proportions, extra limbs, extra fingers, duplicate subject,
+    malformed hands, distorted face, blurry focal subject, visible human depiction
+    of God the Father; superhero, comic-book anatomy, giant muscles, Hulk proportions,
+    glowing hair, magical hair, energy aura, lightning body, flying pose, cape, spandex,
+    emblem, fantasy barbarian, magical jawbone, crowded slaughter, gore
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Samson, The Empowered Judge, depicted as adult judge during a moment of
+    divinely granted strength in After the Spirit of the LORD rushes upon him, Samson
+    snaps ordinary rope bindings as Philistine attackers approach. Samson pulls his
+    bound wrists apart at chest height as frayed rope breaks and falls. Wide planted
+    stance with bent knees and engaged shoulders, anatomically credible strain, long
+    hair moving only with bodily motion. Present Powerful adult with believable functional
+    musculature, exertion, weight, and human proportions—strong but never comic-book
+    enormous. Dress the character in Simple borderland tunic with a durable belt and
+    sandals, disordered by capture but modest and intact. Include broken ordinary
+    rope bindings falling from both wrists, and long uncut hair rendered naturally
+    without glow or animated movement. Set the scene in Rocky borderland at Lehi,
+    with Philistine attackers held as a restrained distant threat. A small, separated
+    line of Philistine figures approaches in the background without becoming a crowded
+    battle. Compose with Low but restrained medium-full portrait that preserves human
+    scale and clear wrist anatomy. Foreground: Falling rope fibres and disturbed dust
+    clarify the single breakthrough action. Middle ground: Samson alone dominates
+    the scene, with generous negative space around his silhouette. Background: Rocky
+    slope and a small distant Philistine line establish danger without battle clutter.
+    Preserve quiet upper and lower margins for later card-frame overlays; keep face,
+    hands, signature objects, and grounded feet inside the central crop without including
+    text or UI. Light the scene so that Hard natural daylight catches rope fibres
+    and muscle tension; a subtle environmental break in cloud may imply divine agency
+    without a beam. Use a restrained palette of dust umber, sunlit stone, muted red-brown,
+    natural black-brown hair, wool beige. Render frayed rope, coarse cloth, natural
+    hair, dusty skin, leather, and rough stone in cinematic painterly realism with
+    coherent anatomy, a strong readable silhouette, historical restraint, layered
+    depth, reverence, and premium print-ready finish. Honor these continuity limits:
+    Strength must be communicated by rope tension, planted feet, and anatomical exertion,
+    not gigantic anatomy or energy effects. Hair is symbolic and natural: no light,
+    sparks, supernatural motion, or causal beam from it. Artwork only, with no typography,
+    border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
+    typography, modern objects, medieval European clothing or architecture, fantasy
+    armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
+    fingers, duplicate subject, malformed hands, distorted face, blurry focal subject,
+    visible human depiction of God the Father, superhero, comic-book anatomy, giant
+    muscles, Hulk proportions, glowing hair, magical hair, energy aura, lightning
+    body, flying pose, cape, spandex, emblem, fantasy barbarian, magical jawbone,
+    crowded slaughter, gore
+  variations:
+  - A tighter character crop preserving the same life stage, action, signature objects,
+    agency constraints, and narrative instant.
+  - A wider environmental crop preserving focal dominance, sparse supporting figures,
+    scene clarity, and all continuity constraints.
+traceability:
+  prompt_clauses:
+  - clause: Canonical identity, selected life stage, era, culture, and defining scene
+    source_paths:
+    - identity
+    - biblical_basis.primary_passages
+    - biblical_basis.claims
+  - clause: Character-specific gameplay archetype, traits, ability, strategy, and
+      differentiation
+    source_paths:
+    - gameplay_identity
+    - registry/legendary_prompt_development.json
+  - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+      figures, and continuity limits
+    source_paths:
+    - visual_identity
+    - biblical_basis.claims
+    - knowledge/ART_DIRECTION_GUIDE.md
+  - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+      vertical composition
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+  - clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+      and character-specific exclusions
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_development/legendary/README.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: human review may refine historically plausible material details
+    without changing the selected scene, gameplay identity, or theological guardrails.'

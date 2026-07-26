@@ -1,0 +1,213 @@
+---
+schema_version: 0.1.0
+collector_id: L015
+character_name: Ruth
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: The Faithful Gleaner
+  depicted_life_stage: young adult widow during the barley harvest
+  era: Iron Age I judges-period domestic narrative setting
+  culture: Moabite immigrant living within Bethlehemite agricultural society
+biblical_basis:
+  primary_passages:
+  - Ruth 2:1-23
+  secondary_passages:
+  - Ruth 1:6-18
+  - Ruth 3:1-4:17
+  - Ruth 4:9-17
+  defining_scene: Ruth gathers leftover barley behind the reapers at Bethlehem, pausing
+    with humble confidence as provision emerges through ordinary faithfulness
+  claims:
+  - statement: Ruth binds herself to Naomi and Naomi’s people and God, then travels
+      to Bethlehem.
+    classification: scripture
+    source_refs:
+    - Ruth 1:16-22
+  - statement: Ruth asks to glean, works behind the reapers, and receives protection
+      and provision in Boaz’s field.
+    classification: scripture
+    source_refs:
+    - Ruth 2:2-17
+  - statement: A harvest scene presents covenant loyalty, dignity, labor, and providence
+      without combat or romantic spectacle.
+    classification: project_interpretation
+    source_refs:
+    - knowledge/THEOLOGY_AND_CONTENT_GUIDE.md
+gameplay_identity:
+  archetype: Covenant Companion
+  traits:
+  - Loyalty
+  - Humility
+  - Endurance
+  signature_ability: Where You Go
+  strategic_identity: Creates lasting benefit by remaining with and supporting a chosen
+    ally; ordinary acts of loyalty turn scarcity into shared provision through providence,
+    not combat.
+  differentiation:
+  - Deborah leads publicly through judgment and prophecy; Ruth changes a household’s
+    future through loyal presence and humble work.
+  - Aaron supports a gathered people through priestly office; Ruth’s support grows
+    relationally through covenant faithfulness and provision.
+visual_identity:
+  presentation:
+  - Young adult Moabite widow working with quiet dignity, observant expression, and
+    credible fatigue rather than idealized glamour.
+  - Her foreign origin is expressed through narrative context and restrained wardrobe
+    distinction, never exoticized facial stereotypes.
+  wardrobe:
+  - Practical layered harvest dress in undyed linen and wool, simple mantle and head
+    covering secured for field work.
+  - Clothing remains modest, dusty, and functional rather than royal, bridal, or fantasy
+    peasant costume.
+  materials:
+  - coarse linen, wool, barley straw, leather and woven reed
+  - dry soil, field stone, wood, and natural skin
+  accessories:
+  - simple period-appropriate personal fastening or pouch only where described
+  signature_objects:
+  - small gathered sheaf of barley stalks
+  - simple woven carrying cloth or basket for gleaned grain
+  environment:
+  - Sunlit barley field outside Bethlehem with cut rows, stubble, field stones, and
+    shade at the edge.
+  supporting_figures:
+  - Reapers continue ahead at reduced scale; Naomi and Boaz are not inserted into
+    this single working moment.
+  continuity_constraints:
+  - Keep Ruth actively gleaning behind reapers, not posing as a queen, bride, romantic
+    heroine, or passive recipient.
+  - Providence is conveyed through ordered circumstances, generous grain, and humane
+    atmosphere—never coins, magical light, or visible divine figure.
+  - Avoid unsupported certainty about exact facial geometry, complexion shade, height,
+    or physique beyond narrative-relative cues.
+composition:
+  focal_action: Ruth bends to gather a small handful of barley, then looks toward
+    the remaining row while securing her modest sheaf.
+  pose: Natural working crouch rising into motion, one knee bent, hands clearly interacting
+    with stalks, face visible in three-quarter view.
+  camera: Eye-level intimate medium-full portrait aligned with the barley rows, dignified
+    rather than voyeuristic.
+  foreground:
+  - Loose barley heads and stubble lead directly to Ruth’s working hands.
+  middle_ground:
+  - Ruth is isolated clearly against one harvested row; reapers remain ahead and small.
+  background:
+  - Bethlehem’s pale hillside and a field-edge shade shelter sit in dry haze.
+  card_frame_safe_space: Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - humble dignity
+  - covenant faithfulness
+  - quiet providence
+  lighting:
+  - Warm late-morning sunlight and soft reflected straw light reveal labor and provision
+    without halo effects.
+  palette:
+  - barley gold
+  - linen cream
+  - earth brown
+  - muted terracotta
+  - soft olive
+  textures:
+  - barley awns, coarse cloth, woven reed, dusty soil, field stone, and natural skin
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically grounded materials
+  - clear silhouette, coherent anatomy, layered depth, restrained drama, and print-ready
+    finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, game UI, typography, modern
+    objects, medieval European clothing or architecture, fantasy armour, science-fiction
+    elements, anime, cartoon proportions, extra limbs, extra fingers, duplicate subject,
+    malformed hands, distorted face, blurry focal subject, visible human depiction
+    of God the Father; warrior Ruth, sword, armour, queen, crown, bridal portrait,
+    romantic embrace, glamour pose, sexualized clothing, magical grain, glowing harvest,
+    shower of coins, medieval European farm, modern machinery, Boaz dominating scene
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Ruth, The Faithful Gleaner, depicted as young adult widow during the barley
+    harvest in Ruth gathers leftover barley behind the reapers at Bethlehem, pausing
+    with humble confidence as provision emerges through ordinary faithfulness. Ruth
+    bends to gather a small handful of barley, then looks toward the remaining row
+    while securing her modest sheaf. Natural working crouch rising into motion, one
+    knee bent, hands clearly interacting with stalks, face visible in three-quarter
+    view. Present Young adult Moabite widow working with quiet dignity, observant
+    expression, and credible fatigue rather than idealized glamour. Dress the character
+    in Practical layered harvest dress in undyed linen and wool, simple mantle and
+    head covering secured for field work. Include small gathered sheaf of barley stalks,
+    and simple woven carrying cloth or basket for gleaned grain. Set the scene in
+    Sunlit barley field outside Bethlehem with cut rows, stubble, field stones, and
+    shade at the edge. Reapers continue ahead at reduced scale; Naomi and Boaz are
+    not inserted into this single working moment. Compose with Eye-level intimate
+    medium-full portrait aligned with the barley rows, dignified rather than voyeuristic.
+    Foreground: Loose barley heads and stubble lead directly to Ruth’s working hands.
+    Middle ground: Ruth is isolated clearly against one harvested row; reapers remain
+    ahead and small. Background: Bethlehem’s pale hillside and a field-edge shade
+    shelter sit in dry haze. Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI. Light the scene so that Warm late-morning sunlight
+    and soft reflected straw light reveal labor and provision without halo effects.
+    Use a restrained palette of barley gold, linen cream, earth brown, muted terracotta,
+    soft olive. Render barley awns, coarse cloth, woven reed, dusty soil, field stone,
+    and natural skin in cinematic painterly realism with coherent anatomy, a strong
+    readable silhouette, historical restraint, layered depth, reverence, and premium
+    print-ready finish. Honor these continuity limits: Keep Ruth actively gleaning
+    behind reapers, not posing as a queen, bride, romantic heroine, or passive recipient.
+    Providence is conveyed through ordered circumstances, generous grain, and humane
+    atmosphere—never coins, magical light, or visible divine figure. Artwork only,
+    with no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
+    typography, modern objects, medieval European clothing or architecture, fantasy
+    armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
+    fingers, duplicate subject, malformed hands, distorted face, blurry focal subject,
+    visible human depiction of God the Father, warrior Ruth, sword, armour, queen,
+    crown, bridal portrait, romantic embrace, glamour pose, sexualized clothing, magical
+    grain, glowing harvest, shower of coins, medieval European farm, modern machinery,
+    Boaz dominating scene
+  variations:
+  - A tighter character crop preserving the same life stage, action, signature objects,
+    agency constraints, and narrative instant.
+  - A wider environmental crop preserving focal dominance, sparse supporting figures,
+    scene clarity, and all continuity constraints.
+traceability:
+  prompt_clauses:
+  - clause: Canonical identity, selected life stage, era, culture, and defining scene
+    source_paths:
+    - identity
+    - biblical_basis.primary_passages
+    - biblical_basis.claims
+  - clause: Character-specific gameplay archetype, traits, ability, strategy, and
+      differentiation
+    source_paths:
+    - gameplay_identity
+    - registry/legendary_prompt_development.json
+  - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+      figures, and continuity limits
+    source_paths:
+    - visual_identity
+    - biblical_basis.claims
+    - knowledge/ART_DIRECTION_GUIDE.md
+  - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+      vertical composition
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+  - clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+      and character-specific exclusions
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_development/legendary/README.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: human review may refine historically plausible material details
+    without changing the selected scene, gameplay identity, or theological guardrails.'
