@@ -63,7 +63,7 @@ visual_identity:
   - coarse wool, rope fibre, leather, dust, natural hair and skin
   - weathered limestone and scrub
   accessories:
-  - simple period-appropriate personal fastening or pouch only where described
+  - ordinary broken wrist ropes; no jewelry or heroic bracers
   signature_objects:
   - broken ordinary rope bindings falling from both wrists
   - long uncut hair rendered naturally without glow or animated movement
@@ -188,8 +188,11 @@ traceability:
   - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
       figures, and continuity limits
     source_paths:
-    - visual_identity
+    - 'Scripture: Judges 15:9-20'
+    - 'Scripture: Judges 13:1-25'
+    - 'Scripture: Judges 16:15-31'
     - biblical_basis.claims
+    - visual_identity
     - knowledge/ART_DIRECTION_GUIDE.md
   - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
       vertical composition
@@ -210,5 +213,5 @@ readiness:
   gameplay_review: PENDING_HUMAN_REVIEW
   artwork_generation: NOT_STARTED
   unresolved_questions:
-  - 'Non-blocking: human review may refine historically plausible material details
-    without changing the selected scene, gameplay identity, or theological guardrails.'
+  - 'Non-blocking: The first image review should verify that strength reads through
+    exertion and rope tension rather than exaggerated anatomy.'

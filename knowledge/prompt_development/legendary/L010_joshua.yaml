@@ -63,7 +63,7 @@ visual_identity:
   - woven linen and wool, weathered leather, restrained bronze
   - limestone, dry earth, dust, wood, natural skin
   accessories:
-  - simple period-appropriate personal fastening or pouch only where described
+  - one practical leather belt and canonical single sword rig
   signature_objects:
   - one Bronze Age-plausible sword, sheathed or lowered
   - ram’s-horn trumpets carried by priests and a closed ark carried on poles
@@ -126,8 +126,8 @@ art_direction:
     armour, Roman legionary, multi-event collage, Jordan water, giant battle melee
 prompt_source:
   positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
-    card: Joshua, The Conqueror, depicted as mature adult commissioned campaign leader
-    in Before Jericho falls, Joshua signals the ordered procession while priests carry
+    card: Joshua, The Conqueror, depicted as mature adult commissioned campaign leader.
+    Before Jericho falls, Joshua signals the ordered procession while priests carry
     trumpets and the closed ark before intact walls. Joshua extends an open hand to
     signal ordered advance while his other hand remains near one lowered or sheathed
     sword. Stable three-quarter stance with readable command arm, alert gaze, and
@@ -151,11 +151,10 @@ prompt_source:
     restrained bronze. Render cloth, leather, bronze, stone, dust, and natural skin
     in cinematic painterly realism with coherent anatomy, a strong readable silhouette,
     historical restraint, layered depth, reverence, and premium print-ready finish.
-    Honor these continuity limits: Synchronize subject, pre-fall Jericho scene, weapon
-    count, symbols, palette, and composition with knowledge/characters/legendary/L010_joshua/data/art.yaml.
-    The ark remains closed, pole-carried, subordinate, and never weaponized; Jericho
-    walls remain intact in this pre-fall moment. Artwork only, with no typography,
-    border, logo, or interface.'
+    Maintain the canonical pre-fall Jericho identity, single-sword count, symbol hierarchy,
+    palette, and composition. The ark remains closed, pole-carried, subordinate, and
+    never weaponized; Jericho walls remain intact in this pre-fall moment. Artwork
+    only, with no typography, border, logo, or interface.'
   negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
     typography, modern objects, medieval European clothing or architecture, fantasy
     armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
@@ -184,8 +183,12 @@ traceability:
   - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
       figures, and continuity limits
     source_paths:
-    - visual_identity
+    - 'Scripture: Joshua 6:1-27'
+    - 'Scripture: Joshua 1:1-18'
+    - 'Scripture: Joshua 3:1-4:24'
+    - 'Scripture: Numbers 27:18-23'
     - biblical_basis.claims
+    - visual_identity
     - knowledge/ART_DIRECTION_GUIDE.md
   - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
       vertical composition
@@ -214,5 +217,5 @@ readiness:
   gameplay_review: PENDING_HUMAN_REVIEW
   artwork_generation: NOT_STARTED
   unresolved_questions:
-  - 'Non-blocking: human review may refine historically plausible material details
-    without changing the selected scene, gameplay identity, or theological guardrails.'
+  - 'Non-blocking: Canonical review may refine procession spacing while retaining
+    the approved pre-fall Jericho scene and focal order.'

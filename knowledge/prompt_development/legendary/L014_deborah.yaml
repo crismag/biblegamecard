@@ -61,7 +61,7 @@ visual_identity:
   - woven wool and linen, palm fibre, leather, wood and limestone
   - clay tablets or plain tally pieces as non-textual judgment props
   accessories:
-  - simple period-appropriate personal fastening or pouch only where described
+  - restrained practical head covering and a plain judgment staff
   signature_objects:
   - the recognizable palm of Deborah shading the judgment place
   - an open directing hand toward the Mount Tabor road
@@ -184,8 +184,10 @@ traceability:
   - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
       figures, and continuity limits
     source_paths:
-    - visual_identity
+    - 'Scripture: Judges 4:4-16'
+    - 'Scripture: Judges 5:1-31'
     - biblical_basis.claims
+    - visual_identity
     - knowledge/ART_DIRECTION_GUIDE.md
   - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
       vertical composition
@@ -206,5 +208,5 @@ readiness:
   gameplay_review: PENDING_HUMAN_REVIEW
   artwork_generation: NOT_STARTED
   unresolved_questions:
-  - 'Non-blocking: human review may refine historically plausible material details
-    without changing the selected scene, gameplay identity, or theological guardrails.'
+  - 'Non-blocking: Historical review may refine highland women’s dress while preserving
+    Deborah’s recognized public authority and avoiding royal shorthand.'

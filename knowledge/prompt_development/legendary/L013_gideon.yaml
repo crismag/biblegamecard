@@ -62,7 +62,7 @@ visual_identity:
   - dark woven wool, pottery, wood, leather, horn
   - natural flame, dust, tent cloth, and stone
   accessories:
-  - simple period-appropriate personal fastening or pouch only where described
+  - simple leather belt securing the empty jar before the signal
   signature_objects:
   - one ram’s-horn trumpet in Gideon’s raised hand
   - one freshly broken clay jar revealing one torch
@@ -186,8 +186,11 @@ traceability:
   - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
       figures, and continuity limits
     source_paths:
-    - visual_identity
+    - 'Scripture: Judges 7:1-25'
+    - 'Scripture: Judges 6:11-40'
+    - 'Scripture: Judges 8:22-35'
     - biblical_basis.claims
+    - visual_identity
     - knowledge/ART_DIRECTION_GUIDE.md
   - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
       vertical composition
@@ -208,5 +211,5 @@ readiness:
   gameplay_review: PENDING_HUMAN_REVIEW
   artwork_generation: NOT_STARTED
   unresolved_questions:
-  - 'Non-blocking: human review may refine historically plausible material details
-    without changing the selected scene, gameplay identity, or theological guardrails.'
+  - 'Non-blocking: The first image review should confirm that two nearby allies and
+    distant signal points imply three hundred without crowding the composition.'

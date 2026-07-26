@@ -41,8 +41,8 @@ gameplay_identity:
   - Endurance
   signature_ability: Where You Go
   strategic_identity: Creates lasting benefit by remaining with and supporting a chosen
-    ally; ordinary acts of loyalty turn scarcity into shared provision through providence,
-    not combat.
+    ally; covenant loyalty turns scarcity into shared provision and opens a path toward
+    household redemption through providence, not combat.
   differentiation:
   - Deborah leads publicly through judgment and prophecy; Ruth changes a household’s
     future through loyal presence and humble work.
@@ -63,7 +63,7 @@ visual_identity:
   - coarse linen, wool, barley straw, leather and woven reed
   - dry soil, field stone, wood, and natural skin
   accessories:
-  - simple period-appropriate personal fastening or pouch only where described
+  - simple woven gleaning basket or carrying cloth, never luxury jewelry
   signature_objects:
   - small gathered sheaf of barley stalks
   - simple woven carrying cloth or basket for gleaned grain
@@ -187,8 +187,12 @@ traceability:
   - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
       figures, and continuity limits
     source_paths:
-    - visual_identity
+    - 'Scripture: Ruth 2:1-23'
+    - 'Scripture: Ruth 1:6-18'
+    - 'Scripture: Ruth 3:1-4:17'
+    - 'Scripture: Ruth 4:9-17'
     - biblical_basis.claims
+    - visual_identity
     - knowledge/ART_DIRECTION_GUIDE.md
   - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
       vertical composition
@@ -209,5 +213,5 @@ readiness:
   gameplay_review: PENDING_HUMAN_REVIEW
   artwork_generation: NOT_STARTED
   unresolved_questions:
-  - 'Non-blocking: human review may refine historically plausible material details
-    without changing the selected scene, gameplay identity, or theological guardrails.'
+  - 'Non-blocking: Historical review may refine Moabite and Bethlehemite dress distinctions
+    without exoticizing Ruth or weakening her working dignity.'

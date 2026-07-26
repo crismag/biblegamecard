@@ -7,7 +7,8 @@ identity:
   legendary_title: The Faithful Prophet
   depicted_life_stage: mature prophet at the transition to monarchy
   era: Iron Age I transition from judges to monarchy
-  culture: Israelite prophetic and sacrificial setting at Ramah
+  culture: Israelite prophetic and sacrificial setting at Bethlehem during the transition
+    to monarchy
 biblical_basis:
   primary_passages:
   - 1 Samuel 16:1-13
@@ -18,10 +19,11 @@ biblical_basis:
   defining_scene: Mature Samuel quietly anoints the young David in Bethlehem after
     discerning that outward stature is not the measure of the chosen king
   claims:
-  - statement: Samuel serves as prophet and judge, and his words are confirmed throughout
-      Israel.
+  - statement: Samuel ministers before the LORD, serves as prophet and judge, and
+      his words are confirmed throughout Israel.
     classification: scripture
     source_refs:
+    - 1 Samuel 2:18
     - 1 Samuel 3:19-21
     - 1 Samuel 7:15-17
   - statement: God sends Samuel with a horn of oil to Jesse; Samuel rejects appearance-based
@@ -62,7 +64,7 @@ visual_identity:
   - wool, linen, leather, horn, olive oil
   - Bethlehem limestone, wood, clay, and natural skin
   accessories:
-  - simple period-appropriate personal fastening or pouch only where described
+  - one small natural horn and a plain leather belt
   signature_objects:
   - one small natural horn containing anointing oil
   - a controlled touch of oil at young David’s hairline
@@ -186,8 +188,12 @@ traceability:
   - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
       figures, and continuity limits
     source_paths:
-    - visual_identity
+    - 'Scripture: 1 Samuel 16:1-13'
+    - 'Scripture: 1 Samuel 3:1-21'
+    - 'Scripture: 1 Samuel 7:3-17'
+    - 'Scripture: 1 Samuel 8:1-22'
     - biblical_basis.claims
+    - visual_identity
     - knowledge/ART_DIRECTION_GUIDE.md
   - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
       vertical composition
@@ -208,5 +214,5 @@ readiness:
   gameplay_review: PENDING_HUMAN_REVIEW
   artwork_generation: NOT_STARTED
   unresolved_questions:
-  - 'Non-blocking: human review may refine historically plausible material details
-    without changing the selected scene, gameplay identity, or theological guardrails.'
+  - 'Non-blocking: The mature-prophet choice is fixed for this draft; human review
+    may refine the Bethlehem courtyard without importing child-Samuel imagery.'

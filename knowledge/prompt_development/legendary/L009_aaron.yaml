@@ -65,7 +65,7 @@ visual_identity:
   - fine woven linen and dyed wool
   - restrained gold settings, stone seals, bronze altar, wood, ash, and natural skin
   accessories:
-  - simple period-appropriate personal fastening or pouch only where described
+  - plain linen undergarments and a secured woven sash
   signature_objects:
   - priestly breastpiece secured over the ephod
   - bronze altar with consumed offering and rising natural smoke
@@ -187,8 +187,12 @@ traceability:
   - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
       figures, and continuity limits
     source_paths:
-    - visual_identity
+    - 'Scripture: Exodus 28:1-43'
+    - 'Scripture: Leviticus 9:1-24'
+    - 'Scripture: Exodus 30:7-10'
+    - 'Scripture: Numbers 6:22-27'
     - biblical_basis.claims
+    - visual_identity
     - knowledge/ART_DIRECTION_GUIDE.md
   - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
       vertical composition
@@ -209,5 +213,5 @@ readiness:
   gameplay_review: PENDING_HUMAN_REVIEW
   artwork_generation: NOT_STARTED
   unresolved_questions:
-  - 'Non-blocking: human review may refine historically plausible material details
-    without changing the selected scene, gameplay identity, or theological guardrails.'
+  - 'Non-blocking: Human review should confirm how much breastpiece detail remains
+    legible at card scale without turning sacred garments into fantasy ornament.'

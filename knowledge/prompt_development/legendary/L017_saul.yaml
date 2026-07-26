@@ -14,7 +14,6 @@ biblical_basis:
   secondary_passages:
   - 1 Samuel 9:1-10:16
   - 1 Samuel 11:1-15
-  - 1 Samuel 13:1-15:35
   defining_scene: Early Saul steps from among the baggage into public acclamation
     at Mizpah, visibly uncertain beneath the weight of new authority
   claims:
@@ -62,7 +61,8 @@ visual_identity:
   - woven wool and linen, leather, wood, rope and packed earth
   - restrained bronze on ordinary assembly equipment
   accessories:
-  - simple period-appropriate personal fastening or pouch only where described
+  - restrained belt and mantle fastening appropriate to a well-established Benjaminite
+    family
   signature_objects:
   - stacked travel baggage behind Saul as the narrative recognition cue
   - plain unmarked staff or lowered spear held by an attendant, not brandished by
@@ -190,8 +190,12 @@ traceability:
   - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
       figures, and continuity limits
     source_paths:
-    - visual_identity
+    - 'Scripture: 1 Samuel 10:17-27'
+    - 'Scripture: 1 Samuel 9:1-10:16'
+    - 'Scripture: 1 Samuel 11:1-15'
+    - 'Scripture: 1 Samuel 13:1-15:35'
     - biblical_basis.claims
+    - visual_identity
     - knowledge/ART_DIRECTION_GUIDE.md
   - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
       vertical composition
@@ -212,5 +216,5 @@ readiness:
   gameplay_review: PENDING_HUMAN_REVIEW
   artwork_generation: NOT_STARTED
   unresolved_questions:
-  - 'Non-blocking: human review may refine historically plausible material details
-    without changing the selected scene, gameplay identity, or theological guardrails.'
+  - 'Non-blocking: Narrative review should confirm that Saul’s uncertainty remains
+    legible without importing visual cues from his later decline.'

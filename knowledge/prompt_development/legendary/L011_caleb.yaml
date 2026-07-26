@@ -63,7 +63,7 @@ visual_identity:
   - coarse wool, linen, leather, restrained bronze
   - limestone, scrub wood, dust, and natural skin
   accessories:
-  - simple period-appropriate personal fastening or pouch only where described
+  - weathered leather belt and a small upland travel pouch
   signature_objects:
   - plain walking spear used as grounded campaign equipment
   - rugged Hebron ridge indicated beyond his extended hand
@@ -182,8 +182,11 @@ traceability:
   - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
       figures, and continuity limits
     source_paths:
-    - visual_identity
+    - 'Scripture: Joshua 14:6-15'
+    - 'Scripture: Numbers 13:25-14:38'
+    - 'Scripture: Joshua 15:13-19'
     - biblical_basis.claims
+    - visual_identity
     - knowledge/ART_DIRECTION_GUIDE.md
   - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
       vertical composition
@@ -204,5 +207,5 @@ readiness:
   gameplay_review: PENDING_HUMAN_REVIEW
   artwork_generation: NOT_STARTED
   unresolved_questions:
-  - 'Non-blocking: human review may refine historically plausible material details
-    without changing the selected scene, gameplay identity, or theological guardrails.'
+  - 'Non-blocking: Historical review may refine hill-country campaign protection while
+    preserving Caleb’s vigorous elder silhouette and distinction from Joshua.'
