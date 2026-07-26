@@ -1,0 +1,221 @@
+---
+schema_version: 0.1.0
+collector_id: L018
+character_name: David
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: The Faithful Challenger
+  depicted_life_stage: youthful shepherd immediately before confronting Goliath
+  era: Iron Age I early monarchy narrative setting
+  culture: Judahite shepherd and Israelite camp in the Valley of Elah
+biblical_basis:
+  primary_passages:
+  - 1 Samuel 17:31-49
+  secondary_passages:
+  - 1 Samuel 16:1-13
+  - 1 Samuel 17:12-30
+  - 1 Samuel 18:1-16
+  defining_scene: Before the duel, young David selects one smooth stone beside the
+    brook while the distant giant waits across the Valley of Elah
+  claims:
+  - statement: David refuses Saul’s armour, takes his staff, chooses five smooth stones,
+      places them in his shepherd’s pouch, and approaches with a sling.
+    classification: scripture
+    source_refs:
+    - 1 Samuel 17:38-40
+  - statement: David declares confidence in the LORD’s deliverance and runs toward
+      the battle line before slinging one stone.
+    classification: scripture
+    source_refs:
+    - 1 Samuel 17:45-49
+  - statement: The pre-throw preparation isolates courage, precision, and dependent
+      faith without combining shepherd, musician, warrior, and king identities.
+    classification: project_interpretation
+    source_refs:
+    - docs/ARTWORK_REVIEW_STANDARD.md
+gameplay_identity:
+  archetype: Precision Challenger
+  traits:
+  - Courage
+  - Faith
+  - Precision
+  signature_ability: One Stone
+  strategic_identity: Converts careful preparation into one accurate answer against
+    an oversized threat; courage and covenant trust reward precision while foreshadowing
+    covenant kingship without placing royal imagery in this youthful scene.
+  differentiation:
+  - Saul’s scene explores authority under public pressure; David acts without crown
+    or armour through focused dependent courage.
+  - Samson breaks through with extraordinary bodily strength; David overcomes disparity
+    through skill, selection, and precise commitment.
+visual_identity:
+  presentation:
+  - Youthful Judahite shepherd with lean, credible working fitness, alert eyes, and
+    calm concentration—not a child caricature or mature king.
+  - Ordinary human scale and unarmoured vulnerability keep trust and precision central.
+  wardrobe:
+  - Simple shepherd’s tunic, short practical mantle, leather belt, sandals, and a
+    plain sling pouch.
+  - No crown, royal purple, harp, battle armour, sword, or composite warrior-king
+    costume.
+  materials:
+  - coarse wool, linen, leather sling and pouch
+  - smooth river stone, water, reeds, dust, and limestone
+  accessories:
+  - plain shepherd’s pouch, simple leather sling, and resting wooden staff
+  signature_objects:
+  - one smooth stone held between inspecting fingers
+  - simple leather sling and pouch, with shepherd staff resting nearby
+  environment:
+  - Shallow brook along the Valley of Elah, Israelite camp muted on one ridge and
+    Philistine line on the other.
+  supporting_figures:
+  - Goliath appears only as one distant armored silhouette; soldiers remain atmospheric
+    and non-identifiable.
+  continuity_constraints:
+  - 'Freeze the moment before combat: David selects the stone; no impact, severed
+    head, sword, gore, victory pose, or simultaneous sling release.'
+  - Exclude crown, throne, harp, royal robes, mature beard, and multiple-life-stage
+    collage.
+  - Avoid unsupported certainty about exact facial geometry, complexion shade, height,
+    or physique beyond narrative-relative cues.
+composition:
+  focal_action: David crouches at the brook, lifts one smooth stone to eye level,
+    and measures it with quiet focus while the sling hangs ready.
+  pose: Balanced low crouch with one hand at the water and the selected stone in the
+    other, torso turned enough to reveal his face.
+  camera: Low eye-level medium-full portrait near the water, with David large and
+    Goliath very small across the valley.
+  foreground:
+  - Clear ripples, four remaining subtle stones, and wet fingers establish deliberate
+    selection without visual counting gimmick.
+  middle_ground:
+  - David and his resting shepherd staff form the sole detailed figure group.
+  background:
+  - Valley ridges separate two distant camps; Goliath’s silhouette supplies scale
+    without stealing focus.
+  card_frame_safe_space: Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - focused courage
+  - dependent faith
+  - precision before danger
+  lighting:
+  - Clean morning light glints naturally on the wet stone and models David’s concentrated
+    face without divine aura.
+  palette:
+  - stream blue-grey
+  - wool beige
+  - olive brown
+  - limestone gold
+  - muted red earth
+  textures:
+  - wet stone, moving water, coarse cloth, worn leather, reeds, dust, and natural
+    skin
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically grounded materials
+  - clear silhouette, coherent anatomy, layered depth, restrained drama, and print-ready
+    finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, game UI, typography, modern
+    objects, medieval European clothing or architecture, fantasy armour, science-fiction
+    elements, anime, cartoon proportions, extra limbs, extra fingers, duplicate subject,
+    malformed hands, distorted face, blurry focal subject, visible human depiction
+    of God the Father; King David, crown, throne, harp, mature bearded warrior, heavy
+    armour, sword, severed head, gore, stone impact, simultaneous victory, superhero
+    slinger, magical projectile, glowing sling, giant David, Goliath dominating foreground,
+    multi-event collage
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: David, The Faithful Challenger, depicted as youthful shepherd immediately
+    before confronting Goliath. Before the duel, young David selects one smooth stone
+    beside the brook while the distant giant waits across the Valley of Elah. David
+    crouches at the brook, lifts one smooth stone to eye level, and measures it with
+    quiet focus while the sling hangs ready. Balanced low crouch with one hand at
+    the water and the selected stone in the other, torso turned enough to reveal his
+    face. Present Youthful Judahite shepherd with lean, credible working fitness,
+    alert eyes, and calm concentration—not a child caricature or mature king. Dress
+    the character in Simple shepherd’s tunic, short practical mantle, leather belt,
+    sandals, and a plain sling pouch. Include one smooth stone held between inspecting
+    fingers, and simple leather sling and pouch, with shepherd staff resting nearby.
+    Set the scene in Shallow brook along the Valley of Elah, Israelite camp muted
+    on one ridge and Philistine line on the other. Goliath appears only as one distant
+    armored silhouette; soldiers remain atmospheric and non-identifiable. Compose
+    with Low eye-level medium-full portrait near the water, with David large and Goliath
+    very small across the valley. Foreground: Clear ripples, four remaining subtle
+    stones, and wet fingers establish deliberate selection without visual counting
+    gimmick. Middle ground: David and his resting shepherd staff form the sole detailed
+    figure group. Background: Valley ridges separate two distant camps; Goliath’s
+    silhouette supplies scale without stealing focus. Preserve quiet upper and lower
+    margins for later card-frame overlays; keep face, hands, signature objects, and
+    grounded feet inside the central crop without including text or UI. Light the
+    scene so that Clean morning light glints naturally on the wet stone and models
+    David’s concentrated face without divine aura. Use a restrained palette of stream
+    blue-grey, wool beige, olive brown, limestone gold, muted red earth. Render wet
+    stone, moving water, coarse cloth, worn leather, reeds, dust, and natural skin
+    in cinematic painterly realism with coherent anatomy, a strong readable silhouette,
+    historical restraint, layered depth, reverence, and premium print-ready finish.
+    Honor these continuity limits: Freeze the moment before combat: David selects
+    the stone; no impact, severed head, sword, gore, victory pose, or simultaneous
+    sling release. Exclude crown, throne, harp, royal robes, mature beard, and multiple-life-stage
+    collage. Artwork only, with no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
+    typography, modern objects, medieval European clothing or architecture, fantasy
+    armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
+    fingers, duplicate subject, malformed hands, distorted face, blurry focal subject,
+    visible human depiction of God the Father, King David, crown, throne, harp, mature
+    bearded warrior, heavy armour, sword, severed head, gore, stone impact, simultaneous
+    victory, superhero slinger, magical projectile, glowing sling, giant David, Goliath
+    dominating foreground, multi-event collage
+  variations:
+  - A tighter character crop preserving the same life stage, action, signature objects,
+    agency constraints, and narrative instant.
+  - A wider environmental crop preserving focal dominance, sparse supporting figures,
+    scene clarity, and all continuity constraints.
+traceability:
+  prompt_clauses:
+  - clause: Canonical identity, selected life stage, era, culture, and defining scene
+    source_paths:
+    - identity
+    - biblical_basis.primary_passages
+    - biblical_basis.claims
+  - clause: Character-specific gameplay archetype, traits, ability, strategy, and
+      differentiation
+    source_paths:
+    - gameplay_identity
+    - registry/legendary_prompt_development.json
+  - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+      figures, and continuity limits
+    source_paths:
+    - 'Scripture: 1 Samuel 17:31-49'
+    - 'Scripture: 1 Samuel 16:1-13'
+    - 'Scripture: 1 Samuel 17:12-30'
+    - 'Scripture: 1 Samuel 18:1-16'
+    - biblical_basis.claims
+    - visual_identity
+    - knowledge/ART_DIRECTION_GUIDE.md
+  - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+      vertical composition
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+  - clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+      and character-specific exclusions
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_development/legendary/README.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: The pre-duel stone-selection moment is fixed; image review may
+    refine Goliath’s distant scale without making him the focal subject.'

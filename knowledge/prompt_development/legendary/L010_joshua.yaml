@@ -1,0 +1,221 @@
+---
+schema_version: 0.1.0
+collector_id: L010
+character_name: Joshua
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: The Conqueror
+  depicted_life_stage: mature adult commissioned campaign leader
+  era: Late Bronze Age entry-into-Canaan narrative setting
+  culture: Israelite wilderness-to-Canaan transition context
+biblical_basis:
+  primary_passages:
+  - Joshua 6:1-27
+  secondary_passages:
+  - Joshua 1:1-18
+  - Joshua 3:1-4:24
+  - Numbers 27:18-23
+  defining_scene: Before Jericho falls, Joshua signals the ordered procession while
+    priests carry trumpets and the closed ark before intact walls
+  claims:
+  - statement: Joshua is Moses’ commissioned successor, charged to lead courageously
+      under divine authority and attend to the law.
+    classification: scripture
+    source_refs:
+    - Numbers 27:18-23
+    - Joshua 1:1-18
+  - statement: At Jericho, armed men, priests with ram’s-horn trumpets, the ark, and
+      the rear guard proceed in commanded order.
+    classification: scripture
+    source_refs:
+    - Joshua 6:1-16
+  - statement: The pre-fall identity portrait, lowered single sword, dawn palette,
+      and visual hierarchy reuse the canonical Joshua art package.
+    classification: project_interpretation
+    source_refs:
+    - knowledge/characters/legendary/L010_joshua/data/art.yaml
+    - knowledge/characters/legendary/L010_joshua/data/symbols.yaml
+gameplay_identity:
+  archetype: Battle Commander
+  traits:
+  - Courage
+  - Leadership
+  - Obedience
+  signature_ability: Walls Fall Down
+  strategic_identity: Coordinates allied roles in sequence to pressure fortifications
+    and convert opened objectives into inheritance; victory is never framed as Joshua’s
+    personal magic.
+  differentiation:
+  - Moses opens protected passage from pursuit; Joshua coordinates advance and claims
+    objectives.
+  - Caleb is an enduring individual claimant; Joshua directs a whole formation.
+visual_identity:
+  presentation:
+  - Mature, campaign-conditioned Israelite leader with focused resolve, alert humility,
+    and credible human proportions.
+  - Weathered Levantine features, practical dark hair and beard with modest greying,
+    synchronized to the canonical art profile.
+  wardrobe:
+  - Linen-and-wool tunic, weathered mantle, leather belt and simple footwear, with
+    restrained plausible leather or bronze defense.
+  - No royal crown, medieval plate armour, Roman uniform, or fantasy command regalia.
+  materials:
+  - woven linen and wool, weathered leather, restrained bronze
+  - limestone, dry earth, dust, wood, natural skin
+  accessories:
+  - one practical leather belt and canonical single sword rig
+  signature_objects:
+  - one Bronze Age-plausible sword, sheathed or lowered
+  - ram’s-horn trumpets carried by priests and a closed ark carried on poles
+  environment:
+  - Dry limestone terrain outside intact Jericho fortifications in clear dawn light.
+  supporting_figures:
+  - Ordered priestly procession carries trumpets and the closed ark in the middle
+    distance.
+  continuity_constraints:
+  - Synchronize subject, pre-fall Jericho scene, weapon count, symbols, palette, and
+    composition with knowledge/characters/legendary/L010_joshua/data/art.yaml.
+  - The ark remains closed, pole-carried, subordinate, and never weaponized; Jericho
+    walls remain intact in this pre-fall moment.
+  - Avoid unsupported certainty about exact facial geometry, complexion shade, height,
+    or physique beyond narrative-relative cues.
+composition:
+  focal_action: Joshua extends an open hand to signal ordered advance while his other
+    hand remains near one lowered or sheathed sword.
+  pose: Stable three-quarter stance with readable command arm, alert gaze, and restrained
+    authority.
+  camera: Slightly below eye level in a vertical three-quarter portrait, Joshua central-left.
+  foreground:
+  - Dry stone and sparse scrub create a clean lead-in around his feet.
+  middle_ground:
+  - Joshua dominates; the ordered priests, trumpets, and ark remain clearly secondary.
+  background:
+  - Intact Jericho walls occupy the middle distance through light dawn dust.
+  card_frame_safe_space: Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - courage under commission
+  - disciplined advance
+  - covenant accountability
+  lighting:
+  - Warm directional dawn controls contrast on Joshua’s face and signaling hand without
+    personifying divine presence.
+  palette:
+  - sun-baked ochre
+  - limestone
+  - muted indigo
+  - weathered leather brown
+  - restrained bronze
+  textures:
+  - cloth, leather, bronze, stone, dust, and natural skin
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically grounded materials
+  - clear silhouette, coherent anatomy, layered depth, restrained drama, and print-ready
+    finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, game UI, typography, modern
+    objects, medieval European clothing or architecture, fantasy armour, science-fiction
+    elements, anime, cartoon proportions, extra limbs, extra fingers, duplicate subject,
+    malformed hands, distorted face, blurry focal subject, visible human depiction
+    of God the Father; fallen or exploding Jericho walls, Joshua causing magic, glowing
+    sword, weaponized ark, Joshua carrying the ark, duplicate commander, medieval
+    armour, Roman legionary, multi-event collage, Jordan water, giant battle melee
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Joshua, The Conqueror, depicted as mature adult commissioned campaign leader.
+    Before Jericho falls, Joshua signals the ordered procession while priests carry
+    trumpets and the closed ark before intact walls. Joshua extends an open hand to
+    signal ordered advance while his other hand remains near one lowered or sheathed
+    sword. Stable three-quarter stance with readable command arm, alert gaze, and
+    restrained authority. Present Mature, campaign-conditioned Israelite leader with
+    focused resolve, alert humility, and credible human proportions. Dress the character
+    in Linen-and-wool tunic, weathered mantle, leather belt and simple footwear, with
+    restrained plausible leather or bronze defense. Include one Bronze Age-plausible
+    sword, sheathed or lowered, and ram’s-horn trumpets carried by priests and a closed
+    ark carried on poles. Set the scene in Dry limestone terrain outside intact Jericho
+    fortifications in clear dawn light. Ordered priestly procession carries trumpets
+    and the closed ark in the middle distance. Compose with Slightly below eye level
+    in a vertical three-quarter portrait, Joshua central-left. Foreground: Dry stone
+    and sparse scrub create a clean lead-in around his feet. Middle ground: Joshua
+    dominates; the ordered priests, trumpets, and ark remain clearly secondary. Background:
+    Intact Jericho walls occupy the middle distance through light dawn dust. Preserve
+    quiet upper and lower margins for later card-frame overlays; keep face, hands,
+    signature objects, and grounded feet inside the central crop without including
+    text or UI. Light the scene so that Warm directional dawn controls contrast on
+    Joshua’s face and signaling hand without personifying divine presence. Use a restrained
+    palette of sun-baked ochre, limestone, muted indigo, weathered leather brown,
+    restrained bronze. Render cloth, leather, bronze, stone, dust, and natural skin
+    in cinematic painterly realism with coherent anatomy, a strong readable silhouette,
+    historical restraint, layered depth, reverence, and premium print-ready finish.
+    Maintain the canonical pre-fall Jericho identity, single-sword count, symbol hierarchy,
+    palette, and composition. The ark remains closed, pole-carried, subordinate, and
+    never weaponized; Jericho walls remain intact in this pre-fall moment. Artwork
+    only, with no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
+    typography, modern objects, medieval European clothing or architecture, fantasy
+    armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
+    fingers, duplicate subject, malformed hands, distorted face, blurry focal subject,
+    visible human depiction of God the Father, fallen or exploding Jericho walls,
+    Joshua causing magic, glowing sword, weaponized ark, Joshua carrying the ark,
+    duplicate commander, medieval armour, Roman legionary, multi-event collage, Jordan
+    water, giant battle melee
+  variations:
+  - A tighter character crop preserving the same life stage, action, signature objects,
+    agency constraints, and narrative instant.
+  - A wider environmental crop preserving focal dominance, sparse supporting figures,
+    scene clarity, and all continuity constraints.
+traceability:
+  prompt_clauses:
+  - clause: Canonical identity, selected life stage, era, culture, and defining scene
+    source_paths:
+    - identity
+    - biblical_basis.primary_passages
+    - biblical_basis.claims
+  - clause: Character-specific gameplay archetype, traits, ability, strategy, and
+      differentiation
+    source_paths:
+    - gameplay_identity
+    - registry/legendary_prompt_development.json
+  - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+      figures, and continuity limits
+    source_paths:
+    - 'Scripture: Joshua 6:1-27'
+    - 'Scripture: Joshua 1:1-18'
+    - 'Scripture: Joshua 3:1-4:24'
+    - 'Scripture: Numbers 27:18-23'
+    - biblical_basis.claims
+    - visual_identity
+    - knowledge/ART_DIRECTION_GUIDE.md
+  - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+      vertical composition
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+  - clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+      and character-specific exclusions
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_development/legendary/README.md
+  - clause: Joshua lightweight profile synchronizes with, and does not replace, the
+      canonical package
+    source_paths:
+    - knowledge/characters/legendary/L010_joshua/data/character.yaml
+    - knowledge/characters/legendary/L010_joshua/data/gameplay.yaml
+    - knowledge/characters/legendary/L010_joshua/data/art.yaml
+    - knowledge/characters/legendary/L010_joshua/data/prompt.yaml
+    - knowledge/characters/legendary/L010_joshua/data/symbols.yaml
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: Canonical review may refine procession spacing while retaining
+    the approved pre-fall Jericho scene and focal order.'

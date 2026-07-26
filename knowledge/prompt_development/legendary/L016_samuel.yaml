@@ -1,0 +1,218 @@
+---
+schema_version: 0.1.0
+collector_id: L016
+character_name: Samuel
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: The Faithful Prophet
+  depicted_life_stage: mature prophet at the transition to monarchy
+  era: Iron Age I transition from judges to monarchy
+  culture: Israelite prophetic and sacrificial setting at Bethlehem during the transition
+    to monarchy
+biblical_basis:
+  primary_passages:
+  - 1 Samuel 16:1-13
+  secondary_passages:
+  - 1 Samuel 3:1-21
+  - 1 Samuel 7:3-17
+  - 1 Samuel 8:1-22
+  defining_scene: Mature Samuel quietly anoints the young David in Bethlehem after
+    discerning that outward stature is not the measure of the chosen king
+  claims:
+  - statement: Samuel ministers before the LORD, serves as prophet and judge, and
+      his words are confirmed throughout Israel.
+    classification: scripture
+    source_refs:
+    - 1 Samuel 2:18
+    - 1 Samuel 3:19-21
+    - 1 Samuel 7:15-17
+  - statement: God sends Samuel with a horn of oil to Jesse; Samuel rejects appearance-based
+      assumptions and anoints David.
+    classification: scripture
+    source_refs:
+    - 1 Samuel 16:1-13
+  - statement: The mature anointing scene best expresses Samuel’s priestly-prophetic
+      authority and Israel’s transition while keeping one coherent life stage.
+    classification: project_interpretation
+    source_refs:
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+gameplay_identity:
+  archetype: Prophetic Guide
+  traits:
+  - Discernment
+  - Authority
+  - Faithfulness
+  signature_ability: Horn of Anointing
+  strategic_identity: Reveals the fitting future leader and transfers measured support
+    through discernment; guides succession rather than fighting or ruling as king.
+  differentiation:
+  - Aaron’s support operates through tabernacle priesthood and blessing; Samuel discerns
+    and anoints leadership during national transition.
+  - Saul embodies unstable royal authority; Samuel stands outside the throne and speaks
+    accountable prophetic judgment.
+visual_identity:
+  presentation:
+  - Mature to elder Israelite prophet with weathered restraint, grief tempered by
+    obedience, and attentive discernment.
+  - No youthful temple-servant overlap; this profile intentionally selects mature
+    Samuel and records that choice.
+  wardrobe:
+  - Plain but dignified prophet’s mantle over practical linen-and-wool garments, leather
+    belt and sandals.
+  - No high-priest breastpiece, royal crown, episcopal vestments, or wizard robe.
+  materials:
+  - wool, linen, leather, horn, olive oil
+  - Bethlehem limestone, wood, clay, and natural skin
+  accessories:
+  - one small natural horn and a plain leather belt
+  signature_objects:
+  - one small natural horn containing anointing oil
+  - a controlled touch of oil at young David’s hairline
+  environment:
+  - Modest Bethlehem household courtyard prepared for sacrifice, focused tightly on
+    the anointing.
+  supporting_figures:
+  - Young David kneels or bows at lower scale; Jesse and brothers remain soft, separated
+    witnesses.
+  continuity_constraints:
+  - Depict mature Samuel only; do not combine the child hearing at Shiloh with the
+    anointing of David.
+  - Oil is ordinary and tactile, with no glowing stream, crown apparition, or magical
+    transfer effect.
+  - Avoid unsupported certainty about exact facial geometry, complexion shade, height,
+    or physique beyond narrative-relative cues.
+composition:
+  focal_action: Samuel steadies the small horn and applies a restrained measure of
+    oil to the bowed young David.
+  pose: Upright close interaction, shoulders softened by solemn responsibility, hands
+    anatomically clear around horn and oil.
+  camera: Eye-level medium portrait centered on Samuel’s face, horn, and contact point,
+    with David subordinate but dignified.
+  foreground:
+  - A simple stone threshold and sacrifice vessel edge ground the household setting.
+  middle_ground:
+  - Samuel is the primary vertical figure; David forms a lower counter-shape beneath
+    the horn.
+  background:
+  - Jesse and brothers recede in a shaded limestone courtyard without crowding.
+  card_frame_safe_space: Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - solemn discernment
+  - prophetic obedience
+  - hopeful transition
+  lighting:
+  - Soft courtyard daylight separates Samuel’s hands and face; oil reflects naturally
+    without radiance.
+  palette:
+  - weathered wool brown
+  - olive green
+  - limestone cream
+  - oil amber
+  - muted burgundy
+  textures:
+  - wool mantle, linen, horn, olive oil, weathered skin, wood, and limestone
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically grounded materials
+  - clear silhouette, coherent anatomy, layered depth, restrained drama, and print-ready
+    finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, game UI, typography, modern
+    objects, medieval European clothing or architecture, fantasy armour, science-fiction
+    elements, anime, cartoon proportions, extra limbs, extra fingers, duplicate subject,
+    malformed hands, distorted face, blurry focal subject, visible human depiction
+    of God the Father; young boy Samuel, temple bed scene, mixed life stages, high-priest
+    breastplate, kingly crown on Samuel, wizard staff, glowing oil, magical transfer
+    beam, floating crown, medieval bishop, coronation hall, adult king David
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Samuel, The Faithful Prophet, depicted as mature prophet at the transition
+    to monarchy in Mature Samuel quietly anoints the young David in Bethlehem after
+    discerning that outward stature is not the measure of the chosen king. Samuel
+    steadies the small horn and applies a restrained measure of oil to the bowed young
+    David. Upright close interaction, shoulders softened by solemn responsibility,
+    hands anatomically clear around horn and oil. Present Mature to elder Israelite
+    prophet with weathered restraint, grief tempered by obedience, and attentive discernment.
+    Dress the character in Plain but dignified prophet’s mantle over practical linen-and-wool
+    garments, leather belt and sandals. Include one small natural horn containing
+    anointing oil, and a controlled touch of oil at young David’s hairline. Set the
+    scene in Modest Bethlehem household courtyard prepared for sacrifice, focused
+    tightly on the anointing. Young David kneels or bows at lower scale; Jesse and
+    brothers remain soft, separated witnesses. Compose with Eye-level medium portrait
+    centered on Samuel’s face, horn, and contact point, with David subordinate but
+    dignified. Foreground: A simple stone threshold and sacrifice vessel edge ground
+    the household setting. Middle ground: Samuel is the primary vertical figure; David
+    forms a lower counter-shape beneath the horn. Background: Jesse and brothers recede
+    in a shaded limestone courtyard without crowding. Preserve quiet upper and lower
+    margins for later card-frame overlays; keep face, hands, signature objects, and
+    grounded feet inside the central crop without including text or UI. Light the
+    scene so that Soft courtyard daylight separates Samuel’s hands and face; oil reflects
+    naturally without radiance. Use a restrained palette of weathered wool brown,
+    olive green, limestone cream, oil amber, muted burgundy. Render wool mantle, linen,
+    horn, olive oil, weathered skin, wood, and limestone in cinematic painterly realism
+    with coherent anatomy, a strong readable silhouette, historical restraint, layered
+    depth, reverence, and premium print-ready finish. Honor these continuity limits:
+    Depict mature Samuel only; do not combine the child hearing at Shiloh with the
+    anointing of David. Oil is ordinary and tactile, with no glowing stream, crown
+    apparition, or magical transfer effect. Artwork only, with no typography, border,
+    logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
+    typography, modern objects, medieval European clothing or architecture, fantasy
+    armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
+    fingers, duplicate subject, malformed hands, distorted face, blurry focal subject,
+    visible human depiction of God the Father, young boy Samuel, temple bed scene,
+    mixed life stages, high-priest breastplate, kingly crown on Samuel, wizard staff,
+    glowing oil, magical transfer beam, floating crown, medieval bishop, coronation
+    hall, adult king David
+  variations:
+  - A tighter character crop preserving the same life stage, action, signature objects,
+    agency constraints, and narrative instant.
+  - A wider environmental crop preserving focal dominance, sparse supporting figures,
+    scene clarity, and all continuity constraints.
+traceability:
+  prompt_clauses:
+  - clause: Canonical identity, selected life stage, era, culture, and defining scene
+    source_paths:
+    - identity
+    - biblical_basis.primary_passages
+    - biblical_basis.claims
+  - clause: Character-specific gameplay archetype, traits, ability, strategy, and
+      differentiation
+    source_paths:
+    - gameplay_identity
+    - registry/legendary_prompt_development.json
+  - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+      figures, and continuity limits
+    source_paths:
+    - 'Scripture: 1 Samuel 16:1-13'
+    - 'Scripture: 1 Samuel 3:1-21'
+    - 'Scripture: 1 Samuel 7:3-17'
+    - 'Scripture: 1 Samuel 8:1-22'
+    - biblical_basis.claims
+    - visual_identity
+    - knowledge/ART_DIRECTION_GUIDE.md
+  - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+      vertical composition
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+  - clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+      and character-specific exclusions
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_development/legendary/README.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: The mature-prophet choice is fixed for this draft; human review
+    may refine the Bethlehem courtyard without importing child-Samuel imagery.'

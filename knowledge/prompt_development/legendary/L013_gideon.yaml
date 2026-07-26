@@ -1,0 +1,215 @@
+---
+schema_version: 0.1.0
+collector_id: L013
+character_name: Gideon
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: The Reluctant Commander
+  depicted_life_stage: adult judge on the night of the Midianite camp action
+  era: Iron Age I judges narrative setting
+  culture: Israelite hill-country and Jezreel campaign context
+biblical_basis:
+  primary_passages:
+  - Judges 7:1-25
+  secondary_passages:
+  - Judges 6:11-40
+  - Judges 8:22-35
+  defining_scene: Gideon raises a ram’s-horn trumpet as his small force reveals torches
+    from broken jars around the Midianite camp
+  claims:
+  - statement: Gideon’s force is reduced to three hundred, divided into companies
+      equipped with trumpets, empty jars, and torches.
+    classification: scripture
+    source_refs:
+    - Judges 7:2-8
+    - Judges 7:16
+  - statement: At Gideon’s signal the companies blow trumpets, break jars, display
+      torches, and hold positions around the camp.
+    classification: scripture
+    source_refs:
+    - Judges 7:17-22
+  - statement: A tight focus on Gideon, one torch, and a few echoed signal points
+      preserves clarity while implying the encirclement.
+    classification: project_interpretation
+    source_refs:
+    - docs/ARTWORK_REVIEW_STANDARD.md
+gameplay_identity:
+  archetype: Small-Force Tactician
+  traits:
+  - Faith
+  - Strategy
+  - Humility
+  signature_ability: Three Hundred
+  strategic_identity: Rewards a deliberately small allied force that times coordinated
+    signals to disrupt a larger opponent; wins through obedience and clarity rather
+    than brute strength.
+  differentiation:
+  - Joshua coordinates a full procession against a fortification; Gideon uses a reduced
+    force, concealment, and timed signals.
+  - Deborah strengthens allied leadership through judgment and counsel; Gideon’s identity
+    is nocturnal tactical disruption.
+visual_identity:
+  presentation:
+  - Alert adult commander whose concentrated face retains traces of reluctant responsibility
+    rather than swagger.
+  - Ordinary human build and simple Israelite presentation reinforce his unlikely
+    calling.
+  wardrobe:
+  - Dark practical wool mantle over a plain tunic, leather belt and sandals suited
+    to quiet night movement.
+  - No kingly crown, ornate armour, ninja costume, or fantasy assassin styling.
+  materials:
+  - dark woven wool, pottery, wood, leather, horn
+  - natural flame, dust, tent cloth, and stone
+  accessories:
+  - simple leather belt securing the empty jar before the signal
+  signature_objects:
+  - one ram’s-horn trumpet in Gideon’s raised hand
+  - one freshly broken clay jar revealing one torch
+  environment:
+  - Night ridge above the Midianite camp, where sparse torch and trumpet points mark
+    a wide encirclement.
+  supporting_figures:
+  - Two nearby members of the three hundred echo Gideon’s signal at reduced scale;
+    the remaining force is suggested by distant points.
+  continuity_constraints:
+  - Limit the close scene to Gideon, two nearby allies, one focal torch, and sparse
+    distant signals to prevent overcrowding.
+  - Flame is ordinary torch fire; confusion in the camp is environmental and distant,
+    with no magical shockwave.
+  - Avoid unsupported certainty about exact facial geometry, complexion shade, height,
+    or physique beyond narrative-relative cues.
+composition:
+  focal_action: Gideon lifts one trumpet to signal while a broken jar at his feet
+    reveals a bright torch.
+  pose: Forward-leaning command stance, trumpet readable against dark sky, free hand
+    directing the two nearest allies.
+  camera: Slight low-angle medium-full portrait with a compressed, uncluttered signal
+    triangle.
+  foreground:
+  - Two clay fragments and the revealed torch form a clear visual cue below Gideon.
+  middle_ground:
+  - Gideon and two subordinate allies create a sparse coordinated rhythm.
+  background:
+  - Small fire points circle distant tents in a dark valley without showing a mass
+    melee.
+  card_frame_safe_space: Preserve quiet upper and lower margins for later card-frame
+    overlays; keep face, hands, signature objects, and grounded feet inside the central
+    crop without including text or UI.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - tense obedience
+  - strategic surprise
+  - courage overcoming reluctance
+  lighting:
+  - One warm torch provides motivated side light against cool moonlit night; no magical
+    illumination.
+  palette:
+  - charcoal blue
+  - clay ochre
+  - fire amber
+  - dark wool brown
+  - moonlit grey
+  textures:
+  - rough pottery, horn, soot, woven mantle, tent cloth, dust, and natural flame
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically grounded materials
+  - clear silhouette, coherent anatomy, layered depth, restrained drama, and print-ready
+    finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, game UI, typography, modern
+    objects, medieval European clothing or architecture, fantasy armour, science-fiction
+    elements, anime, cartoon proportions, extra limbs, extra fingers, duplicate subject,
+    malformed hands, distorted face, blurry focal subject, visible human depiction
+    of God the Father; crowded army poster, hundreds of foreground soldiers, magical
+    fire, exploding jars, grenade imagery, modern trumpet, brass orchestral trumpet,
+    royal crown, fantasy assassin, glowing eyes, daylight battle, gore
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Gideon, The Reluctant Commander, depicted as adult judge on the night of
+    the Midianite camp action in Gideon raises a ram’s-horn trumpet as his small force
+    reveals torches from broken jars around the Midianite camp. Gideon lifts one trumpet
+    to signal while a broken jar at his feet reveals a bright torch. Forward-leaning
+    command stance, trumpet readable against dark sky, free hand directing the two
+    nearest allies. Present Alert adult commander whose concentrated face retains
+    traces of reluctant responsibility rather than swagger. Dress the character in
+    Dark practical wool mantle over a plain tunic, leather belt and sandals suited
+    to quiet night movement. Include one ram’s-horn trumpet in Gideon’s raised hand,
+    and one freshly broken clay jar revealing one torch. Set the scene in Night ridge
+    above the Midianite camp, where sparse torch and trumpet points mark a wide encirclement.
+    Two nearby members of the three hundred echo Gideon’s signal at reduced scale;
+    the remaining force is suggested by distant points. Compose with Slight low-angle
+    medium-full portrait with a compressed, uncluttered signal triangle. Foreground:
+    Two clay fragments and the revealed torch form a clear visual cue below Gideon.
+    Middle ground: Gideon and two subordinate allies create a sparse coordinated rhythm.
+    Background: Small fire points circle distant tents in a dark valley without showing
+    a mass melee. Preserve quiet upper and lower margins for later card-frame overlays;
+    keep face, hands, signature objects, and grounded feet inside the central crop
+    without including text or UI. Light the scene so that One warm torch provides
+    motivated side light against cool moonlit night; no magical illumination. Use
+    a restrained palette of charcoal blue, clay ochre, fire amber, dark wool brown,
+    moonlit grey. Render rough pottery, horn, soot, woven mantle, tent cloth, dust,
+    and natural flame in cinematic painterly realism with coherent anatomy, a strong
+    readable silhouette, historical restraint, layered depth, reverence, and premium
+    print-ready finish. Honor these continuity limits: Limit the close scene to Gideon,
+    two nearby allies, one focal torch, and sparse distant signals to prevent overcrowding.
+    Flame is ordinary torch fire; confusion in the camp is environmental and distant,
+    with no magical shockwave. Artwork only, with no typography, border, logo, or
+    interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, game UI,
+    typography, modern objects, medieval European clothing or architecture, fantasy
+    armour, science-fiction elements, anime, cartoon proportions, extra limbs, extra
+    fingers, duplicate subject, malformed hands, distorted face, blurry focal subject,
+    visible human depiction of God the Father, crowded army poster, hundreds of foreground
+    soldiers, magical fire, exploding jars, grenade imagery, modern trumpet, brass
+    orchestral trumpet, royal crown, fantasy assassin, glowing eyes, daylight battle,
+    gore
+  variations:
+  - A tighter character crop preserving the same life stage, action, signature objects,
+    agency constraints, and narrative instant.
+  - A wider environmental crop preserving focal dominance, sparse supporting figures,
+    scene clarity, and all continuity constraints.
+traceability:
+  prompt_clauses:
+  - clause: Canonical identity, selected life stage, era, culture, and defining scene
+    source_paths:
+    - identity
+    - biblical_basis.primary_passages
+    - biblical_basis.claims
+  - clause: Character-specific gameplay archetype, traits, ability, strategy, and
+      differentiation
+    source_paths:
+    - gameplay_identity
+    - registry/legendary_prompt_development.json
+  - clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+      figures, and continuity limits
+    source_paths:
+    - 'Scripture: Judges 7:1-25'
+    - 'Scripture: Judges 6:11-40'
+    - 'Scripture: Judges 8:22-35'
+    - biblical_basis.claims
+    - visual_identity
+    - knowledge/ART_DIRECTION_GUIDE.md
+  - clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+      vertical composition
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+  - clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+      and character-specific exclusions
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_development/legendary/README.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: The first image review should confirm that two nearby allies and
+    distant signal points imply three hundred without crowding the composition.'

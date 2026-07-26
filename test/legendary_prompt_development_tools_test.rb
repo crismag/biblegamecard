@@ -4,9 +4,9 @@ require "json"
 require "open3"
 require "pathname"
 require "tmpdir"
-require "minitest/autorun"
+require "test/unit"
 
-class LegendaryPromptDevelopmentToolsTest < Minitest::Test
+class LegendaryPromptDevelopmentToolsTest < Test::Unit::TestCase
   ROOT = Pathname.new(__dir__).parent.expand_path
 
   def run_ruby(*args)
