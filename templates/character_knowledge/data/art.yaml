@@ -1,0 +1,20 @@
+schema_version: 1.0.0
+character_id: CHARACTER_ID
+profile_version: 0.1.0
+classification_note: ""
+life_stage: {preferred: null, numeric_age: null, allowed_variants: []}
+body: {}
+face: {}
+hair: {}
+beard: {}
+wardrobe: {}
+weapon: {}
+pose: {}
+scene: {mode: null, narrative_event_id: null, location_id: null, supporting_entity_ids: [], required_symbol_ids: []}
+composition: {}
+lighting: {}
+palette: {primary: [], accents: [], prohibited: []}
+rendering: {style_module_ids: [], material_priorities: [], quality_targets: []}
+negative_concept_ids: []
+continuity: {stable_field_paths: [], approved_environment_location_ids: [], approved_reference_asset_ids: []}
+review_state: draft

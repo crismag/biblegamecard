@@ -1,0 +1,165 @@
+schema_version: 1.0.0
+character_id: JOSHUA_SON_OF_NUN
+references:
+  - id: REF_EXODUS_17_8_16
+    testament: old
+    book: Exodus
+    segments: [{chapter: 17, verse_start: 8, verse_end: 16}]
+    context: Battle against Amalek
+    importance: primary
+  - id: REF_EXODUS_24_13
+    testament: old
+    book: Exodus
+    segments: [{chapter: 24, verse_start: 13, verse_end: 13}]
+    context: Joshua accompanies Moses at Sinai
+    importance: supporting
+  - id: REF_EXODUS_32_17_18
+    testament: old
+    book: Exodus
+    segments: [{chapter: 32, verse_start: 17, verse_end: 18}]
+    context: Joshua descends Sinai with Moses
+    importance: supporting
+  - id: REF_EXODUS_33_11
+    testament: old
+    book: Exodus
+    segments: [{chapter: 33, verse_start: 11, verse_end: 11}]
+    context: Joshua remains near the tent
+    importance: supporting
+  - id: REF_NUMBERS_11_24_29
+    testament: old
+    book: Numbers
+    segments: [{chapter: 11, verse_start: 24, verse_end: 29}]
+    context: Joshua responds to Eldad and Medad
+    importance: supporting
+  - id: REF_NUMBERS_13_8_16
+    testament: old
+    book: Numbers
+    segments: [{chapter: 13, verse_start: 8, verse_end: 8}, {chapter: 13, verse_start: 16, verse_end: 16}]
+    context: Tribal assignment and renaming from Hoshea to Joshua
+    importance: primary
+  - id: REF_NUMBERS_14_6_9_30_38
+    testament: old
+    book: Numbers
+    segments: [{chapter: 14, verse_start: 6, verse_end: 9}, {chapter: 14, verse_start: 30, verse_end: 30}, {chapter: 14, verse_start: 38, verse_end: 38}]
+    context: Joshua and Caleb's faithful report and survival
+    importance: primary
+  - id: REF_NUMBERS_27_18_23
+    testament: old
+    book: Numbers
+    segments: [{chapter: 27, verse_start: 18, verse_end: 23}]
+    context: Public commissioning before Eleazar and Israel
+    importance: primary
+  - id: REF_DEUTERONOMY_31_1_23
+    testament: old
+    book: Deuteronomy
+    segments: [{chapter: 31, verse_start: 1, verse_end: 23}]
+    context: Moses and the LORD charge Joshua
+    importance: primary
+  - id: REF_DEUTERONOMY_34_9_12
+    testament: old
+    book: Deuteronomy
+    segments: [{chapter: 34, verse_start: 9, verse_end: 12}]
+    context: Joshua's wisdom and succession; Moses' unique standing
+    importance: primary
+  - id: REF_JOSHUA_1_1_18
+    testament: old
+    book: Joshua
+    segments: [{chapter: 1, verse_start: 1, verse_end: 18}]
+    context: Commission and assumption of leadership
+    importance: primary
+  - id: REF_JOSHUA_2_1_24
+    testament: old
+    book: Joshua
+    segments: [{chapter: 2, verse_start: 1, verse_end: 24}]
+    context: Spies and Rahab
+    importance: primary
+  - id: REF_JOSHUA_3_1_4_24
+    testament: old
+    book: Joshua
+    segments: [{chapter: 3, verse_start: 1, verse_end: 17}, {chapter: 4, verse_start: 1, verse_end: 24}]
+    context: Jordan crossing and memorial stones
+    importance: primary
+  - id: REF_JOSHUA_5_1_15
+    testament: old
+    book: Joshua
+    segments: [{chapter: 5, verse_start: 1, verse_end: 15}]
+    context: Gilgal covenant signs, Passover, and commander encounter
+    importance: primary
+  - id: REF_JOSHUA_6_1_27
+    testament: old
+    book: Joshua
+    segments: [{chapter: 6, verse_start: 1, verse_end: 27}]
+    context: Jericho and Rahab's rescue
+    importance: primary
+  - id: REF_JOSHUA_7_1_8_29
+    testament: old
+    book: Joshua
+    segments: [{chapter: 7, verse_start: 1, verse_end: 26}, {chapter: 8, verse_start: 1, verse_end: 29}]
+    context: Achan, defeat, judgment, and Ai
+    importance: primary
+  - id: REF_JOSHUA_8_30_35
+    testament: old
+    book: Joshua
+    segments: [{chapter: 8, verse_start: 30, verse_end: 35}]
+    context: Altar and reading of the law at Mount Ebal
+    importance: primary
+  - id: REF_JOSHUA_9_1_10_43
+    testament: old
+    book: Joshua
+    segments: [{chapter: 9, verse_start: 1, verse_end: 27}, {chapter: 10, verse_start: 1, verse_end: 43}]
+    context: Gibeonite treaty and southern campaign
+    importance: primary
+  - id: REF_JOSHUA_11_1_12_24
+    testament: old
+    book: Joshua
+    segments: [{chapter: 11, verse_start: 1, verse_end: 23}, {chapter: 12, verse_start: 1, verse_end: 24}]
+    context: Northern campaign and defeated-kings summary
+    importance: primary
+  - id: REF_JOSHUA_13_1_21_45
+    testament: old
+    book: Joshua
+    segments: [{chapter: 13, verse_start: 1, verse_end: 33}, {chapter: 14, verse_start: 1, verse_end: 15}, {chapter: 15, verse_start: 1, verse_end: 63}, {chapter: 16, verse_start: 1, verse_end: 10}, {chapter: 17, verse_start: 1, verse_end: 18}, {chapter: 18, verse_start: 1, verse_end: 28}, {chapter: 19, verse_start: 1, verse_end: 51}, {chapter: 20, verse_start: 1, verse_end: 9}, {chapter: 21, verse_start: 1, verse_end: 45}]
+    context: Remaining land, allotments, Joshua's inheritance, refuge and Levitical towns
+    importance: primary
+  - id: REF_JOSHUA_22_1_34
+    testament: old
+    book: Joshua
+    segments: [{chapter: 22, verse_start: 1, verse_end: 34}]
+    context: Eastern tribes return and altar dispute
+    importance: primary
+  - id: REF_JOSHUA_23_1_24_33
+    testament: old
+    book: Joshua
+    segments: [{chapter: 23, verse_start: 1, verse_end: 16}, {chapter: 24, verse_start: 1, verse_end: 33}]
+    context: Farewell, covenant renewal, death, burial, and influence
+    importance: primary
+  - id: REF_JUDGES_2_6_9
+    testament: old
+    book: Judges
+    segments: [{chapter: 2, verse_start: 6, verse_end: 9}]
+    context: Joshua's death and burial recalled
+    importance: supporting
+  - id: REF_1_KINGS_16_34
+    testament: old
+    book: 1 Kings
+    segments: [{chapter: 16, verse_start: 34, verse_end: 34}]
+    context: Joshua's word concerning Jericho recalled
+    importance: supporting
+  - id: REF_NEHEMIAH_8_17
+    testament: old
+    book: Nehemiah
+    segments: [{chapter: 8, verse_start: 17, verse_end: 17}]
+    context: Joshua-era comparison at the Feast of Booths
+    importance: supporting
+  - id: REF_ACTS_7_45
+    testament: new
+    book: Acts
+    segments: [{chapter: 7, verse_start: 45, verse_end: 45}]
+    context: Joshua brings the tabernacle into the land
+    importance: supporting
+  - id: REF_HEBREWS_4_8
+    testament: new
+    book: Hebrews
+    segments: [{chapter: 4, verse_start: 8, verse_end: 8}]
+    context: Joshua's rest distinguished from the further rest
+    importance: supporting

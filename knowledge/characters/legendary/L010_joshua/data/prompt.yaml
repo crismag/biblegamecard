@@ -1,0 +1,42 @@
+schema_version: 1.0.0
+character_id: JOSHUA_SON_OF_NUN
+profile_version: 1.0.0
+asset_id: L010-JOSHUA-ART-01
+semantic_components:
+  subject:
+    field_refs: [character.identity, character.names.primary, character.leadership, art.life_stage, art.body, art.face, art.hair, art.beard]
+  identity:
+    field_refs: [character.summary, character.titles.project_title, gameplay.archetype, gameplay.theme]
+  narrative:
+    field_refs: [art.scene.mode, art.scene.narrative_event_id, art.scene.temporal_position]
+  action:
+    field_refs: [art.pose, art.weapon]
+  relationships_and_symbols:
+    field_refs: [art.scene.supporting_entity_ids, art.scene.required_symbol_ids, symbols.symbol_uses]
+  environment:
+    field_refs: [art.scene.location_id, art.scene.environment, art.scene.weather, art.scene.background]
+  composition:
+    field_refs: [art.composition]
+  lighting_and_color:
+    field_refs: [art.lighting, art.palette]
+  rendering:
+    field_refs: [art.rendering.style_module_ids, art.rendering.material_priorities]
+  quality:
+    field_refs: [art.rendering.quality_targets, art.composition.thumbnail_requirements]
+  negative:
+    field_refs: [art.negative_concept_ids, art.palette.prohibited, symbols.prohibited_visual_concepts]
+compiler:
+  grammar_path: knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  compiler_contract_path: knowledge/prompt_engineering/PROMPT_COMPILER.md
+  clause_order: [subject, identity, narrative, action, relationships_and_symbols, environment, composition, lighting_and_color, rendering, quality, output, negative]
+  module_ids: [VISUAL_LANGUAGE, STYLE_BIBLICAL_REALISM, STYLE_PAINTERLY_PREMIUM, COMP_HERO_THREE_QUARTER, LIGHT_DAWN, NEGATIVE_PROMPT_LIBRARY]
+  model_adapter: null
+output:
+  aspect_ratio_field_ref: art.composition.aspect_ratio
+  clean_artwork_only: true
+  embedded_typography: false
+compiled_artifact:
+  version: 1.0.0
+  path: generated/prompts/L010-JOSHUA-ART-01/1.0.0/prompt.txt
+  traceability_path: generated/prompts/L010-JOSHUA-ART-01/1.0.0/prompt_traceability.yaml
+  approval_state: review_requested

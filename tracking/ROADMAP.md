@@ -8,32 +8,34 @@ This roadmap tracks the transition from repository foundation to repeatable bibl
 | Milestone | Status | Exit criteria |
 |---|---|---|
 | Repository Foundation | Complete | Core governance, schemas, registries, templates, and production boundaries are available. |
-| Art and Prompt Foundation | In review | Visual language, design guides, prompt grammar, templates, versioning, and model guidance are approved. |
-| Joshua Reference Package | Pending | Joshua is completed from canonical knowledge through reviewed artwork and card layout. |
+| Art and Prompt Foundation | Complete | Visual language, design guides, prompt grammar, templates, versioning, and model guidance are approved. |
+| Joshua Reference Package | In review | Joshua package sources and compiled prompt are complete; human reviews, generated artwork, and card layout remain. |
 | Reference Archetypes | Pending | Leader, queen, king, prophet, and apostle archetypes validate visual cohesion. |
 | Core Legendary Production | Pending | All L001-L034 packages and approved assets are complete. |
 | Print Production | Pending | Card backs, bleeds, colour checks, proofs, and manufacturing exports are approved. |
 | Game Integration | Pending | Card data and assets are consumable by the first playable digital or physical prototype. |
 
 ## Current objective
-Review and approve the Art and Prompt Foundation before producing additional official character artwork.
+Review the Joshua reference package across biblical/theological, gameplay, art-direction, and prompt gates before generating its official artwork.
 
 ## Current batch
-- Establish the project visual language.
-- Define character, environment, composition, lighting, colour, and symbolism standards.
-- Establish reusable style modules and a negative-prompt library.
-- Define prompt compilation grammar, templates, versioning, and model-specific adaptation.
-- Record design rationale and prepare the Joshua reference implementation.
+- Review the complete `cards/L010_joshua/` knowledge and source package.
+- Review compiled prompt `L010-JOSHUA-ART-01` independently from its sources.
+- Select and record a model adapter and output resolution.
+- Generate and inspect official artwork only after source and prompt approval.
+- Validate the reference structure before cloning it for later characters.
+- Validate Phase 3B production traceability, continuity, evaluation, corrections, asset versioning, and G1–G7 evidence without generating artwork.
+- Validate Phase 3C normalized canonical knowledge, graph references, structured Scripture/events, human projections, and reusable character-data templates.
 
 ## Review checklist
 - Confirm the visual language reflects the intended premium biblical collectible identity.
 - Confirm sacred depiction, miracle, symbolism, and historical boundaries are acceptable.
 - Confirm prompt grammar and templates are sufficiently model-neutral.
 - Confirm versioning and provenance requirements are practical.
-- Merge the documentation batch before starting the Joshua reference package.
+- Confirm Joshua sources, compiled prompt, and package navigation are production-ready before generation.
 
 ## Next gated milestone
-**Joshua Reference Package** begins only after this documentation batch is reviewed and merged.
+**Reference Archetypes** begins after Joshua source, prompt, artwork, and card-layout reviews prove the complete pipeline.
 
 ## Status vocabulary
 - `Pending`: not started.

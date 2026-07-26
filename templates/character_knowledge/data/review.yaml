@@ -1,0 +1,5 @@
+schema_version: 1.0.0
+character_id: CHARACTER_ID
+review_state: {canonical_knowledge: draft, scripture_references: draft, graph_integrity: draft, gameplay: draft, art: draft, prompt_source: draft, compiled_prompt: draft, generated_artwork: blocked, card_layout: blocked, release: blocked}
+generation_state: {state: blocked, generation_request_path: null, blocking_reasons: [CANONICAL_KNOWLEDGE_INCOMPLETE]}
+required_review_roles: [BIBLICAL_THEOLOGICAL, GAMEPLAY, HISTORICAL, ART, PROMPT, TECHNICAL, PRINT, PRODUCTION]

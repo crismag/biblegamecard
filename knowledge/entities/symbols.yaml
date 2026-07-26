@@ -1,0 +1,38 @@
+schema_version: 1.0.0
+symbols:
+  - id: SWORD_OF_COMMAND
+    canonical_label: Sheathed or lowered sword
+    meaning: Readiness and command under authority
+    classification: project_interpretation
+  - id: RAMS_HORN_TRUMPETS
+    canonical_label: Ram's-horn trumpets
+    meaning: Ordered obedience and announced action at Jericho
+    classification: scripture_grounded
+  - id: ARK_OF_COVENANT
+    canonical_label: Ark of the covenant
+    meaning: The LORD's covenant presence with Israel
+    classification: scripture_grounded
+  - id: JORDAN_WATER
+    canonical_label: Jordan water
+    meaning: Threshold, passage, and remembrance
+    classification: scripture_grounded
+  - id: TWELVE_MEMORIAL_STONES
+    canonical_label: Twelve memorial stones
+    meaning: Remembrance and teaching future generations
+    classification: scripture_grounded
+  - id: JERICHO_WALL
+    canonical_label: Jericho wall
+    meaning: Formidable barrier given into Israel's hand
+    classification: scripture_grounded
+  - id: INHERITANCE_HORIZON
+    canonical_label: Land and open horizon
+    meaning: Promised inheritance and responsibility
+    classification: project_interpretation
+  - id: COVENANT_WITNESS
+    canonical_label: Covenant scroll or witness stone
+    meaning: Law, covenant choice, and renewal
+    classification: scripture_grounded
+  - id: UNMARKED_COMMAND_BANNER
+    canonical_label: Simple unmarked command banner
+    meaning: Formation unity
+    classification: project_interpretation

@@ -1,0 +1,6 @@
+schema_version: 1.0.0
+document_type: canonical_continuity_pointer
+collector_id: L000
+canonical_source: knowledge/characters/legendary/L000_character/data/art.yaml
+canonical_knowledge_version: 0.1.0
+projection_policy: Read canonical_source; do not add character facts to this compatibility pointer.

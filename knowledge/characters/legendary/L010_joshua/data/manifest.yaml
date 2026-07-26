@@ -1,0 +1,44 @@
+schema_version: 1.0.0
+package_id: L010_JOSHUA_CANONICAL_KNOWLEDGE
+character_id: JOSHUA_SON_OF_NUN
+collector_id: L010
+package_version: 2.0.0
+knowledge_version: 1.0.0
+master_schema: schemas/knowledge/canonical_character_package.schema.json
+documents:
+  character: character.yaml
+  references: references.yaml
+  timeline: timeline.yaml
+  relationships: relationships.yaml
+  symbols: symbols.yaml
+  gameplay: gameplay.yaml
+  art: art.yaml
+  prompt: prompt.yaml
+  review: review.yaml
+  version_history: version_history.yaml
+registries:
+  entities: knowledge/entities/biblical_entities.yaml
+  locations: knowledge/entities/locations.yaml
+  symbols: knowledge/entities/symbols.yaml
+human_views:
+  root: cards/L010_joshua
+  authority: derived_review_view
+  edit_policy: Change canonical data first; then update or regenerate the human view in the same commit.
+  compatibility_pointers:
+    cards/L010_joshua/character.yaml: character
+    cards/L010_joshua/gameplay.yaml: gameplay
+    cards/L010_joshua/artwork.yaml: art
+    cards/L010_joshua/continuity.yaml: art
+    cards/L010_joshua/prompt_source.yaml: prompt
+  projections:
+    identity.md: [character.identity, character.names, character.titles, character.leadership, character.lifespan, character.summary]
+    biblical_basis.md: [references.references, character.failures_and_limits]
+    timeline.md: [timeline.events]
+    relationships.md: [relationships.relationships]
+    legacy.md: [character.leadership, character.virtues, character.failures_and_limits, character.summary]
+    gameplay_identity.md: [gameplay]
+    symbolism.md: [symbols]
+    art_direction.md: [art]
+    context.md: [character, gameplay, art, prompt]
+    prompt_source.md: [prompt.semantic_components]
+consumers: [website, mobile_app, deck_builder, card_search, prompt_compiler, lore_explorer, ai_assistant, gameplay_engine, rpg_dialogue, story_mode, analytics]

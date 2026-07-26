@@ -1,0 +1,32 @@
+schema_version: 1.0.0
+character_id: JOSHUA_SON_OF_NUN
+profile_version: 1.0.0
+rarity: legendary
+archetype: BATTLE_COMMANDER
+roles:
+  primary: LEADER
+  secondary: [TEMPO, COORDINATED_AGGRESSION, OBJECTIVE_CONTROL]
+theme: Ordered allied participation creates an opening against fortifications and converts secured ground into inheritance.
+player_promise: My army advances together, barriers open, and claimed ground becomes inheritance.
+keywords: [COMMAND, COURAGE, FORMATION, ADVANCE, CLAIM, MEMORIAL]
+preferred_mechanics:
+  - {id: COMMAND_FORMATION, concept: Reward multiple allied roles acting in sequence., rationale_reference_ids: [REF_JOSHUA_6_1_27]}
+  - {id: COURAGE, concept: Resist fear or morale disruption under covenant conditions., rationale_reference_ids: [REF_JOSHUA_1_1_18]}
+  - {id: FORTIFICATION_BREACH, concept: Answer defenses after coordinated preparation rather than personal magic., rationale_reference_ids: [REF_JOSHUA_6_1_27]}
+  - {id: CROSSING_PATH, concept: Open a route through terrain or control effects using event or support framing., rationale_reference_ids: [REF_JOSHUA_3_1_4_24]}
+  - {id: MEMORIAL_INHERITANCE, concept: Place persistent advantage after securing and holding an objective., rationale_reference_ids: [REF_JOSHUA_3_1_4_24, REF_JOSHUA_13_1_21_45]}
+  - {id: COVENANT_ACCOUNTABILITY, concept: Leadership loses efficiency when formation acts presumptuously or breaks faith., rationale_reference_ids: [REF_JOSHUA_7_1_8_29, REF_JOSHUA_9_1_10_43]}
+strengths: [COORDINATED_ALLIED_TURNS, POSITIONING, STATIC_DEFENSE_PRESSURE, FEAR_RESISTANCE, OBJECTIVE_CONVERSION]
+weaknesses: [FORMATION_DEPENDENCE, PREPARATION_DISRUPTION, COVENANT_ACCOUNTABILITY, LIMITED_SOLO_DUELING]
+synergy_tags: [ISRAEL, PRIEST_SUPPORT, COVENANT, MEMORIAL, INHERITANCE]
+differentiation:
+  - {other_character_id: MOSES, distinction: Moses liberates and controls barriers; Joshua advances, coordinates, and claims objectives.}
+  - {other_character_id: CALEB_SON_OF_JEPHUNNEH, distinction: Caleb is an enduring individual claimant; Joshua is a whole-army commander.}
+signature_ability:
+  name: Walls Fall Down
+  rules_text: null
+  concept: Break a fortification only after coordinated allied participation, then convert the opened objective into persistent positional advantage.
+  rationale_reference_ids: [REF_JOSHUA_6_1_27]
+prohibited_mechanic_tags: [ARK_AS_MAGICAL_WEAPON, REWARD_CRUELTY, ETHNIC_TARGETING, JOSHUA_OWNS_DIVINE_MIRACLE]
+balance_state: philosophy_only
+review_state: review_requested

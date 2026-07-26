@@ -1,0 +1,108 @@
+schema_version: 1.0
+asset_id: L010-JOSHUA-ART-01
+prompt_version: 1.0.0
+compiled_prompt_sha256: b16d58cc54402609a66a0e7bc22645508e5317611cea657467a3097da87be112
+clauses:
+  - id: C01
+    text: "A vertical full-art collectible illustration of Joshua son of Nun, a mature Israelite leader and Moses' commissioned successor."
+    text_sha256: 5ae7abb83bbecaa0401a3927422a7485dfc1246c78509b73e808df73011d823a
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/character.yaml:names.primary"
+      - "knowledge/characters/legendary/L010_joshua/data/character.yaml:leadership"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:life_stage"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:composition.framing"
+  - id: C02
+    text: "Depict a synthesized pre-Jericho moment in which he prepares Israel's ordered advance, with courage grounded in divine commission and obedience rather than personal supernatural power."
+    text_sha256: 8eaa2e629c1e306f606eb63085a1a382d417347d310e37ba3e3095a18891445b
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:scene.mode"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:scene.narrative_event_id"
+      - "knowledge/characters/legendary/L010_joshua/data/character.yaml:virtues"
+      - "knowledge/characters/legendary/L010_joshua/data/symbols.yaml:prohibited_visual_concepts"
+  - id: C03
+    text: "Give him a sturdy, campaign-conditioned build, weathered Levantine features, dark hair with modest greying, a practical beard, layered linen and wool garments, a weathered mantle, leather belt, and restrained plausible leather and bronze defense."
+    text_sha256: 51415f8e83b893ee886dabc521f456fed83c99ce1c142d43e5b9c6810c5bec66
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:body"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:face"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:hair"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:beard"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:wardrobe"
+  - id: C04
+    text: "Place him in a stable three-quarter stance with focused resolve and alert humility; one open hand signals the formation forward while the other rests near a sheathed or lowered functional sword with believable contact."
+    text_sha256: c10b01f5b3850811420996ee74aa06d2e361544dec0000e0c0d0bd7a910802c0
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:pose"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:weapon"
+      - "knowledge/characters/legendary/L010_joshua/data/gameplay.yaml:theme"
+  - id: C05
+    text: "Behind him, show an orderly secondary procession with priests respectfully carrying the closed ark on poles and carrying ram's-horn trumpets."
+    text_sha256: b65485686b8ffb4aeb610fd68f9b56ae4581c2415b8be20382d7feebd7f46e53
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:scene.supporting_entity_ids"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:scene.required_symbol_ids"
+      - "knowledge/characters/legendary/L010_joshua/data/symbols.yaml:symbol_uses"
+  - id: C06
+    text: "Set the scene in dry Late Bronze Age southern-Levant terrain with limestone earth, sparse scrub, light dust, and Jericho's intact fortified mass in the middle distance."
+    text_sha256: 16747c107e383a03a890fbba4b9c4ee75b36a79f9a2091a4be5c4e9ac4a8b542
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:scene.location_id"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:scene.environment"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:scene.weather"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:scene.background"
+  - id: C07
+    text: "Frame as a vertical 2:3 three-quarter figure from slightly below eye level, Joshua central-left, with the focal hierarchy Joshua, procession and ark, then Jericho; preserve a quiet upper region and simplified lower margins for card overlays."
+    text_sha256: 07dc046b3da96fec363dc18019f9f7a723eddf5557e966bf44c642f4675e09a0
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:composition"
+      - "knowledge/art/COMPOSITION_GUIDE.md"
+  - id: C08
+    text: "Use warm directional dawn sunlight, controlled contrast on his face and signaling hand, atmospheric silhouette separation, sun-baked ochre, limestone, muted indigo, weathered leather brown, restrained bronze, and dusty red-brown."
+    text_sha256: 7c00868d1250d6c40a7acc161c15aa313bb277dad2275cac426b90b5cac49a0a
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:lighting"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:palette"
+      - "knowledge/art/LIGHTING_AND_COLOR.md"
+  - id: C09
+    text: "Render in premium painterly biblical realism with tactile cloth, leather, bronze, stone, dust, and natural skin."
+    text_sha256: 9c73a4338e2536e0eb6ad81c41c19f35bdc296acdeec51c63db1172942cfbce3
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:rendering.style_module_ids"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:rendering.material_priorities"
+      - "knowledge/art/STYLE_MODULES.md"
+  - id: C10
+    text: "Ensure coherent anatomy, hands, sword and scabbard, ark poles, procession scale, face clarity, material separation, thumbnail readability, clean art, and print-aware detail hierarchy."
+    text_sha256: 8cb5e84663ecd927b4ddcd05bcfd47fbd83ac644d1ae13335fc1739687609279
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:rendering.quality_targets"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:composition.thumbnail_requirements"
+      - "knowledge/art/CHARACTER_DESIGN_GUIDE.md"
+  - id: C11
+    text: "Produce illustration-only clean artwork at a 2:3 aspect ratio with no embedded typography."
+    text_sha256: 9548f567bf75736668efc2d6cc96acd77df996c819c1e942134a35789c34c9b2
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/prompt.yaml:output"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:composition.aspect_ratio"
+      - "knowledge/prompt_engineering/PROMPT_GRAMMAR.md"
+  - id: C12
+    text: "Exclude personal magic, divine embodiment, and all listed negative-prompt conditions."
+    text_sha256: 12c60b34851ac5153d6c48922a494921abb0e3f158a94e608dd495e492852622
+    sources:
+      - "knowledge/characters/legendary/L010_joshua/data/prompt.yaml:semantic_components.negative"
+      - "knowledge/characters/legendary/L010_joshua/data/art.yaml:negative_concept_ids"
+      - "knowledge/characters/legendary/L010_joshua/data/symbols.yaml:prohibited_visual_concepts"
+      - "knowledge/art/NEGATIVE_PROMPT_LIBRARY.md"
+negative_prompt:
+  sha256: f268c843a27c84d27d6d27ee29f440c80acab8a913d6b299870e0cd34ffd007a
+  provenance:
+    - knowledge/characters/legendary/L010_joshua/data/prompt.yaml:semantic_components.negative
+    - knowledge/characters/legendary/L010_joshua/data/art.yaml:negative_concept_ids
+    - knowledge/characters/legendary/L010_joshua/data/art.yaml:palette.prohibited
+    - knowledge/characters/legendary/L010_joshua/data/symbols.yaml:prohibited_visual_concepts
+    - knowledge/art/NEGATIVE_PROMPT_LIBRARY.md
+validation:
+  clause_count: 12
+  all_clauses_traced: true
+  all_exclusions_traced: true
+  unresolved_clauses: []
+  review_state: review_requested

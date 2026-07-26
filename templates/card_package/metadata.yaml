@@ -1,0 +1,28 @@
+schema_version: 1.0
+id: L000
+slug: character_slug
+collector_number: L000
+rarity: legendary
+set: core_legendary
+package_version: 0.1.0
+content_version: 0.1.0
+prompt_source_version: 0.1.0
+prompt_version: null
+art_version: 0.1.0
+status: researching
+review_state:
+  biblical_theology: pending
+  gameplay: not_started
+  art_direction: not_started
+  prompt: not_started
+  generated_art: not_started
+generation_state: not_started
+asset_ids: []
+references:
+  primary: []
+  supporting: []
+dependencies:
+  character_schema: ../../schemas/card_character.schema.json
+  prompt_grammar: ../../knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  prompt_compiler: ../../knowledge/prompt_engineering/PROMPT_COMPILER.md
+  visual_language: ../../knowledge/art/VISUAL_LANGUAGE.md

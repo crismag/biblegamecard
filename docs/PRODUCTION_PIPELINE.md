@@ -1,5 +1,7 @@
 # Production Pipeline
 
+The normative, field-level workflow, approvals, reproducibility contract, independent versioning, quality gates, and card-production rules are defined in [Production Validation Standard](PRODUCTION_VALIDATION_STANDARD.md). This file remains the concise stage overview.
+
 ## Stage gates
 
 | Stage | Required output | Exit condition |

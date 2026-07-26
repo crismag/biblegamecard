@@ -1,0 +1,76 @@
+schema_version: 1.0.0
+character_id: JOSHUA_SON_OF_NUN
+profile_version: 1.0.0
+classification_note: Physical appearance is project interpretation; Scripture does not describe Joshua's face, hair, beard, build, or campaign age.
+life_stage:
+  preferred: MATURE_ADULT
+  numeric_age: null
+  allowed_variants: [EVENT_SPECIFIC_REVIEWED_VARIANT]
+body:
+  build: sturdy_mobile_campaign_conditioned
+  proportion: credible_human
+face:
+  regional_direction: weathered_Levantine_features
+  expression: focused_resolve_and_alert_humility
+  texture: natural_skin_with_weathering
+hair:
+  color: dark_with_modest_greying
+  length: short_to_medium
+  styling: practical
+beard:
+  color: dark_with_modest_greying
+  length: short_to_medium
+  styling: practical
+wardrobe:
+  tunic_materials: [linen, wool]
+  cloak: practical_weathered_mantle
+  belt: leather
+  footwear: simple_sandals_or_footwear
+  armor: restrained_plausible_leather_or_bronze_defense
+weapon:
+  type: bronze_age_plausible_sword
+  count: 1
+  state: sheathed_or_lowered
+  interaction: believable_hand_belt_and_scabbard_contact
+pose:
+  stance: stable_three_quarter
+  primary_gesture: open_hand_signals_ordered_advance
+  secondary_gesture: other_hand_near_sword
+  pose_language: [grounded, restrained_authority, alert_gaze]
+scene:
+  mode: SYNTHESIZED_IDENTITY_PORTRAIT
+  narrative_event_id: EVT_JOSHUA_JERICHO
+  temporal_position: PRE_FALL
+  location_id: JERICHO
+  environment: dry_limestone_terrain_with_sparse_scrub_and_light_dust
+  weather: clear_dry_dawn
+  background: intact_Jericho_fortifications_in_middle_distance
+  supporting_entity_ids: [ISRAEL, ISRAEL_PRIESTS]
+  required_symbol_ids: [SWORD_OF_COMMAND, RAMS_HORN_TRUMPETS, ARK_OF_COVENANT, JERICHO_WALL]
+composition:
+  aspect_ratio: "2:3"
+  framing: vertical_three_quarter_figure
+  camera: slightly_below_eye_level
+  subject_position: central_left
+  focal_order: [Joshua_face_and_signaling_hand, procession_and_ark, Jericho]
+  safe_zones: [quiet_upper_region, simplified_lower_margins]
+  thumbnail_requirements: [clear_head_shoulders, readable_command_arm, mantle_edge, single_sword_line]
+lighting:
+  family: WARM_DIRECTIONAL_DAWN
+  key_behavior: controlled_contrast_on_face_and_signaling_hand
+  separation: atmospheric_background_separation
+  theological_constraint: sunlight_does_not_personify_God
+palette:
+  primary: [sun_baked_ochre, limestone, muted_indigo, weathered_leather_brown]
+  accents: [restrained_bronze, dusty_red_brown]
+  prohibited: [neon_gold, electric_blue_magic, oversaturated_orange_teal, halo_radiance]
+rendering:
+  style_module_ids: [STYLE_BIBLICAL_REALISM, STYLE_PAINTERLY_PREMIUM]
+  material_priorities: [cloth, leather, bronze, stone, dust, natural_skin]
+  quality_targets: [face_clarity, coherent_hands, sword_contact, ark_poles, procession_scale, material_separation, thumbnail_readability, print_safe_detail]
+negative_concept_ids: [PERSONAL_DIVINE_MAGIC, IDENTIFIED_COMMANDER_DUPLICATE, ANACHRONISTIC_EQUIPMENT, MULTI_EVENT_COLLAGE]
+continuity:
+  stable_field_paths: [face, hair, beard, body.build, palette, pose.pose_language, weapon, lighting.family]
+  approved_environment_location_ids: [JERICHO, JORDAN_RIVER, MOUNT_EBAL, SHECHEM]
+  approved_reference_asset_ids: []
+review_state: review_requested

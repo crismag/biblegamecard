@@ -1,0 +1,44 @@
+schema_version: 1.0.0
+entities:
+  - id: YHWH
+    canonical_label: The LORD
+    entity_type: divine
+  - id: JOSHUA_SON_OF_NUN
+    canonical_label: Joshua son of Nun
+    entity_type: person
+  - id: MOSES
+    canonical_label: Moses
+    entity_type: person
+  - id: CALEB_SON_OF_JEPHUNNEH
+    canonical_label: Caleb son of Jephunneh
+    entity_type: person
+  - id: ELEAZAR_SON_OF_AARON
+    canonical_label: Eleazar son of Aaron
+    entity_type: person
+  - id: RAHAB_OF_JERICHO
+    canonical_label: Rahab
+    entity_type: person
+  - id: ACHAN_SON_OF_CARMI
+    canonical_label: Achan son of Carmi
+    entity_type: person
+  - id: COMMANDER_LORDS_ARMY
+    canonical_label: Commander of the LORD's army
+    entity_type: figure
+  - id: ISRAEL
+    canonical_label: Israel
+    entity_type: nation
+  - id: ISRAEL_ELDERS_OFFICERS
+    canonical_label: Elders and officers of Israel
+    entity_type: group
+  - id: ISRAEL_PRIESTS
+    canonical_label: Priests of Israel
+    entity_type: group
+  - id: EASTERN_TRIBES
+    canonical_label: Reuben, Gad, and the half-tribe of Manasseh
+    entity_type: group
+  - id: GIBEONITES
+    canonical_label: Gibeonites
+    entity_type: people_group
+  - id: CANAANITE_KINGS
+    canonical_label: Canaanite kings in the Joshua campaign accounts
+    entity_type: group
