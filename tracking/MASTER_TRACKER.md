@@ -1,6 +1,6 @@
 # Bible Game Card — Master Production Tracker
 
-This file is the operational source of truth for what is planned, completed, next, blocked, or awaiting review.
+This file is an operational projection of canonical package manifests, review evidence, registry data, and release records. When this tracker conflicts with canonical data, the canonical source wins and this projection must be corrected.
 
 ## Status vocabulary
 
@@ -10,30 +10,34 @@ This file is the operational source of truth for what is planned, completed, nex
 | `SPEC_DRAFT` | Character identity, title, traits, and ability are being drafted. |
 | `SPEC_READY` | Specification is complete enough for prompt authoring. |
 | `PROMPT_READY` | Reusable image-generation prompt package is complete. |
+| `PRE_GENERATION_REVIEW` | Canonical, theology, gameplay, art-direction, and compiled-prompt gates are under review before generation. |
 | `PROTOTYPE_GENERATED` | Earlier exploratory artwork exists; not an official release asset. |
 | `V2_PENDING` | Official standardized artwork must still be generated. |
 | `V2_GENERATED` | Official artwork exists but has not passed review. |
-| `REVIEW` | Theology, gameplay, artwork, typography, and print checks are underway. |
+| `REVIEW` | Artwork, layout, typography, accessibility, or print checks are underway. |
 | `APPROVED` | Approved as the official printable card. |
 | `BLOCKED` | Cannot proceed until a documented issue is resolved. |
 
 ## Current objective
 
-1. Review the complete L010 Joshua canonical reference package.
-2. Approve its biblical, gameplay, art-direction, and prompt sources.
-3. Generate and review Joshua artwork and card layout.
-4. Use the proven structure for the remaining Legendary packages.
-5. Regenerate, approve, and export the consistent Official V2 set.
+1. Complete L010 Joshua pre-generation review and resolve its recorded blocking findings.
+2. Select the model adapter and output settings, then generate and review Joshua artwork candidates.
+3. Begin L026 Esther and L008 Moses as controlled architecture-validation packages without bypassing Joshua's production gates.
+4. Complete the print-production specification before final Joshua card approval.
+5. Use the proven structure and production workflow for the remaining Legendary packages.
+6. Regenerate, approve, and export the consistent Official V2 set.
 
 ## Current production queue
 
-| Queue | Collector ID | Character | Working title | Current status | Next action |
-|---:|---|---|---|---|---|
-| 1 | L010 | Joshua | The Conqueror | `REVIEW` | Review package sources and compiled prompt before artwork generation. |
-| 2 | L009 | Caleb | The Mountain Claimer | `SPEC_DRAFT` | Apply the reference structure after Joshua workflow approval. |
-| 3 | L014 | Samuel | The Kingmaker | `SPEC_DRAFT` | Finalize characteristics and prompt package. |
-| 4 | L030 | James | Son of Thunder | `SPEC_DRAFT` | Finalize characteristics and prompt package. |
-| 5 | L001–L034 | Entire Legendary Set | Official V2 Collection | `V2_PENDING` | Regenerate in collector-number order after all prompts are locked. |
+| Queue | Track | Collector ID | Character | Working title | Current status | Next action |
+|---:|---|---|---|---|---|---|
+| 1 | Production reference | L010 | Joshua | The Conqueror | `PRE_GENERATION_REVIEW` | Resolve theology and art-direction findings; record required approvals; select adapter and output settings. |
+| 2 | Architecture validation | L026 | Esther | Queen of Courage | `PLANNED` | Create a canonical package that tests royal-court setting, indirect providence, advocacy, influence, and female character continuity. |
+| 3 | Architecture validation | L008 | Moses | The Deliverer | `PLANNED` | Create a canonical package that tests multiple life stages, large relationship graphs, sacred objects, miracles, and divine-agency guardrails. |
+| 4 | Follow-on production | L009 | Caleb | The Mountain Claimer | `SPEC_DRAFT` | Apply the stabilized reference structure after Esther and Moses expose any reusable model changes. |
+| 5 | Follow-on production | L014 | Samuel | The Kingmaker | `SPEC_DRAFT` | Finalize characteristics and prompt package after the architecture-validation cycle. |
+| 6 | Follow-on production | L030 | James | Son of Thunder | `SPEC_DRAFT` | Finalize characteristics and prompt package after the architecture-validation cycle. |
+| 7 | Collection rollout | L001–L034 | Entire Legendary Set | Official V2 Collection | `V2_PENDING` | Expand through the collection after production and package specifications stabilize. |
 
 ## Pipeline checklist
 
@@ -97,7 +101,9 @@ For every Legendary card:
 | Earlier prototype artwork reported/generated | 31 |
 | Missing prototype characters | 3 |
 | Official V2 approved cards | 0 |
-| Next character | Caleb — L009 |
+| Active production reference | Joshua — L010 |
+| Next architecture package | Esther — L026 |
+| Following architecture package | Moses — L008 |
 
 > Note: Earlier prototype counts are based on the existing conversation history and must be audited when image files are imported into this repository. No earlier prototype should be treated as an approved final asset.
 
@@ -107,3 +113,4 @@ For every Legendary card:
 |---|---|
 | 2026-07-25 | Created initial tracker, pipeline, status model, and missing-card queue. |
 | 2026-07-26 | Added L010 Joshua reference package and moved it to cross-discipline source/prompt review. |
+| 2026-07-26 | Clarified tracker authority, separated Joshua production from architecture-validation work, and aligned the next packages to Esther and Moses. |
