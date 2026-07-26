@@ -32,7 +32,7 @@ This file is an operational projection of canonical package manifests, review ev
 | Queue | Track | Collector ID | Character | Working title | Current status | Next action |
 |---:|---|---|---|---|---|---|
 | 1 | Production reference | L010 | Joshua | The Conqueror | `PRE_GENERATION_REVIEW` | Resolve theology and art-direction findings; record required approvals; select adapter and output settings. |
-| 2 | Architecture validation | L026 | Esther | Queen of Courage | `PLANNED` | Create a canonical package that tests royal-court setting, indirect providence, advocacy, influence, and female character continuity. |
+| 2 | Architecture validation | L026 | Esther | Queen of Courage | `SPEC_DRAFT` | Execute `planning/L026_esther_reference_package_plan.md`; research references, chronology, identity, relationships, symbolism, gameplay constraints, and historical uncertainties before creating the atomic canonical package. |
 | 3 | Architecture validation | L008 | Moses | The Deliverer | `PLANNED` | Create a canonical package that tests multiple life stages, large relationship graphs, sacred objects, miracles, and divine-agency guardrails. |
 | 4 | Follow-on production | L009 | Caleb | The Mountain Claimer | `SPEC_DRAFT` | Apply the stabilized reference structure after Esther and Moses expose any reusable model changes. |
 | 5 | Follow-on production | L014 | Samuel | The Kingmaker | `SPEC_DRAFT` | Finalize characteristics and prompt package after the architecture-validation cycle. |
@@ -114,3 +114,4 @@ For every Legendary card:
 | 2026-07-25 | Created initial tracker, pipeline, status model, and missing-card queue. |
 | 2026-07-26 | Added L010 Joshua reference package and moved it to cross-discipline source/prompt review. |
 | 2026-07-26 | Clarified tracker authority, separated Joshua production from architecture-validation work, and aligned the next packages to Esther and Moses. |
+| 2026-07-26 | Began the Esther architecture-validation package with a research and atomic-delivery plan; moved L026 to `SPEC_DRAFT`. |
