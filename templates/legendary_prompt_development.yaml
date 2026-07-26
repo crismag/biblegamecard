@@ -1,0 +1,93 @@
+schema_version: 0.1.0
+collector_id: L000
+character_name: REPLACE_ME
+status: AUTHORING_DRAFT
+
+identity:
+  legendary_title: REPLACE_ME
+  depicted_life_stage: REPLACE_ME
+  era: REPLACE_ME
+  culture: REPLACE_ME
+
+biblical_basis:
+  primary_passages:
+    - REPLACE_ME
+  secondary_passages: []
+  defining_scene: REPLACE_ME
+  claims:
+    - statement: REPLACE_ME
+      classification: scripture
+      source_refs:
+        - REPLACE_ME
+
+gameplay_identity:
+  archetype: REPLACE_ME
+  traits:
+    - REPLACE_ME
+  signature_ability: REPLACE_ME
+  strategic_identity: REPLACE_ME
+  differentiation: []
+
+visual_identity:
+  presentation:
+    - REPLACE_ME
+  wardrobe:
+    - REPLACE_ME
+  materials:
+    - REPLACE_ME
+  accessories: []
+  signature_objects:
+    - REPLACE_ME
+  environment:
+    - REPLACE_ME
+  supporting_figures: []
+  continuity_constraints:
+    - Avoid unsupported certainty about facial features, exact skin tone, height, or body type.
+
+composition:
+  focal_action: REPLACE_ME
+  pose: REPLACE_ME
+  camera: REPLACE_ME
+  foreground: []
+  middle_ground:
+    - REPLACE_ME
+  background:
+    - REPLACE_ME
+  card_frame_safe_space: Preserve uncluttered space for later card-frame overlays without including text or UI in the artwork.
+  orientation: vertical_collectible_card
+
+art_direction:
+  mood:
+    - REPLACE_ME
+  lighting:
+    - REPLACE_ME
+  palette:
+    - REPLACE_ME
+  textures:
+    - REPLACE_ME
+  rendering_language:
+    - premium biblical collectible-card illustration
+    - cinematic realism with historically grounded materials
+  prohibited_elements:
+    - visible human depiction of God the Father
+    - independent fantasy magic originating from the character
+    - generic medieval European clothing or architecture
+    - modern objects, typography, logos, borders, or card UI
+
+prompt_source:
+  positive_prompt: ""
+  negative_prompt: ""
+  variations: []
+
+traceability:
+  prompt_clauses: []
+
+readiness:
+  content_state: AUTHORING_DRAFT
+  automated_schema_validation: PENDING_TOOL_EXECUTION
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+    - Replace all template placeholders with character-specific grounded content.
