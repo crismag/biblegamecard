@@ -23,3 +23,7 @@ ruby tools/validate_character_knowledge.rb knowledge/characters/legendary/L010_j
 ```
 
 See the [Canonical Character Knowledge Model](../../../../docs/CANONICAL_CHARACTER_KNOWLEDGE_MODEL.md) for field rules, graph semantics, normalization, and change workflow.
+
+## Phase 4 production readiness
+
+The package passes structural and graph validation, but artwork generation remains blocked. Reviewers must add identity, role, date, decision, comments, unresolved concerns, and evidence to the canonical gate records; tooling does not infer approval from empty records. A production model adapter and output settings must also be selected outside canonical prompt semantics.

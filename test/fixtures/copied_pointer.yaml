@@ -1,0 +1,3 @@
+schema_version: 1.0.0
+canonical_source: deliberately-invalid-for-fixture
+copied_fact: should-not-be-here

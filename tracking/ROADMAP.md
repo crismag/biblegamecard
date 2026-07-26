@@ -10,6 +10,8 @@ This roadmap tracks the transition from repository foundation to repeatable bibl
 | Repository Foundation | Complete | Core governance, schemas, registries, templates, and production boundaries are available. |
 | Art and Prompt Foundation | Complete | Visual language, design guides, prompt grammar, templates, versioning, and model guidance are approved. |
 | Joshua Reference Package | In review | Joshua package sources and compiled prompt are complete; human reviews, generated artwork, and card layout remain. |
+| Validator Hardening | In progress | Real schema validation, safe loading, fixtures, CI, and deterministic drift checks are reviewed and merged. |
+| Joshua Artwork Production | Blocked | Required human gates, model adapter, and output settings are approved and recorded. |
 | Reference Archetypes | Pending | Leader, queen, king, prophet, and apostle archetypes validate visual cohesion. |
 | Core Legendary Production | Pending | All L001-L034 packages and approved assets are complete. |
 | Print Production | Pending | Card backs, bleeds, colour checks, proofs, and manufacturing exports are approved. |

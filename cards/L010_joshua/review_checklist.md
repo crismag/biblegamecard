@@ -39,3 +39,13 @@ Unchecked items require human review; completion of source authoring is not appr
 - [ ] Historical plausibility and respectful human depiction pass review.
 - [ ] Generation model, adapter, seed/job ID, dimensions, date, and output hash are recorded.
 - [ ] Final artwork and card layout receive separate approval.
+
+## Phase 4 pre-generation evidence
+
+No item below constitutes approval until a named reviewer records a dated decision in canonical `review.yaml`.
+
+- Biblical/theological: divine authority and agency; respectful Ark treatment; no prohibited sacred depiction; fact/inference/reconstruction/project-interpretation separation; scene supported without invented event claims.
+- Historical: clothing, sword, architecture, terrain, procession, materials, hierarchy, and military language; uncertainty remains classified as reconstruction.
+- Gameplay: ordered courage, obedience, leadership, inheritance, and covenant responsibility; differentiation from Moses, Caleb, David, and Gideon; no magical control of God or sacred objects.
+- Art direction: silhouette, card-safe framing, face and gesture, restrained detail, historically plausible equipment, no fantasy language, reusable continuity.
+- Prompt: every compiled clause is accounted for by canonical fields, shared standards, grammar, or negative sources; classifications remain visible.

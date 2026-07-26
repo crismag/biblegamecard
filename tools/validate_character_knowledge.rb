@@ -6,16 +6,43 @@ require "json"
 require "pathname"
 require "set"
 require "digest"
+require "open3"
+require "English"
+require_relative "lib/canonical_support"
 
 ROOT = Pathname.new(__dir__).parent.expand_path
-package_dir = Pathname.new(ARGV[0] || "knowledge/characters/legendary/L010_joshua/data")
+USAGE = "Usage: ruby tools/validate_character_knowledge.rb [--all] [--verbose] PACKAGE_DATA_DIR"
+if ARGV.delete("--help")
+  puts USAGE
+  exit 0
+end
+verbose = ARGV.delete("--verbose")
+if ARGV.delete("--all")
+  dirs = CanonicalSupport.package_dirs(ROOT)
+  if dirs.empty?
+    warn "No canonical manifests found"
+    exit 2
+  end
+  failures = dirs.count do |dir|
+    system(RbConfig.ruby, __FILE__, *(verbose ? ["--verbose"] : []), dir.relative_path_from(ROOT).to_s)
+    !$CHILD_STATUS.success?
+  end
+  puts "#{failures.zero? ? 'PASS' : 'FAIL'}: #{dirs.length} canonical package(s) validated"
+  exit(failures.zero? ? 0 : 1)
+end
+if ARGV.length != 1
+  warn USAGE
+  exit 2
+end
+package_dir = Pathname.new(ARGV.first)
 package_dir = ROOT.join(package_dir) unless package_dir.absolute?
 errors = []
 
 load_yaml = lambda do |path|
-  YAML.unsafe_load_file(path.to_s, symbolize_names: false)
-rescue StandardError => e
-  errors << "#{path.relative_path_from(ROOT)}: YAML parse failed: #{e.message}"
+  CanonicalSupport.safe_yaml(path)
+rescue CanonicalSupport::LoadError, Errno::ENOENT => e
+  display = path.absolute? && path.to_s.start_with?(ROOT.to_s) ? path.relative_path_from(ROOT) : path
+  errors << "#{display}: YAML load failed: #{e.message}"
   {}
 end
 
@@ -38,9 +65,14 @@ if !schema_path.file?
   errors << "manifest.master_schema: file does not exist"
 else
   begin
-    JSON.parse(schema_path.read)
-  rescue JSON::ParserError => e
-    errors << "manifest.master_schema: invalid JSON: #{e.message}"
+    schema = JSON.parse(schema_path.read)
+    assembled = {"manifest" => manifest}.merge(docs)
+    CanonicalSupport::SchemaValidator.new(schema).validate(assembled).each do |violation|
+      safe_value = violation.value.inspect[0, 160]
+      errors << "Schema #{violation.path}: #{violation.message} (rule #{violation.rule}; value #{safe_value})"
+    end
+  rescue JSON::ParserError, ArgumentError, KeyError => e
+    errors << "manifest.master_schema: schema configuration failed: #{e.message}"
   end
 end
 
@@ -135,7 +167,7 @@ events = docs.dig("timeline", "events").to_a
 event_ids = unique_index.call(events, "event_id", "timeline events", event_pattern)
 sequences = events.map { |event| event["sequence"] }
 errors << "timeline events: sequence values must be unique" unless sequences.uniq.length == sequences.length
-errors << "timeline events: must be sorted by sequence" unless sequences == sequences.sort
+errors << "timeline events: must be sorted by sequence" unless sequences.all? { |value| value.is_a?(Integer) } && sequences == sequences.sort
 events.each do |event|
   check_refs.call("event #{event["event_id"]}", event["reference_ids"])
   check_entities.call("event #{event["event_id"]}", event["participant_entity_ids"])
@@ -157,7 +189,14 @@ art.dig("scene", "required_symbol_ids").to_a.each { |id| errors << "art required
 art["negative_concept_ids"].to_a.each { |id| errors << "art negative concepts: unknown concept #{id}" unless negative_ids.include?(id) }
 scene_event = art.dig("scene", "narrative_event_id")
 errors << "art.scene.narrative_event_id: unknown event #{scene_event}" unless event_ids.include?(scene_event)
-errors << "art.weapon.count: must be exactly 1 for this approved profile" unless art.dig("weapon", "count") == 1
+weapon_policy = art.dig("weapon", "validation_policy") || "exact"
+weapon_count = art.dig("weapon", "count")
+constraints = art.dig("constraints", "weapon_count") || {}
+if weapon_policy == "exact" && !weapon_count.is_a?(Integer)
+  errors << "art.weapon.count: exact policy requires an integer count"
+end
+errors << "art.weapon.count: below declared minimum" if constraints["minimum"] && weapon_count.to_i < constraints["minimum"]
+errors << "art.weapon.count: above declared maximum" if constraints["maximum"] && weapon_count.to_i > constraints["maximum"]
 
 (gameplay = docs["gameplay"] || {}).dig("preferred_mechanics").to_a.each { |mechanic| check_refs.call("mechanic #{mechanic["id"]}", mechanic["rationale_reference_ids"]) }
 gameplay.dig("differentiation").to_a.each { |item| check_entities.call("gameplay differentiation", [item["other_character_id"]]) }
@@ -248,6 +287,21 @@ manifest.dig("human_views", "projections").to_h.each do |filename, field_refs|
   errors << "human view #{filename}: file does not exist" unless doc_root.join(filename).file?
   field_refs.to_a.each { |path| errors << "human view #{filename}: unresolved projection #{path}" if resolve_path.call(path).nil? }
 end
+
+# Generation readiness is derived from evidence; a manually ready request cannot bypass gates.
+gates = docs.dig("review", "gates").to_a
+required_gate_ids = docs.dig("review", "generation_readiness", "required_gate_ids").to_a
+blocking_gates = required_gate_ids.reject do |gate_id|
+  gate = gates.find { |candidate| candidate["gate_id"] == gate_id }
+  gate && gate["state"] == "approved" && gate["approvals"].to_a.any? && gate["open_findings"].to_a.none? { |finding| finding["blocking"] }
+end
+adapter_selected = docs.dig("review", "generation_readiness", "adapter_selected") == true
+output_recorded = docs.dig("review", "generation_readiness", "output_settings_recorded") == true
+computed_ready = blocking_gates.empty? && adapter_selected && output_recorded
+if generation_state == "ready" && !computed_ready
+  errors << "generation readiness: ready is inconsistent with review evidence (blocking gates: #{blocking_gates.join(', ')})"
+end
+puts "BLOCKED: #{manifest['collector_id']} artwork generation — required review gates or adapter settings pending" if errors.empty? && !computed_ready
 
 if errors.empty?
   puts "PASS #{manifest["package_id"]}: #{docs.length} documents, #{reference_ids.length} references, #{events.length} events, #{relationships.length} relationships, #{used_symbol_ids.length} symbols"
