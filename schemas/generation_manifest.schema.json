@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/generation_manifest.schema.json",
+  "title": "Prompt Generation Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "character_id", "prompt_version", "compiler_version", "adapter", "model", "seed", "resolution", "source_commit", "source_profile", "compiled_at", "artifact_state", "source_hashes"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "character_id": {"type": "string", "pattern": "^L[0-9]{3}$"},
+    "prompt_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "compiler_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "adapter": {"enum": ["openai", "flux", "sdxl"]},
+    "model": {"type": "string", "minLength": 1},
+    "seed": {"type": "integer", "minimum": 0},
+    "resolution": {"type": "string", "pattern": "^[0-9]+x[0-9]+$"},
+    "source_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "source_profile": {"type": "string", "minLength": 1},
+    "compiled_at": {"type": "string", "format": "date-time"},
+    "artifact_state": {"enum": ["NOT_GENERATED", "GENERATED", "UNDER_REVIEW", "APPROVED", "REJECTED", "RELEASED"]},
+    "source_hashes": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}
+  }
+}

@@ -22,6 +22,7 @@ The current milestone is to complete the L010 Joshua production reference, valid
 - [Artwork review standard](docs/ARTWORK_REVIEW_STANDARD.md)
 - [Canonical character knowledge model](docs/CANONICAL_CHARACTER_KNOWLEDGE_MODEL.md)
 - [Joshua machine-readable knowledge](knowledge/characters/legendary/L010_joshua/README.md)
+- [Executable prompt compiler architecture](docs/PROMPT_COMPILER_ARCHITECTURE.md)
 
 ## Working principles
 
@@ -47,3 +48,5 @@ The current milestone is to complete the L010 Joshua production reference, valid
 ## Canonical validation
 
 Install the locked Ruby dependencies with `bundle install`, then run `bundle exec ruby tools/validate_character_knowledge.rb --all`, `bundle exec ruby -Itest test/validate_character_knowledge_test.rb`, and `bundle exec ruby tools/assemble_character_knowledge.rb --check --all`. Artwork readiness is computed from review evidence and remains blocked independently of structural validation.
+
+Compile deterministic generation inputs with `ruby tools/compile_prompts.rb --profile knowledge/prompt_development/legendary/L010_joshua.yaml`. Use the same command with `--check` to detect generated-prompt drift; compilation records future image settings but does not generate artwork.

@@ -1,0 +1,57 @@
+---
+schema_version: 1.0.0
+character_id: L010
+complete: true
+source_profile: knowledge/prompt_development/legendary/L010_joshua.yaml
+canonical_sources:
+- docs/ARTWORK_REVIEW_STANDARD.md
+- knowledge/ART_DIRECTION_GUIDE.md
+- knowledge/characters/legendary/L010_joshua/data/art.yaml
+- knowledge/characters/legendary/L010_joshua/data/character.yaml
+- knowledge/characters/legendary/L010_joshua/data/gameplay.yaml
+- knowledge/characters/legendary/L010_joshua/data/prompt.yaml
+- knowledge/characters/legendary/L010_joshua/data/symbols.yaml
+- knowledge/prompt_development/legendary/README.md
+- registry/legendary_prompt_development.json
+prompt_clauses:
+- clause: Canonical identity, selected life stage, era, culture, and defining scene
+  source_paths:
+  - identity
+  - biblical_basis.primary_passages
+  - biblical_basis.claims
+- clause: Character-specific gameplay archetype, traits, ability, strategy, and differentiation
+  source_paths:
+  - gameplay_identity
+  - registry/legendary_prompt_development.json
+- clause: Physical presentation, wardrobe, materials, objects, environment, supporting
+    figures, and continuity limits
+  source_paths:
+  - 'Scripture: Joshua 6:1-27'
+  - 'Scripture: Joshua 1:1-18'
+  - 'Scripture: Joshua 3:1-4:24'
+  - 'Scripture: Numbers 27:18-23'
+  - biblical_basis.claims
+  - visual_identity
+  - knowledge/ART_DIRECTION_GUIDE.md
+- clause: Single focal action, readable pose, camera, three depth planes, and crop-safe
+    vertical composition
+  source_paths:
+  - composition
+  - docs/ARTWORK_REVIEW_STANDARD.md
+- clause: Scene-motivated mood, light, palette, tactile rendering, clean artwork,
+    and character-specific exclusions
+  source_paths:
+  - art_direction
+  - knowledge/ART_DIRECTION_GUIDE.md
+  - knowledge/prompt_development/legendary/README.md
+- clause: Joshua lightweight profile synchronizes with, and does not replace, the
+    canonical package
+  source_paths:
+  - knowledge/characters/legendary/L010_joshua/data/character.yaml
+  - knowledge/characters/legendary/L010_joshua/data/gameplay.yaml
+  - knowledge/characters/legendary/L010_joshua/data/art.yaml
+  - knowledge/characters/legendary/L010_joshua/data/prompt.yaml
+  - knowledge/characters/legendary/L010_joshua/data/symbols.yaml
+output_hashes:
+  positive_prompt_sha256: 8511b93b596e357e674fed7fda7a856401e8960d7aad76a34baaf17cea6e1bc2
+  negative_prompt_sha256: db446ad3fc1318ea5ff510f25170d0eaa93233748beee687e4181b6231a825b9
