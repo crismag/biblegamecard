@@ -1,29 +1,6 @@
-schema_version: 1.0
+schema_version: 1.0.0
+document_type: canonical_prompt_pointer
 collector_id: L000
-prompt_source_version: 0.1.0
-
-include_modules:
-  - prompts/master/legendary_style.md
-  - prompts/master/card_layout.md
-  - prompts/master/rendering_quality.md
-  - prompts/master/negative_prompt.md
-
-character_inputs:
-  identity_summary: ""
-  canonical_appearance: []
-  pose_and_action: ""
-  expression: ""
-  setting: ""
-  narrative_moment: ""
-  required_symbols: []
-  palette: []
-  lighting: ""
-  composition: ""
-
-constraints:
-  preserve_text_safe_zones: true
-  no_unapproved_symbols: true
-  no_embedded_card_text: true
-  avoid_anachronism: true
-
-model_overrides: {}
+canonical_source: knowledge/characters/legendary/L000_character/data/prompt.yaml
+canonical_knowledge_version: 0.1.0
+projection_policy: Read canonical_source; do not add character facts to this compatibility pointer.

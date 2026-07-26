@@ -1,0 +1,28 @@
+schema_version: 1.0
+candidate_id: null
+candidate_sha256: null
+artwork_version: null
+evaluated_at: null
+reviewers:
+  biblical_theological: null
+  historical: null
+  art: null
+  technical: null
+  print: null
+scores:
+  identity: null
+  biblical_theological_fidelity: null
+  historical_plausibility: null
+  prompt_adherence: null
+  character_continuity: null
+  composition_focal_hierarchy: null
+  anatomy_object_integrity: null
+  technical_print_fitness: null
+  thumbnail_readability: null
+  collector_appeal_set_fit: null
+weighted_percent: null
+critical_defects: []
+noncritical_defects: []
+disposition: not_reviewed
+required_corrections: []
+approvals: []

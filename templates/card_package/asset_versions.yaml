@@ -1,0 +1,15 @@
+schema_version: 1.0
+collector_id: L000
+package_version: 0.1.0
+artifacts:
+  canonical_content: {version: 0.1.0, sha256: null, state: draft}
+  gameplay: {version: 0.1.0, sha256: null, state: draft}
+  art_direction: {version: 0.1.0, sha256: null, state: draft}
+  continuity: {version: 0.1.0, sha256: null, state: draft}
+  prompt_source: {version: 0.1.0, sha256: null, state: draft}
+  compiled_prompt: {version: null, sha256: null, state: draft}
+  artwork: {version: null, sha256: null, state: draft}
+  card_layout: {version: null, sha256: null, state: draft}
+  print_asset: {version: null, sha256: null, state: draft}
+  metadata: {version: 0.1.0, sha256: null, state: draft}
+dependency_lock: null

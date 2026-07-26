@@ -1,0 +1,13 @@
+schema_version: 1.0.0
+character_id: CHARACTER_ID
+metadata: {collector_id: L000, slug: character, rarity: legendary, set_id: CORE_LEGENDARY, package_version: 1.0.0, knowledge_version: 0.1.0, canonical_status: draft}
+identity: {entity_id: CHARACTER_ID, testament: old, nation_entity_id: null, historical_period_tags: [], role_tags: []}
+names: {primary: {display: ""}, aliases: []}
+titles: {project_title: {text: "", classification: project_interpretation}, scriptural_descriptors: []}
+leadership: {predecessor_entity_id: null, named_successor_entity_id: null, calling: "", calling_reference_ids: [], authority_model: ""}
+virtues: []
+failures_and_limits: []
+lifespan: {death_age_years: null, death_age_reference_ids: [], burial_location_id: null, absolute_dates: null, chronology_note: ""}
+location_ids: []
+summary: {defining_contribution: "", canonical_summary: ""}
+classification_policy: {scripture: explicit_cited_claim, traditional_understanding: labeled_tradition, responsible_synthesis: cited_project_synthesis, project_interpretation: creative_choice}

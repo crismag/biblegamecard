@@ -1,0 +1,83 @@
+schema_version: 1.0.0
+character_id: JOSHUA_SON_OF_NUN
+metadata:
+  collector_id: L010
+  slug: joshua
+  rarity: legendary
+  set_id: CORE_LEGENDARY
+  package_version: 2.0.0
+  knowledge_version: 1.0.0
+  canonical_status: review_requested
+identity:
+  entity_id: JOSHUA_SON_OF_NUN
+  testament: old
+  nation_entity_id: ISRAEL
+  tribe: Ephraim
+  historical_period_tags: [EXODUS_WILDERNESS, ENTRY_INTO_CANAAN, PRE_JUDGES]
+  role_tags: [ASSISTANT, SCOUT, MILITARY_LEADER, COMMISSIONED_SUCCESSOR, COVENANT_LEADER, LAND_ALLOTMENT_LEADER]
+  occupation_status: not_explicitly_stated
+names:
+  primary:
+    display: Joshua son of Nun
+    hebrew: יְהוֹשֻׁעַ
+    transliteration: Yehoshua
+    lexical_meaning: YHWH is salvation / the LORD saves
+    meaning_classification: traditional_lexical_understanding
+  aliases:
+    - id: HOSHEA_SON_OF_NUN
+      display: Hoshea son of Nun
+      hebrew: הוֹשֵׁעַ
+      transliteration: Hoshea
+      lexical_meaning: salvation
+      reference_ids: [REF_NUMBERS_13_8_16]
+titles:
+  project_title:
+    text: The Conqueror
+    classification: project_interpretation
+  scriptural_descriptors:
+    - {descriptor: Moses' assistant or servant, reference_ids: [REF_EXODUS_24_13, REF_EXODUS_33_11]}
+    - {descriptor: commissioned successor to Moses, reference_ids: [REF_NUMBERS_27_18_23, REF_DEUTERONOMY_31_1_23]}
+    - {descriptor: servant of the LORD at death, reference_ids: [REF_JOSHUA_23_1_24_33]}
+leadership:
+  predecessor_entity_id: MOSES
+  named_successor_entity_id: null
+  calling: Lead Israel across the Jordan, apportion the land, act courageously, and keep the law.
+  calling_reference_ids: [REF_DEUTERONOMY_31_1_23, REF_JOSHUA_1_1_18]
+  authority_model: received_commission_under_divine_authority
+virtues:
+  - {id: COURAGE_UNDER_COMMISSION, label: Courage, reference_ids: [REF_JOSHUA_1_1_18]}
+  - {id: FAITH_IN_GODS_PROMISE, label: Faith, reference_ids: [REF_NUMBERS_14_6_9_30_38]}
+  - {id: COVENANT_OBEDIENCE, label: Obedience, reference_ids: [REF_JOSHUA_8_30_35, REF_JOSHUA_23_1_24_33]}
+  - {id: CORPORATE_LEADERSHIP, label: Leadership, reference_ids: [REF_NUMBERS_27_18_23, REF_JOSHUA_1_1_18]}
+failures_and_limits:
+  - id: GIBEON_COUNSEL_NOT_SOUGHT
+    classification: scripture_explicit
+    summary: Israel's leaders did not ask counsel from the LORD before the Gibeonite treaty; Joshua made peace and a covenant with them.
+    reference_ids: [REF_JOSHUA_9_1_10_43]
+  - id: VICTORY_NOT_AUTOMATIC
+    classification: responsible_synthesis
+    summary: Defeat at Ai demonstrates that Joshua's command did not make victory automatic amid covenant violation.
+    reference_ids: [REF_JOSHUA_7_1_8_29]
+  - id: LAND_REMAINED
+    classification: scripture_explicit
+    summary: The narrative states that very much land remained to be possessed.
+    reference_ids: [REF_JOSHUA_13_1_21_45]
+  - id: REST_NOT_ULTIMATE
+    classification: new_testament_interpretation
+    summary: Hebrews distinguishes Joshua's rest from the further rest proclaimed afterward.
+    reference_ids: [REF_HEBREWS_4_8]
+lifespan:
+  death_age_years: 110
+  death_age_reference_ids: [REF_JOSHUA_23_1_24_33]
+  burial_location_id: TIMNATH_SERAH
+  absolute_dates: null
+  chronology_note: Absolute dates are intentionally unresolved because the project does not adjudicate disputed chronologies.
+location_ids: [REPHIDIM, WILDERNESS_SINAI, KADESH_BARNEA_REGION, PLAINS_OF_MOAB, JORDAN_RIVER, GILGAL, JERICHO, AI, MOUNT_EBAL, GIBEON, CANAAN, SHILOH, SHECHEM, TIMNATH_SERAH]
+summary:
+  defining_contribution: Led Israel across the Jordan and through the land-entry campaigns, apportioned inheritance, and renewed covenant at Shechem.
+  canonical_summary: Joshua son of Nun, an Ephraimite and Moses' commissioned successor, leads with courage grounded in the LORD's presence and obedience to the law.
+classification_policy:
+  scripture: Claim explicitly stated or directly reported in the cited passage.
+  traditional_understanding: Received interpretive or lexical understanding, not an explicit narrative gloss.
+  responsible_synthesis: Project synthesis constrained by multiple cited passages.
+  project_interpretation: Creative product decision that must not be presented as Scripture.

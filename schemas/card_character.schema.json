@@ -2,6 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/crismag/biblegamecard/schemas/card_character.schema.json",
   "title": "BibleGameCard Character Specification",
+  "description": "Legacy flat character specification schema retained for compatibility. New canonical knowledge uses schemas/knowledge/canonical_character_package.schema.json.",
   "type": "object",
   "required": ["schema_version", "collector_id", "slug", "name", "title", "rarity", "set", "status", "identity", "biblical_basis"],
   "properties": {

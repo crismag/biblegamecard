@@ -1,0 +1,94 @@
+schema_version: 1.0.0
+character_id: JOSHUA_SON_OF_NUN
+relationships:
+  - id: REL_JOSHUA_YHWH
+    target_entity_id: YHWH
+    relationship_types: [CALLED_BY, COMMISSIONED_BY, SERVES]
+    direction: outgoing
+    importance: primary
+    influence: Source of Joshua's authority, presence, covenant accountability, and victory.
+    reference_ids: [REF_NUMBERS_27_18_23, REF_DEUTERONOMY_31_1_23, REF_JOSHUA_1_1_18, REF_JOSHUA_23_1_24_33]
+  - id: REL_JOSHUA_MOSES
+    target_entity_id: MOSES
+    relationship_types: [ASSISTANT_TO, MENTORED_BY, SUCCEEDS]
+    direction: outgoing
+    importance: primary
+    influence: Moses prepares, commissions, and publicly confirms Joshua without erasing Moses' unique prophetic standing.
+    reference_ids: [REF_EXODUS_17_8_16, REF_EXODUS_24_13, REF_NUMBERS_27_18_23, REF_DEUTERONOMY_34_9_12]
+  - id: REL_JOSHUA_CALEB
+    target_entity_id: CALEB_SON_OF_JEPHUNNEH
+    relationship_types: [FELLOW_SCOUT, FAITHFUL_ALLY]
+    direction: bidirectional
+    importance: primary
+    influence: They share a faithful minority report; Caleb retains a distinct inheritance story.
+    reference_ids: [REF_NUMBERS_14_6_9_30_38, REF_JOSHUA_13_1_21_45]
+  - id: REL_JOSHUA_ELEAZAR
+    target_entity_id: ELEAZAR_SON_OF_AARON
+    relationship_types: [COMMISSIONED_BEFORE, ALLOTMENT_PARTNER]
+    direction: outgoing
+    importance: supporting
+    influence: Joshua's leadership is publicly accountable and works with priestly office.
+    reference_ids: [REF_NUMBERS_27_18_23, REF_JOSHUA_13_1_21_45]
+  - id: REL_JOSHUA_RAHAB
+    target_entity_id: RAHAB_OF_JERICHO
+    relationship_types: [HONORS_OATH_TO, SPARES_HOUSEHOLD_OF]
+    direction: outgoing
+    importance: primary
+    influence: Connects Jericho with oath-keeping and rescue; no personal pre-rescue meeting is stated.
+    reference_ids: [REF_JOSHUA_2_1_24, REF_JOSHUA_6_1_27]
+  - id: REL_JOSHUA_PRIESTS
+    target_entity_id: ISRAEL_PRIESTS
+    relationship_types: [LEADS_WITH, COVENANT_PROCESSION_WITH]
+    direction: outgoing
+    importance: primary
+    influence: Priests carry the ark and trumpets in ordered covenant action rather than serving as decorative soldiers.
+    reference_ids: [REF_JOSHUA_3_1_4_24, REF_JOSHUA_6_1_27]
+  - id: REL_JOSHUA_ISRAEL
+    target_entity_id: ISRAEL
+    relationship_types: [LEADS, INSTRUCTS, GATHERS_IN_COVENANT]
+    direction: outgoing
+    importance: primary
+    influence: Joshua's leadership is corporate and covenantal.
+    reference_ids: [REF_JOSHUA_1_1_18, REF_JOSHUA_8_30_35, REF_JOSHUA_23_1_24_33]
+  - id: REL_JOSHUA_ELDERS
+    target_entity_id: ISRAEL_ELDERS_OFFICERS
+    relationship_types: [LEADS_WITH, INFLUENCES]
+    direction: outgoing
+    importance: supporting
+    influence: Elders share public responsibility and continue influence after Joshua's death.
+    reference_ids: [REF_JOSHUA_1_1_18, REF_JOSHUA_23_1_24_33, REF_JUDGES_2_6_9]
+  - id: REL_JOSHUA_ACHAN
+    target_entity_id: ACHAN_SON_OF_CARMI
+    relationship_types: [CONFRONTS_COVENANT_VIOLATION_OF]
+    direction: outgoing
+    importance: supporting
+    influence: The Ai crisis demonstrates covenant accountability and the limits of command.
+    reference_ids: [REF_JOSHUA_7_1_8_29]
+  - id: REL_JOSHUA_GIBEONITES
+    target_entity_id: GIBEONITES
+    relationship_types: [COVENANTS_WITH, DEFENDS]
+    direction: outgoing
+    importance: supporting
+    influence: Records failed counsel, oath obligation, and subsequent defense.
+    reference_ids: [REF_JOSHUA_9_1_10_43]
+  - id: REL_JOSHUA_EASTERN_TRIBES
+    target_entity_id: EASTERN_TRIBES
+    relationship_types: [COMMANDS, RELEASES, RESOLVES_DISPUTE_WITH]
+    direction: outgoing
+    importance: supporting
+    influence: Shows shared service, misunderstanding, investigation, and restored peace.
+    reference_ids: [REF_JOSHUA_1_1_18, REF_JOSHUA_22_1_34]
+  - id: REL_JOSHUA_COMMANDER
+    target_entity_id: COMMANDER_LORDS_ARMY
+    relationship_types: [ENCOUNTERS, SUBMITS_BEFORE]
+    direction: outgoing
+    importance: primary
+    influence: Reorients Joshua beneath divine command; the figure's further identity remains unresolved.
+    reference_ids: [REF_JOSHUA_5_1_15]
+  - id: REL_JOSHUA_CANAANITE_KINGS
+    target_entity_id: CANAANITE_KINGS
+    relationship_types: [MILITARY_OPPONENT_OF]
+    direction: outgoing
+    importance: supporting
+    influence: Supplies campaign context without authorizing racial caricature or spectacle of suffering.
+    reference_ids: [REF_JOSHUA_9_1_10_43, REF_JOSHUA_11_1_12_24]

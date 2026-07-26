@@ -11,6 +11,12 @@ The current milestone is to define and complete the 34-card **Core Legendary Col
 - [Master production tracker](tracking/MASTER_TRACKER.md)
 - [Legendary character plan](registry/LEGENDARY_CHARACTER_PLAN.md)
 - [Machine-readable Legendary registry](registry/legendary_cards.json)
+- [Joshua canonical reference package](cards/L010_joshua/README.md)
+- [Character package template](templates/card_package/README.md)
+- [Production validation standard](docs/PRODUCTION_VALIDATION_STANDARD.md)
+- [Artwork review standard](docs/ARTWORK_REVIEW_STANDARD.md)
+- [Canonical character knowledge model](docs/CANONICAL_CHARACTER_KNOWLEDGE_MODEL.md)
+- [Joshua machine-readable knowledge](knowledge/characters/legendary/L010_joshua/README.md)
 
 ## Working principles
 
@@ -23,10 +29,10 @@ The current milestone is to define and complete the 34-card **Core Legendary Col
 
 ## Immediate queue
 
-1. L009 — Caleb, **The Mountain Claimer**
-2. L014 — Samuel, **The Kingmaker**
-3. L030 — James, **Son of Thunder**
-4. Official V2 regeneration pass for L001–L034
+1. Review L010 Joshua reference sources and compiled prompt.
+2. Generate and review Joshua official artwork after prompt approval.
+3. Validate the final card layout and package workflow.
+4. Apply the proven package structure to the remaining Legendary collection.
 
 ## Branch
 

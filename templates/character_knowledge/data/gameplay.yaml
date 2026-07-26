@@ -1,0 +1,12 @@
+schema_version: 1.0.0
+character_id: CHARACTER_ID
+profile_version: 0.1.0
+rarity: legendary
+archetype: null
+roles: {primary: null, secondary: []}
+theme: ""
+keywords: []
+preferred_mechanics: []
+strengths: []
+weaknesses: []
+review_state: draft

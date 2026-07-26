@@ -1,47 +1,6 @@
-schema_version: 1.0
+schema_version: 1.0.0
+document_type: canonical_art_pointer
 collector_id: L000
-visual_version: 0.1.0
-
-subject:
-  pose: ""
-  expression: ""
-  action: ""
-  silhouette_priority: ""
-
-scene:
-  setting: ""
-  narrative_moment: ""
-  foreground: []
-  midground: []
-  background: []
-
-composition:
-  camera_angle: ""
-  framing: ""
-  focal_point: ""
-  text_safe_zones: []
-
-lighting:
-  source: ""
-  mood: ""
-  contrast: ""
-
-palette:
-  primary: []
-  accents: []
-  avoid: []
-
-symbols:
-  required: []
-  optional: []
-  prohibited: []
-
-continuity:
-  canonical_features: []
-  reference_notes: ""
-
-quality_targets:
-  - premium collectible card illustration
-  - cinematic full-art composition
-  - readable character silhouette
-  - print-safe detail hierarchy
+canonical_source: knowledge/characters/legendary/L000_character/data/art.yaml
+canonical_knowledge_version: 0.1.0
+projection_policy: Read canonical_source; do not add character facts to this compatibility pointer.

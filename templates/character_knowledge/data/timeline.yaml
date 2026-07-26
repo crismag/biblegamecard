@@ -1,0 +1,5 @@
+schema_version: 1.0.0
+character_id: CHARACTER_ID
+ordering: canonical_narrative
+absolute_dates_status: intentionally_unresolved
+events: []

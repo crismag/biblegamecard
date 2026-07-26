@@ -1,0 +1,17 @@
+schema_version: 1.0.0
+character_id: JOSHUA_SON_OF_NUN
+symbol_uses:
+  - {symbol_id: SWORD_OF_COMMAND, usage: approved, scene_constraints: [single_sword, sheathed_or_lowered, no_blood, no_magical_glow], reference_ids: [REF_JOSHUA_5_1_15]}
+  - {symbol_id: RAMS_HORN_TRUMPETS, usage: required_for_reference_art, scene_constraints: [carried_by_priests, grounded_background_detail], reference_ids: [REF_JOSHUA_6_1_27]}
+  - {symbol_id: ARK_OF_COVENANT, usage: required_for_reference_art, scene_constraints: [closed, carried_by_priests_on_poles, not_weaponized, not_carried_by_Joshua], reference_ids: [REF_JOSHUA_3_1_4_24, REF_JOSHUA_6_1_27]}
+  - {symbol_id: JORDAN_WATER, usage: approved_for_Jordan_scene_only, scene_constraints: [do_not_combine_literally_with_Jericho], reference_ids: [REF_JOSHUA_3_1_4_24]}
+  - {symbol_id: TWELVE_MEMORIAL_STONES, usage: approved_for_Jordan_scene_only, scene_constraints: [exactly_twelve, grounded, no_runes], reference_ids: [REF_JOSHUA_3_1_4_24]}
+  - {symbol_id: JERICHO_WALL, usage: required_for_reference_art, scene_constraints: [intact_in_pre_fall_scene, middle_distance, no_casualties], reference_ids: [REF_JOSHUA_6_1_27]}
+  - {symbol_id: INHERITANCE_HORIZON, usage: approved, scene_constraints: [no_disputed_border_map], reference_ids: [REF_JOSHUA_1_1_18, REF_JOSHUA_13_1_21_45]}
+  - {symbol_id: COVENANT_WITNESS, usage: approved_for_covenant_scene_only, scene_constraints: [not_clutter_in_reference_art], reference_ids: [REF_JOSHUA_8_30_35, REF_JOSHUA_23_1_24_33]}
+  - {symbol_id: UNMARKED_COMMAND_BANNER, usage: optional_project_symbol, scene_constraints: [unmarked, no_sacred_text, no_invented_tribal_emblem], reference_ids: []}
+prohibited_visual_concepts:
+  - {id: PERSONAL_DIVINE_MAGIC, reason: Joshua must not control divine power., source: theological_guardrail}
+  - {id: IDENTIFIED_COMMANDER_DUPLICATE, reason: The commander of the LORD's army must not be merged with Joshua., source: interpretive_guardrail}
+  - {id: ANACHRONISTIC_EQUIPMENT, reason: Medieval, Roman, modern, and fantasy equipment contradict the art profile., source: historical_guardrail}
+  - {id: MULTI_EVENT_COLLAGE, reason: Jordan, Jericho, Ebal, and Shechem must not appear as one literal moment., source: narrative_guardrail}

@@ -1,0 +1,10 @@
+schema_version: 1.0.0
+character_id: JOSHUA_SON_OF_NUN
+versions:
+  - version: 1.0.0
+    date: "2026-07-26"
+    scope: canonical_knowledge_model
+    author: OpenAI Codex
+    reason: Establish normalized, graph-ready machine-readable Joshua knowledge as the authoritative source for documentation and tooling.
+    changes: [structured_scripture_ranges, normalized_entity_relationships, normalized_locations, structured_events, gameplay_profile, art_profile, semantic_prompt_components, review_and_generation_state]
+    review_state: review_requested

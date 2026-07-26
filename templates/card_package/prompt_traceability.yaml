@@ -1,0 +1,21 @@
+schema_version: 1.0
+asset_id: L000-CHARACTER-ART-01
+prompt_version: 0.1.0
+compiled_prompt_sha256: null
+clauses:
+  - id: C01
+    text_sha256: null
+    purpose: subject_identity
+    source_claims:
+      - path: cards/L000_character/character.yaml
+        fields: [identity.summary]
+        version: 0.1.0
+    standards: []
+    classification: scripture_or_project_interpretation
+    rationale: ""
+negative_groups: []
+validation:
+  all_clauses_traced: false
+  all_exclusions_traced: false
+  reviewer: null
+  reviewed_at: null

@@ -1,0 +1,15 @@
+schema_version: 1.0
+approval_id: null
+gate: G0
+artifact_type: null
+artifact_id: null
+version: null
+sha256: null
+decision: review_requested
+reviewer:
+  name: null
+  role: null
+decided_at_utc: null
+findings: []
+conditions: []
+supersedes: null

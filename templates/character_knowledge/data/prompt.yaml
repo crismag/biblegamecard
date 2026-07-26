@@ -1,0 +1,8 @@
+schema_version: 1.0.0
+character_id: CHARACTER_ID
+profile_version: 0.1.0
+asset_id: L000-CHARACTER-ART-01
+semantic_components: {}
+compiler: {grammar_path: knowledge/prompt_engineering/PROMPT_GRAMMAR.md, compiler_contract_path: knowledge/prompt_engineering/PROMPT_COMPILER.md, clause_order: [], module_ids: [], model_adapter: null}
+output: {aspect_ratio_field_ref: art.composition.aspect_ratio, clean_artwork_only: true, embedded_typography: false}
+compiled_artifact: {version: null, path: null, traceability_path: null, approval_state: draft}

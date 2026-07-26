@@ -1,0 +1,30 @@
+schema_version: 1.0
+asset_id: L010-JOSHUA-ART-01
+package_version: 2.0.0
+prompt_version: 1.0.0
+compiler_version: 1.0.0-manual
+positive_prompt_sha256: b16d58cc54402609a66a0e7bc22645508e5317611cea657467a3097da87be112
+negative_prompt_sha256: f268c843a27c84d27d6d27ee29f440c80acab8a913d6b299870e0cd34ffd007a
+traceability_sha256: 20dcd6c3baca87e58d03c96dac0f836534454240b6ba7a3bcae36330f26b849e
+adapter_version: null
+provider: null
+model: null
+model_revision: null
+dimensions: null
+aspect_ratio: "2:3"
+seed: null
+job_id: null
+sampler: null
+steps: null
+guidance: null
+safety_settings: null
+reference_assets: []
+other_settings: {}
+provider_limitations: []
+operator: null
+generated_at_utc: null
+state: blocked
+blocking_reasons:
+  - G1-G4 approval records do not yet exist.
+  - Adapter, provider, model revision, dimensions, exposed settings, and operator are not selected.
+  - No image generation is authorized in Phase 3B.

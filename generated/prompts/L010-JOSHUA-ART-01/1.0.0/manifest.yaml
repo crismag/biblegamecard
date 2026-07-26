@@ -1,0 +1,47 @@
+asset_id: L010-JOSHUA-ART-01
+artifact_type: compiled_image_prompt
+prompt_version: 1.0.0
+compiler_version: 1.0.0-manual
+compilation_date: 2026-07-26
+model_adapter: neutral
+model_name: null
+source_versions:
+  package: 2.0.0
+  canonical_knowledge: 1.0.0
+  character: 1.0.0
+  artwork: 1.0.0
+  context: 1.0.0
+  continuity: 1.0.0
+  traceability: 1.0.0
+  prompt_source: 1.0.0
+  prompt_grammar: 1.0.0
+source_paths:
+  - knowledge/characters/legendary/L010_joshua/data/character.yaml
+  - knowledge/characters/legendary/L010_joshua/data/art.yaml
+  - knowledge/characters/legendary/L010_joshua/data/manifest.yaml
+  - knowledge/characters/legendary/L010_joshua/data/references.yaml
+  - knowledge/characters/legendary/L010_joshua/data/timeline.yaml
+  - knowledge/characters/legendary/L010_joshua/data/relationships.yaml
+  - knowledge/characters/legendary/L010_joshua/data/symbols.yaml
+  - knowledge/characters/legendary/L010_joshua/data/prompt.yaml
+  - knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+modules:
+  - VISUAL_LANGUAGE
+  - STYLE_BIBLICAL_REALISM
+  - STYLE_PAINTERLY_PREMIUM
+  - COMP_HERO_THREE_QUARTER
+  - LIGHT_DAWN
+  - NEGATIVE_PROMPT_LIBRARY
+artifact_hashes:
+  positive_prompt_sha256: b16d58cc54402609a66a0e7bc22645508e5317611cea657467a3097da87be112
+  negative_prompt_sha256: f268c843a27c84d27d6d27ee29f440c80acab8a913d6b299870e0cd34ffd007a
+  traceability_path: generated/prompts/L010-JOSHUA-ART-01/1.0.0/prompt_traceability.yaml
+output:
+  aspect_ratio: "2:3"
+  resolution: adapter_required
+  seed: null
+  provider_job_id: null
+warnings:
+  - Select a model adapter and resolution before generation.
+unresolved_fields: []
+approval_state: prompt_review

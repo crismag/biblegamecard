@@ -1,0 +1,15 @@
+schema_version: 1.0.0
+package_id: L000_CHARACTER_CANONICAL_KNOWLEDGE
+character_id: CHARACTER_ID
+collector_id: L000
+package_version: 1.0.0
+knowledge_version: 0.1.0
+master_schema: schemas/knowledge/canonical_character_package.schema.json
+documents: {character: character.yaml, references: references.yaml, timeline: timeline.yaml, relationships: relationships.yaml, symbols: symbols.yaml, gameplay: gameplay.yaml, art: art.yaml, prompt: prompt.yaml, review: review.yaml, version_history: version_history.yaml}
+registries: {entities: knowledge/entities/biblical_entities.yaml, locations: knowledge/entities/locations.yaml, symbols: knowledge/entities/symbols.yaml}
+human_views:
+  root: cards/L000_character
+  authority: derived_review_view
+  edit_policy: Change canonical data first; then update or regenerate human views.
+  projections: {}
+consumers: [website, mobile_app, deck_builder, card_search, prompt_compiler, lore_explorer, ai_assistant, gameplay_engine, rpg_dialogue, story_mode, analytics]

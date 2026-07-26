@@ -1,0 +1,4 @@
+schema_version: 1.0.0
+character_id: CHARACTER_ID
+versions:
+  - {version: 0.1.0, date: "YYYY-MM-DD", scope: canonical_knowledge_model, author: "", reason: Initial structured draft., changes: [], review_state: draft}

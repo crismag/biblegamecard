@@ -1,0 +1,54 @@
+schema_version: 1.0
+id: L010
+slug: joshua
+collector_number: L010
+rarity: legendary
+set: core_legendary
+package_version: 2.0.0
+content_version: 1.0.0
+prompt_source_version: 1.0.0
+prompt_version: 1.0.0
+art_version: 1.0.0
+status: spec_review
+review_state:
+  biblical_theology: pending
+  gameplay: pending
+  art_direction: pending
+  prompt: pending
+  generated_art: not_started
+generation_state: prompt_compiled
+production_validation_version: 1.0.0
+approval_state:
+  canonical: review_requested
+  gameplay: review_requested
+  art_direction: review_requested
+  prompt: review_requested
+  artwork: blocked
+  card: blocked
+  release: blocked
+asset_ids:
+  - L010-JOSHUA-ART-01
+references:
+  primary:
+    - Exodus 17:8-16
+    - Numbers 13:8-14:38
+    - Numbers 27:18-23
+    - Deuteronomy 31:1-23
+    - Joshua 1-24
+  supporting:
+    - Judges 2:6-9
+    - 1 Kings 16:34
+    - Nehemiah 8:17
+    - Acts 7:45
+    - Hebrews 4:8
+dependencies:
+  character_schema: ../../schemas/card_character.schema.json
+  prompt_grammar: ../../knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  prompt_compiler: ../../knowledge/prompt_engineering/PROMPT_COMPILER.md
+  visual_language: ../../knowledge/art/VISUAL_LANGUAGE.md
+
+canonical_knowledge:
+  manifest: ../../knowledge/characters/legendary/L010_joshua/data/manifest.yaml
+  version: 1.0.0
+  authority: machine_readable_source
+  validation_command: ruby tools/validate_character_knowledge.rb knowledge/characters/legendary/L010_joshua/data

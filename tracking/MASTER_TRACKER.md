@@ -19,20 +19,21 @@ This file is the operational source of truth for what is planned, completed, nex
 
 ## Current objective
 
-1. Complete the missing Legendary prototype cards.
-2. Lock the 34-card Legendary registry.
-3. Finish structured character specifications and image prompts.
-4. Regenerate all Legendary cards as a consistent Official V2 set.
-5. Review, approve, and export printable assets.
+1. Review the complete L010 Joshua canonical reference package.
+2. Approve its biblical, gameplay, art-direction, and prompt sources.
+3. Generate and review Joshua artwork and card layout.
+4. Use the proven structure for the remaining Legendary packages.
+5. Regenerate, approve, and export the consistent Official V2 set.
 
 ## Current production queue
 
 | Queue | Collector ID | Character | Working title | Current status | Next action |
 |---:|---|---|---|---|---|
-| 1 | L009 | Caleb | The Mountain Claimer | `SPEC_DRAFT` | Finalize characteristics and prompt package. |
-| 2 | L014 | Samuel | The Kingmaker | `SPEC_DRAFT` | Finalize characteristics and prompt package. |
-| 3 | L030 | James | Son of Thunder | `SPEC_DRAFT` | Finalize characteristics and prompt package. |
-| 4 | L001–L034 | Entire Legendary Set | Official V2 Collection | `V2_PENDING` | Regenerate in collector-number order after all prompts are locked. |
+| 1 | L010 | Joshua | The Conqueror | `REVIEW` | Review package sources and compiled prompt before artwork generation. |
+| 2 | L009 | Caleb | The Mountain Claimer | `SPEC_DRAFT` | Apply the reference structure after Joshua workflow approval. |
+| 3 | L014 | Samuel | The Kingmaker | `SPEC_DRAFT` | Finalize characteristics and prompt package. |
+| 4 | L030 | James | Son of Thunder | `SPEC_DRAFT` | Finalize characteristics and prompt package. |
+| 5 | L001–L034 | Entire Legendary Set | Official V2 Collection | `V2_PENDING` | Regenerate in collector-number order after all prompts are locked. |
 
 ## Pipeline checklist
 
@@ -43,11 +44,11 @@ This file is the operational source of truth for what is planned, completed, nex
 - [x] Establish production status vocabulary.
 - [x] Create the master Legendary character plan.
 - [x] Create a machine-readable Legendary registry.
-- [ ] Create the master card data schema.
-- [ ] Create the master image-prompt template.
-- [ ] Create the artwork style guide.
-- [ ] Create the theological review guide.
-- [ ] Create the gameplay balancing guide.
+- [x] Create the master card data schema.
+- [x] Create the master image-prompt template.
+- [x] Create the artwork style guide.
+- [x] Create the theological review guide.
+- [x] Create the gameplay balancing guide.
 - [ ] Create the print-production specification.
 
 ### B. Character specification
@@ -105,3 +106,4 @@ For every Legendary card:
 | Date | Change |
 |---|---|
 | 2026-07-25 | Created initial tracker, pipeline, status model, and missing-card queue. |
+| 2026-07-26 | Added L010 Joshua reference package and moved it to cross-discipline source/prompt review. |

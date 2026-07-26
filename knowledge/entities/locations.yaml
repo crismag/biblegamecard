@@ -1,0 +1,18 @@
+schema_version: 1.0.0
+locations:
+  - {id: REPHIDIM, canonical_label: Rephidim, location_type: settlement_or_region, parent_id: WILDERNESS_SINAI}
+  - {id: WILDERNESS_SINAI, canonical_label: Wilderness and Sinai region, location_type: region, parent_id: null}
+  - {id: KADESH_BARNEA_REGION, canonical_label: Kadesh-barnea region, location_type: region, parent_id: null}
+  - {id: PLAINS_OF_MOAB, canonical_label: Plains of Moab, location_type: region, parent_id: MOAB}
+  - {id: MOAB, canonical_label: Moab, location_type: region, parent_id: null}
+  - {id: JORDAN_RIVER, canonical_label: Jordan River, location_type: river, parent_id: null}
+  - {id: GILGAL, canonical_label: Gilgal, location_type: settlement_or_camp, parent_id: CANAAN}
+  - {id: JERICHO, canonical_label: Jericho, location_type: city, parent_id: CANAAN}
+  - {id: AI, canonical_label: Ai, location_type: city, parent_id: CANAAN}
+  - {id: MOUNT_EBAL, canonical_label: Mount Ebal, location_type: mountain, parent_id: CANAAN}
+  - {id: GIBEON, canonical_label: Gibeon, location_type: city, parent_id: CANAAN}
+  - {id: SHILOH, canonical_label: Shiloh, location_type: settlement, parent_id: CANAAN}
+  - {id: SHECHEM, canonical_label: Shechem, location_type: city, parent_id: CANAAN}
+  - {id: TIMNATH_SERAH, canonical_label: Timnath-serah, location_type: settlement, parent_id: CANAAN}
+  - {id: HEBRON, canonical_label: Hebron, location_type: city_and_hill_country, parent_id: CANAAN}
+  - {id: CANAAN, canonical_label: Canaan, location_type: region, parent_id: null}
