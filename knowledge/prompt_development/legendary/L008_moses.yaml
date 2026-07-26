@@ -1,0 +1,254 @@
+schema_version: 0.1.0
+collector_id: L008
+character_name: Moses
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: The Deliverer
+  depicted_life_stage: elder leader
+  era: Late Bronze Age Exodus narrative setting
+  culture: Egyptian frontier and wilderness exodus context
+biblical_basis:
+  primary_passages:
+  - Exodus 14:10-31
+  secondary_passages:
+  - Exodus 3:1-15
+  - Exodus 7:1-5
+  - Exodus 19:1-20:21
+  defining_scene: Moses raises his staff toward the divided sea while guiding terrified
+    Israel into the opened path
+  claims:
+  - statement: Moses stretches out his hand over the sea at God’s command; the waters
+      divide, Israel crosses on dry ground, and the text attributes deliverance to
+      the LORD.
+    classification: scripture
+    source_refs:
+    - Exodus 14:13-31
+  - statement: The staff is retained as Moses’ established sign and leadership object,
+      while all water movement is environmental divine action rather than power emitted
+      by Moses.
+    classification: scripture
+    source_refs:
+    - Exodus 4:1-5
+    - Exodus 14:16
+  - statement: Wet seabed texture, vertical water walls, wind-driven mist, distant
+      Israelites, and a subordinate Egyptian threat translate Exodus 14 into one card-readable
+      instant.
+    classification: project_interpretation
+    source_refs:
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - docs/ARTWORK_REVIEW_STANDARD.md
+gameplay_identity:
+  archetype: Legendary Controller
+  traits:
+  - Authority
+  - Faith
+  - Leadership
+  signature_ability: Part the Sea
+  strategic_identity: 'Liberation, battlefield access control, and protected passage:
+    Part the Sea removes barriers and opens a route for allies. The game mechanic
+    is inspired by God’s deliverance through Moses’ obedient action, not elemental
+    power owned by Moses.'
+  differentiation:
+  - Noah directs others into a prepared refuge before catastrophe; Moses leads a people
+    forward through a route opened within catastrophe.
+  - Joshua coordinates an army to claim territory after Exodus; Moses’ defining role
+    here is liberation from pursuit, not conquest.
+visual_identity:
+  presentation:
+  - Elder deliverer and wilderness shepherd-leader with wind-weathered face, greyed
+    hair and beard as project interpretation, stable posture, and urgent dependence
+    rather than sorcerous dominance.
+  - Broadly credible Levantine appearance for an Israelite raised in Egypt; no exact
+    age, facial geometry, complexion shade, stature, or physique is asserted.
+  wardrobe:
+  - Layered desert travel tunic in undyed woven fibre, heavy wool mantle blown away
+    from the staff arm, plain leather belt, and secure simple sandals on wet ground.
+  - No Egyptian royal regalia, medieval robe, armour, glowing embroidery, or theatrical
+    wizard sleeves.
+  materials:
+  - heavy woven wool mantle and linen-like tunic
+  - single weathered wooden shepherd staff, leather belt and sandals
+  - wet sand, exposed stone, seawater, wind mist, and natural skin
+  accessories:
+  - one weathered wooden staff, clearly gripped and physically continuous
+  - small travel pouch secured at the belt
+  signature_objects:
+  - single raised shepherd staff
+  - towering separated walls of dark seawater forming an open path
+  environment:
+  - Threshold of the opened sea passage at night or predawn, with wind-scoured wet
+    seabed extending between towering water walls.
+  - Israelite families enter behind Moses in an ordered but urgent flow; distant Egyptian
+    chariots remain small at the far opening.
+  supporting_figures:
+  - Israelite families and elders move behind Moses along the path, visibly protected
+    but subordinate.
+  - Egyptian pursuit appears only as distant silhouettes and dust or torch points,
+    never sharing Moses’ focal scale.
+  continuity_constraints:
+  - Moses stands at the threshold actively leading into the passage, not casually
+    posing mid-crossing or surfing on water.
+  - Use exactly one ordinary wooden staff; it is raised in obedience, with no beam,
+    lightning, runes, glow, or water stream emerging from it or Moses.
+  - Divine agency appears through sea, wind, cloud, and directional environmental
+    light only; never depict God the Father bodily.
+composition:
+  focal_action: Moses plants his forward foot on the wet seabed and raises one staff
+    toward the opened path, turning his free hand back to urge Israel forward.
+  pose: 'Commanding full-body contrapposto against the wind: staff arm high but anatomically
+    relaxed, free hand open toward the people, mantle streaming sideways, face visible.'
+  camera: Low-angle medium-wide portrait from the wet seabed, wide enough to establish
+    both water walls while Moses remains at least half the image height.
+  foreground:
+  - Reflective ripples, exposed stones, and staff-shadow lines lead into the passage
+    without covering Moses’ feet.
+  middle_ground:
+  - Moses dominates the threshold; the first Israelite families form a narrowing procession
+    behind his open hand.
+  background:
+  - Dark blue water walls rise on both sides toward cloud and mist; distant pursuit
+    remains a tiny closing pressure point.
+  card_frame_safe_space: Keep a controlled mist gap above the staff and a dark simple
+    seabed band below; face, both hands, staff tip, feet, and first families stay
+    inside the central crop.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - urgent liberation
+  - awe at divine intervention
+  - dependent authority
+  - hope under pursuit
+  lighting:
+  - A narrow cool-white path light runs through wind-driven mist and models Moses
+    from the front.
+  - Deep blue-green subsurface light reveals credible water mass; neither staff nor
+    body emits light.
+  palette:
+  - midnight blue
+  - deep sea green
+  - wet sand umber
+  - cloud silver
+  - muted wool ochre
+  textures:
+  - water-heavy wool, wet woven hems, weathered wood, leather, natural skin
+  - rippling seabed, suspended spray, translucent water mass, cloud and dust
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically restrained reconstruction
+  - highly detailed natural materials, clear facial emotion, strong silhouette, controlled
+    atmospheric depth, dramatic but reverent vertical composition, premium finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, UI, modern clothing, modern
+    weapons, medieval European armour, plate armour, fantasy wizard robes, science-fiction
+    elements, anime or cartoon proportions, extra limbs or fingers, duplicate Moses,
+    duplicate staff, distorted hands, deformed face, blurry subject, low detail, flat
+    lighting, oversaturated magical effects; Moses emitting beams, lightning from
+    staff, glowing runes, spellcasting, water bending from hands, wizard hat, medieval
+    army, modern ocean, surfing water, casual mid-crossing pose, Moses tiny in frame,
+    Egyptian chariot as main subject, visible human depiction of God the Father, divine
+    face in cloud
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Moses, The Deliverer, an elder Israelite shepherd-leader at the threshold
+    of the divided sea as Israel begins the protected crossing. Plant his forward
+    foot on wind-scoured wet seabed and raise exactly one weathered wooden staff toward
+    the open route; turn his empty free hand back to urge families forward. His wind-lined
+    face must show urgent leadership, awe, and dependence on divine intervention,
+    never personal command of an element. Dress him in an undyed layered desert tunic,
+    heavy wool mantle streaming sideways, plain leather belt with a small secured
+    pouch, and simple sandals gripping wet ground—no armour or wizard costume. Raise
+    towering masses of dark blue-green seawater on both sides, with mist, suspended
+    spray, exposed stones, and reflective ripples; an ordered but urgent Israelite
+    procession narrows behind him, while distant Egyptian chariot silhouettes remain
+    tiny at the far opening. Use a low-angle medium-wide vertical portrait from seabed
+    level, wide enough for both water walls while Moses remains at least half the
+    image height. Let foreground ripples and the staff shadow lead to Moses, then
+    the families, then the distant threat. Preserve a controlled mist gap above the
+    staff and a dark simple lower seabed for later framing; keep face, hands, staff
+    tip, feet, and first families crop-safe. Light the path with cool white illumination
+    through cloud and wind-driven mist plus deep subsurface sea green; no light originates
+    from Moses or staff. Use midnight blue, sea green, wet umber, cloud silver, and
+    muted ochre. Render water-heavy wool, wet hems, weathered wood, leather, natural
+    skin, ripples, spray, translucent water mass, and cloud in cinematic painterly
+    realism with overwhelming scale, clear anatomy, layered depth, reverence, and
+    premium finish. Artwork only: no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, UI, modern
+    clothing, modern weapons, medieval European armour, plate armour, fantasy wizard
+    robes, science-fiction elements, anime or cartoon proportions, extra limbs or
+    fingers, duplicate Moses, duplicate staff, distorted hands, deformed face, blurry
+    subject, low detail, flat lighting, oversaturated magical effects; Moses emitting
+    beams, lightning from staff, glowing runes, spellcasting, water bending from hands,
+    wizard hat, medieval army, modern ocean, surfing water, casual mid-crossing pose,
+    Moses tiny in frame, Egyptian chariot as main subject, visible human depiction
+    of God the Father, divine face in cloud
+  variations:
+  - Tighter knee-up threshold crop preserving raised single staff, open guiding hand,
+    first families, and both water walls.
+  - Broader environmental view increasing sea scale while Moses remains at least one-third
+    image height and all divine action remains environmental.
+traceability:
+  prompt_clauses:
+  - clause: Canonical name, Legendary title, archetype, traits, signature ability,
+      and collection differentiation
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+  - clause: Selected defining scene, focal action, signature objects, environment,
+      and supporting participants
+    source_paths:
+    - 'Scripture: Exodus 14:10-31'
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - biblical_basis.claims
+  - clause: Life stage aligned to the selected event and restrained physical presentation
+    source_paths:
+    - 'Scripture: Exodus 14:10-31'
+    - 'Scripture: Exodus 3:1-15'
+    - 'Scripture: Exodus 7:1-5'
+    - 'Scripture: Exodus 19:1-20:21'
+    - identity.depicted_life_stage
+    - visual_identity.presentation
+  - clause: Regional clothing, materials, accessories, and environmental reconstruction
+      classified without unsupported certainty
+    source_paths:
+    - biblical_basis.claims
+    - visual_identity.wardrobe
+    - visual_identity.materials
+    - visual_identity.accessories
+    - visual_identity.environment
+  - clause: Character-specific gameplay mechanic and explicit distinction from adjacent
+      Legendary identities
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - gameplay_identity.strategic_identity
+    - gameplay_identity.differentiation
+  - clause: Pose, camera, three depth planes, silhouette hierarchy, visual reading
+      order, and card-frame-safe space
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+    - knowledge/prompt_engineering/PROMPT_TEMPLATES.md
+  - clause: Mood, scene-motivated lighting, palette, tactile textures, and premium
+      rendering language
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  - clause: Divine-agency restraint, anachronism prevention, clean-art restrictions,
+      and character-specific negative constraints
+    source_paths:
+    - visual_identity.continuity_constraints
+    - art_direction.prohibited_elements
+    - knowledge/prompt_development/legendary/README.md
+    - docs/ARTWORK_REVIEW_STANDARD.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: first-pass generation uses a predawn/night palette; human review
+    may later choose a slightly warmer dawn edge without changing the scene, agency,
+    or composition.'

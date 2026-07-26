@@ -1,0 +1,235 @@
+schema_version: 0.1.0
+collector_id: L003
+character_name: Isaac
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: Child of Promise
+  depicted_life_stage: mature pastoral patriarch
+  era: Middle Bronze Age patriarchal period
+  culture: pastoral Gerar and Canaan context
+biblical_basis:
+  primary_passages:
+  - Genesis 26:12-33
+  secondary_passages:
+  - Genesis 21:1-7
+  - Genesis 22:1-19
+  defining_scene: Isaac rests one hand on a newly opened well while servants draw
+    clear water
+  claims:
+  - statement: Isaac reopens wells, moves rather than fight over disputes, receives
+      reaffirmed blessing, and names Rehoboth after room is made.
+    classification: scripture
+    source_refs:
+    - Genesis 26:12-25
+  - statement: The selected well scene replaces the plan’s optional altar anchor to
+      emphasize mature inheritance, peace, and resource continuity without sensationalizing
+      childhood peril.
+    classification: project_interpretation
+    source_refs:
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - Genesis 26:12-33
+  - statement: A stone-lined well, rope, skin bucket, pastoral tents, and woven work
+      garments are conservative contextual reconstruction.
+    classification: historical_context
+    source_refs:
+    - Genesis 26:17-23
+gameplay_identity:
+  archetype: Promise Heir
+  traits:
+  - Faith
+  - Peace
+  - Blessing
+  signature_ability: Promise Preserved
+  strategic_identity: 'Inheritance and blessing continuity: Promise Preserved transfers
+    blessings and prevents covenant loss. The wells scene expresses patient stewardship
+    and peace instead of repeating Abraham’s covenant-origin imagery.'
+  differentiation:
+  - Abraham begins the pilgrimage and receives the covenant promise; Isaac sustains
+    its household and resources through patient continuity.
+  - Jacob’s identity changes through bodily struggle; Isaac’s strength appears in
+    restraint, reopening, and peaceful settlement.
+visual_identity:
+  presentation:
+  - Mature pastoral household head with calm attentiveness and the practical bearing
+    of someone overseeing wells and flocks.
+  - Credible regional appearance stated broadly; exact age, face, complexion shade,
+    build, hair, and beard remain unclaimed.
+  wardrobe:
+  - Light woven knee-to-calf tunic with a practical wool mantle draped behind the
+    working arm, plain leather belt, and dust-worn sandals.
+  - Clothes are serviceable and sun-faded, with no sacrificial costume, royal insignia,
+    or warrior equipment.
+  materials:
+  - sun-faded linen-like tunic and soft wool mantle
+  - fieldstone well curb, fibre rope, leather water bucket
+  - dry soil, tamarisk-like scrub, wood, clay vessels, and water
+  accessories:
+  - coiled well rope laid across the stone curb
+  - single leather water bucket
+  signature_objects:
+  - newly secured stone-lined well
+  - clear water lifted in a leather bucket
+  environment:
+  - Open grazing country near Gerar, with dry soil around a productive well and a
+    modest household camp taking shape beyond.
+  - Sparse scrub, grazing animals, and tents establish pastoral continuity without
+    competing with Isaac.
+  supporting_figures:
+  - Two servants draw the rope behind Isaac and remain lower in value and scale.
+  - A few distant flock animals remain background texture only.
+  continuity_constraints:
+  - Always use mature Isaac at the peaceful well after room has been made; do not
+    shift variants to the binding on the altar.
+  - Keep his empty weapon belt and open working hand visible to reinforce nonviolent
+    settlement.
+  - Preserve the stone well, rope, leather bucket, dry pastoral land, and calm life
+    stage.
+composition:
+  focal_action: Isaac rests his open palm on the sun-warmed well curb while turning
+    toward servants raising the first clear bucket, receiving the peaceful outcome
+    with quiet gratitude.
+  pose: Relaxed full three-quarter stance beside the well; one hand visibly open on
+    stone, the other gathering his mantle, shoulders unarmoured and face unobscured.
+  camera: Eye-level medium-full portrait from across the well rim; the circular curb
+    anchors the lower foreground while Isaac rises on the central-left axis.
+  foreground:
+  - Rope crossing rough fieldstone and a small water reflection lead toward Isaac’s
+    open hand.
+  middle_ground:
+  - Isaac and the rising bucket dominate; two servants stay partially occluded behind
+    the well.
+  background:
+  - Dry grazing land softens into tents, sparse scrub, and a few distant animals.
+  card_frame_safe_space: Use simple sky in the upper-right and an uncluttered dark
+    section of well curb at bottom; keep Isaac’s face, open hand, rope, and bucket
+    inside the central crop.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - peace after contention
+  - inherited blessing
+  - quiet gratitude
+  - stable provision
+  lighting:
+  - Late-afternoon side light warms Isaac’s face and the well stones.
+  - Cool reflected light from the bucket water creates a subtle counterpoint without
+    supernatural glow.
+  palette:
+  - sunlit limestone
+  - straw gold
+  - wool cream
+  - dusty olive
+  - clear muted blue
+  textures:
+  - rope fibres, chipped fieldstone, worn leather, sun-softened woven cloth
+  - dry soil, sparse leaves, clear water, and naturally weathered skin
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically restrained reconstruction
+  - highly detailed natural materials, clear facial emotion, strong silhouette, controlled
+    atmospheric depth, dramatic but reverent vertical composition, premium finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, UI, modern clothing, modern
+    weapons, medieval European armour, fantasy robes, science-fiction elements, anime
+    or cartoon proportions, extra limbs or fingers, duplicate Isaac, distorted hands,
+    deformed face, blurry subject, low detail, flat lighting, oversaturated magic;
+    binding or altar scene, graphic sacrifice, gore, sensationalized child peril,
+    rival fight, sword, royal costume, European stone fountain, modern well machinery,
+    metal pump, plastic bucket, glowing magical water
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Isaac, Child of Promise, depicted as a mature pastoral household head at
+    the newly secured well after disputes have given way to room and peace. Place
+    his open palm on the sun-warmed fieldstone curb as he turns toward two subordinate
+    servants raising the first clear water in a leather bucket; his expression is
+    quietly grateful, stable, and attentive, never triumphant over rivals. Dress him
+    in a light sun-faded woven tunic, practical wool mantle drawn behind the working
+    arm, plain leather belt, and dust-worn sandals, with no weapon or royal insignia.
+    Use rough fieldstone, fibre rope, leather bucket, clay vessels, dry grazing land,
+    sparse scrub, modest tents, and only a few distant flock shapes. Frame an eye-level
+    medium-full portrait across the circular well rim: rope and a small reflection
+    lead from the foreground to Isaac’s open hand; Isaac and the rising bucket dominate
+    the middle ground; servants and camp recede softly. Leave simple sky at upper
+    right and an uncluttered lower curb for later framing, with face, hand, rope,
+    and bucket crop-safe. Use warm late-afternoon side light and a subtle cool water
+    reflection; palette of limestone, straw gold, wool cream, dusty olive, and clear
+    muted blue. Render chipped stone, rope fibre, worn leather, woven cloth, soil,
+    water, and natural skin in cinematic painterly realism with peaceful dignity,
+    clear silhouette, controlled depth, and premium finish. Artwork only: no typography,
+    border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, UI, modern
+    clothing, modern weapons, medieval European armour, fantasy robes, science-fiction
+    elements, anime or cartoon proportions, extra limbs or fingers, duplicate Isaac,
+    distorted hands, deformed face, blurry subject, low detail, flat lighting, oversaturated
+    magic; binding or altar scene, graphic sacrifice, gore, sensationalized child
+    peril, rival fight, sword, royal costume, European stone fountain, modern well
+    machinery, metal pump, plastic bucket, glowing magical water
+  variations:
+  - Tighter waist-up view over the well, preserving Isaac’s open hand, rope, clear
+    bucket, and quiet expression.
+  - Broader pastoral view showing more tents and grazing country while keeping the
+    same well, life stage, nonviolent action, and dominant Isaac silhouette.
+traceability:
+  prompt_clauses:
+  - clause: Canonical name, Legendary title, archetype, traits, signature ability,
+      and collection differentiation
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+  - clause: Selected defining scene, focal action, signature objects, environment,
+      and supporting participants
+    source_paths:
+    - 'Scripture: Genesis 26:12-33'
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - biblical_basis.claims
+  - clause: Life stage aligned to the selected event and restrained physical presentation
+    source_paths:
+    - 'Scripture: Genesis 26:12-33'
+    - 'Scripture: Genesis 21:1-7'
+    - 'Scripture: Genesis 22:1-19'
+    - identity.depicted_life_stage
+    - visual_identity.presentation
+  - clause: Regional clothing, materials, accessories, and environmental reconstruction
+      classified without unsupported certainty
+    source_paths:
+    - biblical_basis.claims
+    - visual_identity.wardrobe
+    - visual_identity.materials
+    - visual_identity.accessories
+    - visual_identity.environment
+  - clause: Character-specific gameplay mechanic and explicit distinction from adjacent
+      Legendary identities
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - gameplay_identity.strategic_identity
+    - gameplay_identity.differentiation
+  - clause: Pose, camera, three depth planes, silhouette hierarchy, visual reading
+      order, and card-frame-safe space
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+    - knowledge/prompt_engineering/PROMPT_TEMPLATES.md
+  - clause: Mood, scene-motivated lighting, palette, tactile textures, and premium
+      rendering language
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  - clause: Divine-agency restraint, anachronism prevention, clean-art restrictions,
+      and character-specific negative constraints
+    source_paths:
+    - visual_identity.continuity_constraints
+    - art_direction.prohibited_elements
+    - knowledge/prompt_development/legendary/README.md
+    - docs/ARTWORK_REVIEW_STANDARD.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: historical review may prefer an all-leather bucket or a leather-and-wood
+    vessel; generation uses the specified conservative leather bucket until reviewed.'

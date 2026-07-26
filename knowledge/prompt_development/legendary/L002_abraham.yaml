@@ -1,0 +1,230 @@
+schema_version: 0.1.0
+collector_id: L002
+character_name: Abraham
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: Father of Faith
+  depicted_life_stage: mature pilgrim patriarch
+  era: Middle Bronze Age patriarchal period
+  culture: pastoral ancient Near Eastern camp in Canaan
+biblical_basis:
+  primary_passages:
+  - Genesis 15:1-6
+  secondary_passages:
+  - Genesis 12:1-9
+  - Genesis 17:1-8
+  defining_scene: Abraham looks upward in reverent wonder beneath the uncountable
+    stars
+  claims:
+  - statement: Abram is brought outside, told to look toward heaven and count the
+      stars, and trusts the promised offspring.
+    classification: scripture
+    source_refs:
+    - Genesis 15:1-6
+  - statement: The tents, banked fire, staff, and hill-country overlook provide a
+      conservative pastoral camp setting rather than facts specified in Genesis 15.
+    classification: inference
+    source_refs:
+    - Genesis 12:8-9
+    - Genesis 13:14-18
+  - statement: The scene excludes visible divine personification and uses the unaltered
+      night sky as the sign of promise.
+    classification: project_interpretation
+    source_refs:
+    - knowledge/prompt_development/legendary/README.md
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+gameplay_identity:
+  archetype: Covenant Founder
+  traits:
+  - Faith
+  - Leadership
+  - Covenant
+  signature_ability: Count the Stars
+  strategic_identity: 'Covenant synergy and future promise: Count the Stars strengthens
+    covenant allies and future summons, framing faith as trust in God’s promise rather
+    than power residing in the stars.'
+  differentiation:
+  - Abraham receives and initiates the covenant household’s promise; Isaac quietly
+    preserves the inherited blessing.
+  - Noah’s hope is concentrated in a physical refuge; Abraham’s hope looks beyond
+    the visible household toward generations not yet present.
+visual_identity:
+  presentation:
+  - Mature pilgrim patriarch with age visible through natural facial lines, steady
+    posture, and quiet authority rather than regal display.
+  - Broadly credible ancient Near Eastern appearance without asserting exact complexion,
+    stature, facial geometry, hair, or beard.
+  wardrobe:
+  - Long undyed woven tunic under a striped or subtly banded wool mantle wrapped for
+    the cool night, secured with a plain leather belt.
+  - Dust-marked sandals and travel-worn hems communicate pilgrimage; no crown, jewellery
+    display, or priestly vestment.
+  materials:
+  - soft woven wool mantle and linen-like tunic
+  - olive-wood staff, goat-hair tent fabric, leather water skin
+  - rock, dry grass, embers, and natural skin
+  accessories:
+  - single plain walking staff resting against a rock
+  - closed leather water skin near the camp edge
+  signature_objects:
+  - vast natural field of stars
+  - pilgrim staff and distant household tents
+  environment:
+  - Quiet Canaanite hill-country overlook outside a low pastoral encampment, with
+    banked fires and tents below.
+  - Open, moonless horizon gives most of the upper image to an immense natural star
+    field.
+  supporting_figures:
+  - Distant household silhouettes remain near the tents and do not share Abraham’s
+    focal plane.
+  continuity_constraints:
+  - Keep Abraham outside the camp beneath a natural star field, with no altar, sacrifice,
+    astrology diagram, or literal descendants appearing in the sky.
+  - His gaze and open hands express receptive trust; stars never form weapons, symbols,
+    faces, letters, or magical streams.
+  - Maintain mature pilgrim identity and travel-worn pastoral garments rather than
+    royal costume.
+composition:
+  focal_action: Abraham steps beyond the tents, lowers his staff, and looks upward
+    with one hand open at his chest as the star-filled sky overwhelms the frame.
+  pose: Upright but unforced three-quarter stance on rock, chin lifted, staff lowered
+    and not brandished; face readable in upward profile.
+  camera: Intimate waist-up portrait from slightly below eye level, with Abraham in
+    the lower-left third and the heavens occupying the upper two-thirds.
+  foreground:
+  - A dark rock edge and the lowered staff create a restrained base.
+  middle_ground:
+  - Abraham’s illuminated face and open hand provide the human focal point.
+  background:
+  - Tents and embers sit far below the uninterrupted stars and low hill horizon.
+  card_frame_safe_space: Leave broad uncluttered night sky above and to the right;
+    keep the face and open hand away from side trim and keep tents outside the lower
+    rules-safe zone.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - quiet wonder
+  - reverence
+  - trust before fulfillment
+  lighting:
+  - Cool diffuse starlight models Abraham’s face and mantle without a halo.
+  - Low amber campfire bounce separates his lower silhouette; no beam or visible speaker
+    appears.
+  palette:
+  - deep indigo
+  - soft silver
+  - charcoal violet
+  - wool sand
+  - banked ember amber
+  textures:
+  - soft heavy wool, worn leather, and weathered wood
+  - rock grit, dry grass, goat-hair tents, subtle natural skin detail
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically restrained reconstruction
+  - highly detailed natural materials, clear facial emotion, strong silhouette, controlled
+    atmospheric depth, dramatic but reverent vertical composition, premium finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, UI, modern clothing, modern
+    weapons, medieval European armour, plate armour, fantasy robes, science-fiction
+    elements, anime or cartoon proportions, extra limbs or fingers, duplicate Abraham,
+    distorted hands, deformed face, blurry subject, low detail, flat lighting, oversaturated
+    magic; astrology chart, zodiac symbols, constellation drawings, stars forming
+    weapons or people, magical star beams, European castle, royal crown, throne, telescope,
+    modern tent, visible human depiction of God the Father, halo
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Abraham, Father of Faith, a mature pilgrim patriarch standing beyond his
+    pastoral camp beneath the covenant stars. Show him lowering one plain olive-wood
+    staff and lifting his face toward an immense, natural, uncountable star field,
+    one hand open at his chest; his lined expression holds reverence, quiet wonder,
+    and trust before fulfillment. Dress him in a long undyed tunic, a travel-worn
+    wool mantle with restrained woven bands, leather belt, and dust-marked sandals.
+    Set low goat-hair tents, banked fires, and only distant household silhouettes
+    on a Canaanite hill-country horizon. Frame an intimate slightly low waist-up portrait
+    with Abraham in the lower-left third and the heavens filling the upper two-thirds;
+    use the staff and rock edge as a grounded base, and preserve uncluttered sky above
+    and right for later framing. Model his face with cool diffuse starlight and faint
+    amber camp bounce, never a halo or visible divine figure. Use deep indigo, soft
+    silver, charcoal violet, wool sand, and ember amber; render heavy woven wool,
+    worn leather, weathered wood, rock grit, dry grass, tent cloth, and natural skin
+    with cinematic painterly realism, restrained awe, clear profile, atmospheric depth,
+    and premium finish. Keep the stars astronomical and peaceful, not occult or magical.
+    Artwork only: no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, UI, modern
+    clothing, modern weapons, medieval European armour, plate armour, fantasy robes,
+    science-fiction elements, anime or cartoon proportions, extra limbs or fingers,
+    duplicate Abraham, distorted hands, deformed face, blurry subject, low detail,
+    flat lighting, oversaturated magic; astrology chart, zodiac symbols, constellation
+    drawings, stars forming weapons or people, magical star beams, European castle,
+    royal crown, throne, telescope, modern tent, visible human depiction of God the
+    Father, halo
+  variations:
+  - Closer shoulder portrait emphasizing Abraham’s lined upward gaze and open hand
+    while retaining natural stars and one tent ember.
+  - Wider full-figure overlook preserving the lowered staff and camp, while Abraham
+    remains dominant and the stars remain the visual promise.
+traceability:
+  prompt_clauses:
+  - clause: Canonical name, Legendary title, archetype, traits, signature ability,
+      and collection differentiation
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+  - clause: Selected defining scene, focal action, signature objects, environment,
+      and supporting participants
+    source_paths:
+    - 'Scripture: Genesis 15:1-6'
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - biblical_basis.claims
+  - clause: Life stage aligned to the selected event and restrained physical presentation
+    source_paths:
+    - 'Scripture: Genesis 15:1-6'
+    - 'Scripture: Genesis 12:1-9'
+    - 'Scripture: Genesis 17:1-8'
+    - identity.depicted_life_stage
+    - visual_identity.presentation
+  - clause: Regional clothing, materials, accessories, and environmental reconstruction
+      classified without unsupported certainty
+    source_paths:
+    - biblical_basis.claims
+    - visual_identity.wardrobe
+    - visual_identity.materials
+    - visual_identity.accessories
+    - visual_identity.environment
+  - clause: Character-specific gameplay mechanic and explicit distinction from adjacent
+      Legendary identities
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - gameplay_identity.strategic_identity
+    - gameplay_identity.differentiation
+  - clause: Pose, camera, three depth planes, silhouette hierarchy, visual reading
+      order, and card-frame-safe space
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+    - knowledge/prompt_engineering/PROMPT_TEMPLATES.md
+  - clause: Mood, scene-motivated lighting, palette, tactile textures, and premium
+      rendering language
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  - clause: Divine-agency restraint, anachronism prevention, clean-art restrictions,
+      and character-specific negative constraints
+    source_paths:
+    - visual_identity.continuity_constraints
+    - art_direction.prohibited_elements
+    - knowledge/prompt_development/legendary/README.md
+    - docs/ARTWORK_REVIEW_STANDARD.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: candidate review may select a restrained woven band or fully plain
+    mantle; both preserve the defined pilgrim identity and neither is claimed as scriptural.'

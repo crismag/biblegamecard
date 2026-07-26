@@ -1,0 +1,241 @@
+schema_version: 0.1.0
+collector_id: L007
+character_name: Job
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: Champion of Endurance
+  depicted_life_stage: mature household head marked by suffering
+  era: patriarchal ancient Near Eastern setting
+  culture: land of Uz, exact location unresolved
+biblical_basis:
+  primary_passages:
+  - Job 1:13-22
+  - Job 2:7-10
+  secondary_passages:
+  - Job 19:23-27
+  - Job 42:1-17
+  defining_scene: Job rises amid ashes and loss with grief visible but integrity unbroken
+  claims:
+  - statement: Job mourns catastrophic loss without charging God with wrong, then
+      suffers bodily affliction and sits among ashes.
+    classification: scripture
+    source_refs:
+    - Job 1:13-22
+    - Job 2:7-10
+  - statement: Job voices hope amid anguish; this supports grief and endurance together
+      without making the selected scene cheerful or fully restored.
+    classification: scripture
+    source_refs:
+    - Job 19:23-27
+  - statement: The receding storm, ruined tent frame, sparse surviving objects, and
+      restrained skin marks visualize loss without claiming Job sees the heavenly
+      council.
+    classification: project_interpretation
+    source_refs:
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - docs/ARTWORK_REVIEW_STANDARD.md
+gameplay_identity:
+  archetype: Unbroken Defender
+  traits:
+  - Resolve
+  - Faith
+  - Integrity
+  signature_ability: Though He Slay Me
+  strategic_identity: 'Resilience under suffering without corruption: Though He Slay
+    Me gains resolve when damaged while resisting corrupt responses. The mechanic
+    dramatizes integrity amid loss, not immunity to grief or guaranteed immediate
+    restoration.'
+  differentiation:
+  - Jacob’s decisive struggle results in a renamed identity; Job remains himself and
+    preserves integrity through prolonged, unexplained suffering.
+  - Noah acts before catastrophe to shelter others; Job stands after catastrophe with
+    no visible shelter, victory, or explanation.
+visual_identity:
+  presentation:
+  - 'Mature household head visibly depleted by grief and illness: tired eyes, dust,
+    guarded movement, and restrained non-graphic skin distress.'
+  - Dignified ancient Near Eastern appearance without exact claims about face, complexion
+    shade, height, physique, hair, beard, or disease presentation.
+  wardrobe:
+  - Torn but recognizably woven outer mantle drawn around the shoulders over a plain
+    tunic, frayed hem, leather belt set aside, bare or simply sandaled feet near ash.
+  - Damage communicates mourning and loss without becoming theatrical rags, armour,
+    or horror costume.
+  materials:
+  - torn heavy wool mantle and plain woven tunic
+  - ash, dust, broken clay, charred tent wood
+  - dry earth, windblown grit, natural skin with restrained marks
+  accessories:
+  - one plain potsherd resting visibly on the ground after use
+  - no weapon, crown, or restored wealth symbol
+  signature_objects:
+  - ash heap and set-aside potsherd
+  - collapsed household tent frame in the distance
+  environment:
+  - Open ash-strewn ground outside a damaged household site in the land of Uz, whose
+    exact geography remains unresolved.
+  - A broken tent frame and scattered empty vessels suggest loss; receding storm light
+    offers tension, not a restoration scene.
+  supporting_figures:
+  - Three distant seated companions may appear only as small silent silhouettes well
+    behind Job, not accusing or comforting in a way that fixes a dialogue moment.
+  continuity_constraints:
+  - 'Keep Job within the suffering scene: no restored household, doubled wealth, celebratory
+    family, crown, battle victory, or cheerful expression.'
+  - Show bodily affliction through a few restrained marks, guarded posture, ash, and
+    fatigue—never graphic sores, exposed wounds, infection, gore, or body horror.
+  - Do not visualize Satan, the heavenly council, or an explanation Job does not possess
+    in the scene.
+composition:
+  focal_action: Job pushes himself upright from the ash heap, gathering the torn mantle
+    at his chest while his empty other hand steadies against the ground.
+  pose: 'Asymmetrical kneeling-to-standing posture: spine upright despite pain, shoulders
+    burdened, face lifted only enough to reveal grief and unresolved faith.'
+  camera: Intimate eye-level medium portrait from knee height, compressing the ruined
+    environment while giving Job’s face and empty hands primary scale.
+  foreground:
+  - Ash, the set-aside potsherd, and one broken vessel occupy a low, controlled band.
+  middle_ground:
+  - Job’s lined face, mantle-gripping hand, and empty stabilizing hand form the focal
+    sequence.
+  background:
+  - Collapsed tent timbers, receding storm, and optional tiny seated companions dissolve
+    into dusty distance.
+  card_frame_safe_space: Leave a low-contrast storm gap above one shoulder and a simple
+    ash band below; keep face and both hands clear while avoiding title space directly
+    over the eyes.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - anguish without despair
+  - integrity under pressure
+  - lament
+  - spiritual tension
+  lighting:
+  - Diffuse storm light crosses Job’s face without beautifying the suffering.
+  - A thin neutral break in cloud separates his silhouette but does not promise immediate
+    restoration or personify God.
+  palette:
+  - ash grey
+  - weathered umber
+  - storm violet
+  - faded wool brown
+  - restrained neutral silver
+  textures:
+  - frayed wool, powdery ash, cracked clay, charred wood, natural skin
+  - wind-driven dust, dry soil, heavy cloud, restrained skin marks
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically restrained reconstruction
+  - highly detailed natural materials, clear facial emotion, strong silhouette, controlled
+    atmospheric depth, dramatic but reverent vertical composition, premium finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, UI, modern clothing, modern
+    weapons, medieval European armour, plate armour, fantasy robes, science-fiction
+    elements, anime or cartoon proportions, extra limbs or fingers, duplicate Job,
+    distorted hands, deformed face, blurry subject, low detail, flat lighting, oversaturated
+    magic; graphic sores, open wounds, gore, infection detail, body horror, zombie
+    appearance, horror monster, demon, visible Satan, heavenly council, triumphant
+    battle pose, armour, sword, crown, restored wealth, cheerful family, broad smile,
+    prosperity scene, heavenly explanation diagram
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Job, Champion of Endurance, a mature household head amid suffering after
+    catastrophic loss. Show him pushing upright from an ash heap, gathering a torn
+    heavy wool mantle at his chest while his empty other hand steadies against the
+    ground; his tired face must hold anguish, lament, and integrity without a smile,
+    battle triumph, or knowledge of the heavenly conflict. Use a plain woven tunic,
+    frayed mantle, and bare or simply sandaled feet, with dust and only a few restrained
+    non-graphic skin marks. Set one plain potsherd aside in the ash rather than brandishing
+    it. Place broken clay, charred tent wood, a collapsed household frame, and empty
+    vessels behind; optional three companions remain tiny silent silhouettes in dusty
+    distance. Frame an intimate eye-level medium portrait from knee height: ash and
+    potsherd form a low foreground band, Job’s face and two clearly readable hands
+    dominate, and ruined timbers recede beneath a heavy storm. Leave a low-contrast
+    cloud gap above one shoulder and simple ash below for later framing. Use diffuse
+    storm light with only a thin neutral separation on his outline; palette of ash
+    grey, weathered umber, storm violet, faded wool brown, and restrained silver.
+    Render frayed fibre, powdery ash, cracked clay, charred wood, windblown grit,
+    natural skin, and fatigue in cinematic painterly realism with emotional dignity,
+    controlled depth, clear anatomy, and premium finish. Preserve grief and uncertainty;
+    do not show restoration. Artwork only: no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, UI, modern
+    clothing, modern weapons, medieval European armour, plate armour, fantasy robes,
+    science-fiction elements, anime or cartoon proportions, extra limbs or fingers,
+    duplicate Job, distorted hands, deformed face, blurry subject, low detail, flat
+    lighting, oversaturated magic; graphic sores, open wounds, gore, infection detail,
+    body horror, zombie appearance, horror monster, demon, visible Satan, heavenly
+    council, triumphant battle pose, armour, sword, crown, restored wealth, cheerful
+    family, broad smile, prosperity scene, heavenly explanation diagram
+  variations:
+  - Tighter chest-and-hands portrait retaining mantle grip, empty stabilizing hand,
+    ash, restrained marks, and unresolved grief.
+  - Slightly wider ruined-household view retaining Job’s dominant scale, the set-aside
+    potsherd, and no restoration imagery.
+traceability:
+  prompt_clauses:
+  - clause: Canonical name, Legendary title, archetype, traits, signature ability,
+      and collection differentiation
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+  - clause: Selected defining scene, focal action, signature objects, environment,
+      and supporting participants
+    source_paths:
+    - 'Scripture: Job 1:13-22'
+    - 'Scripture: Job 2:7-10'
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - biblical_basis.claims
+  - clause: Life stage aligned to the selected event and restrained physical presentation
+    source_paths:
+    - 'Scripture: Job 1:13-22'
+    - 'Scripture: Job 2:7-10'
+    - 'Scripture: Job 19:23-27'
+    - 'Scripture: Job 42:1-17'
+    - identity.depicted_life_stage
+    - visual_identity.presentation
+  - clause: Regional clothing, materials, accessories, and environmental reconstruction
+      classified without unsupported certainty
+    source_paths:
+    - biblical_basis.claims
+    - visual_identity.wardrobe
+    - visual_identity.materials
+    - visual_identity.accessories
+    - visual_identity.environment
+  - clause: Character-specific gameplay mechanic and explicit distinction from adjacent
+      Legendary identities
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - gameplay_identity.strategic_identity
+    - gameplay_identity.differentiation
+  - clause: Pose, camera, three depth planes, silhouette hierarchy, visual reading
+      order, and card-frame-safe space
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+    - knowledge/prompt_engineering/PROMPT_TEMPLATES.md
+  - clause: Mood, scene-motivated lighting, palette, tactile textures, and premium
+      rendering language
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  - clause: Divine-agency restraint, anachronism prevention, clean-art restrictions,
+      and character-specific negative constraints
+    source_paths:
+    - visual_identity.continuity_constraints
+    - art_direction.prohibited_elements
+    - knowledge/prompt_development/legendary/README.md
+    - docs/ARTWORK_REVIEW_STANDARD.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: candidate review may omit the three distant companions if they
+    read as a specific dialogue scene; Job, ash, potsherd, and ruined household already
+    carry the complete first-pass concept.'

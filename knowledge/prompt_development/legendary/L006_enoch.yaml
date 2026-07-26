@@ -1,0 +1,238 @@
+schema_version: 0.1.0
+collector_id: L006
+character_name: Enoch
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: Walker with God
+  depicted_life_stage: mature antediluvian man
+  era: antediluvian world
+  culture: restrained primeval pastoral landscape
+biblical_basis:
+  primary_passages:
+  - Genesis 5:21-24
+  secondary_passages:
+  - Hebrews 11:5-6
+  - Jude 14-15
+  defining_scene: Enoch walks steadily along a high path into radiant cloud-lit distance
+  claims:
+  - statement: Enoch walks with God and is taken; Genesis supplies no physical description
+      or detailed narrative setting.
+    classification: scripture
+    source_refs:
+    - Genesis 5:21-24
+  - statement: Hebrews associates Enoch with faith and pleasing God, supporting a
+      peaceful faithful bearing rather than occult spectacle.
+    classification: scripture
+    source_refs:
+    - Hebrews 11:5-6
+  - statement: A solitary upland path, distant household, plain garments, and non-figurative
+      cloud light are deliberately minimal project interpretation.
+    classification: project_interpretation
+    source_refs:
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - knowledge/prompt_development/legendary/README.md
+gameplay_identity:
+  archetype: Sacred Mystic
+  traits:
+  - Holiness
+  - Faith
+  - Communion
+  signature_ability: Walked with God
+  strategic_identity: 'Purity, protected movement, and temporary withdrawal from danger:
+    Walked with God allows Enoch to leave danger and return purified. This is a game
+    abstraction of faithful communion and divine taking, not teleportation or occult
+    ability.'
+  differentiation:
+  - Abraham receives a spoken covenant sign beneath stars; Enoch’s sparse identity
+    is steady communion expressed through an uninterrupted walk.
+  - Elijah’s public confrontation and fiery prophetic imagery are absent; Enoch is
+    deliberately quiet, unarmed, and non-spectacular.
+visual_identity:
+  presentation:
+  - Mature antediluvian household man walking with unhurried purpose, physically ordinary
+    and dignified rather than ethereal or superhuman.
+  - No exact face, age, complexion shade, stature, body type, hair, or beard is asserted
+    from the sparse biblical account.
+  wardrobe:
+  - Plain ankle-length woven tunic under a simple earth-toned mantle gathered for
+    walking, narrow fibre belt, and worn sandals.
+  - No priestly costume, celestial robe, jewellery, armour, wings, occult ornament,
+    or luminous markings.
+  materials:
+  - plain matte wool or linen-like weave
+  - fibre belt, worn leather sandals, smooth wooden walking staff
+  - grass, weathered stone, cloud moisture, and natural skin
+  accessories:
+  - one ordinary smooth walking staff held low for terrain
+  - no sacred device or magical object
+  signature_objects:
+  - narrow upland path continuing into luminous mist
+  - ordinary walking staff grounded against the path
+  environment:
+  - Quiet antediluvian upland of grass, low stone, and distant trees, intentionally
+    nonspecific because the text gives no location.
+  - A small, distant household silhouette behind Enoch establishes that he walks from
+    ordinary human life; radiant cloud-filled distance remains non-figurative.
+  supporting_figures:
+  - Only small distant family or settlement silhouettes, with no angelic escorts or
+    visible divine companion.
+  continuity_constraints:
+  - Enoch remains fully human, grounded, walking, and unarmed; never add wings, levitation,
+    celestial armour, or occult apparatus.
+  - Divine presence is represented only by naturalistic radiant cloud, clearing atmosphere,
+    and direction of movement—never a body, face, hand, second shadow, or companion
+    figure.
+  - Keep the path continuous beneath his feet; do not turn the light into a portal,
+    beam, magic circle, or teleport effect.
+composition:
+  focal_action: Enoch takes one calm step along the rising path, staff touching earth,
+    while he turns from the distant household toward light gathering naturally in
+    the mist ahead.
+  pose: Full-body walking profile with both feet anatomically grounded in a believable
+    stride; head gently lifted, free hand relaxed, staff low and weight-bearing.
+  camera: Restrained eye-level environmental full-body view with generous breathing
+    room; Enoch occupies the central lower half and the path carries the eye upward.
+  foreground:
+  - Grass blades, one weathered stone, and the staff tip establish real ground contact.
+  middle_ground:
+  - Enoch’s plain silhouette and measured stride remain the sole human focal point.
+  background:
+  - The path narrows through muted trees into luminous cloud; the distant household
+    stays small behind.
+  card_frame_safe_space: Reserve open mist and cloud in the upper third and simple
+    path in the lower margin; keep head, both feet, staff contact, and full silhouette
+    away from trim.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - peaceful communion
+  - holiness without spectacle
+  - separation from corruption
+  - quiet mystery
+  lighting:
+  - Soft overcast side light keeps Enoch tangible and human.
+  - Warm natural light accumulates within distant cloud and mist without forming a
+    figure, aura, portal, or beam.
+  palette:
+  - weathered stone grey
+  - sage grass
+  - earth-brown wool
+  - pearl cloud
+  - restrained warm cream
+  textures:
+  - matte plain weave, worn sandal leather, smooth staff wood, natural skin
+  - dew-dark grass, rough stone, soft mist, layered cloud
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically restrained reconstruction
+  - highly detailed natural materials, clear facial emotion, strong silhouette, controlled
+    atmospheric depth, dramatic but reverent vertical composition, premium finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, UI, modern clothing, modern
+    weapons, medieval European armour, fantasy robes, science-fiction elements, anime
+    or cartoon proportions, extra limbs or fingers, duplicated Enoch, distorted hands
+    or feet, deformed face, blurry subject, low detail, flat lighting, oversaturated
+    magic; angel wings, halo, levitation, wizard staff, occult symbols, magic circles,
+    portal, teleport beam, cosmic superhero, celestial armour, glowing eyes, visible
+    human depiction of God the Father, divine companion silhouette, angels, fiery
+    chariot, combat pose
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Enoch, Walker with God, depicted as a mature but physically ordinary antediluvian
+    man walking faithfully through a quiet upland landscape. Show one calm full-body
+    step with both feet anatomically grounded, a plain smooth walking staff touching
+    the earth, head gently lifted toward natural light gathering in distant mist;
+    his expression is peaceful, attentive, and holy without trance or spectacle. Dress
+    him in a plain ankle-length matte woven tunic, simple earth-toned mantle gathered
+    for walking, narrow fibre belt, and worn leather sandals—no armour, jewellery,
+    priestly insignia, or celestial clothing. Place grass, low weathered stones, and
+    sparse trees along a continuous rising path; keep a tiny household silhouette
+    far behind to connect him to ordinary human life. Represent divine presence only
+    through non-figurative radiant cloud and clearing atmosphere ahead, with no companion
+    body, face, hand, or second shadow. Use a restrained eye-level environmental composition
+    with Enoch central in the lower half, the path leading upward, generous open mist
+    in the upper third, and simple path below for later framing; keep head, feet,
+    staff contact, and silhouette crop-safe. Light him with soft overcast side light
+    and a restrained warm cream accumulation in the cloud; palette of stone grey,
+    sage, earth-brown wool, pearl, and warm cream. Render matte weave, worn leather,
+    smooth wood, natural skin, dew-dark grass, stone, mist, and layered cloud in cinematic
+    painterly realism with silence, dignity, controlled depth, clear anatomy, and
+    premium finish. Artwork only: no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, UI, modern
+    clothing, modern weapons, medieval European armour, fantasy robes, science-fiction
+    elements, anime or cartoon proportions, extra limbs or fingers, duplicated Enoch,
+    distorted hands or feet, deformed face, blurry subject, low detail, flat lighting,
+    oversaturated magic; angel wings, halo, levitation, wizard staff, occult symbols,
+    magic circles, portal, teleport beam, cosmic superhero, celestial armour, glowing
+    eyes, visible human depiction of God the Father, divine companion silhouette,
+    angels, fiery chariot, combat pose
+  variations:
+  - Tighter knee-up walking portrait preserving staff-to-ground contact, ordinary
+    garments, non-figurative mist, and the distant path.
+  - Broader landscape view with more quiet upland breathing room while keeping Enoch
+    clearly readable and fully grounded, never tiny or levitating.
+traceability:
+  prompt_clauses:
+  - clause: Canonical name, Legendary title, archetype, traits, signature ability,
+      and collection differentiation
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+  - clause: Selected defining scene, focal action, signature objects, environment,
+      and supporting participants
+    source_paths:
+    - 'Scripture: Genesis 5:21-24'
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - biblical_basis.claims
+  - clause: Life stage aligned to the selected event and restrained physical presentation
+    source_paths:
+    - 'Scripture: Genesis 5:21-24'
+    - 'Scripture: Hebrews 11:5-6'
+    - 'Scripture: Jude 14-15'
+    - identity.depicted_life_stage
+    - visual_identity.presentation
+  - clause: Regional clothing, materials, accessories, and environmental reconstruction
+      classified without unsupported certainty
+    source_paths:
+    - biblical_basis.claims
+    - visual_identity.wardrobe
+    - visual_identity.materials
+    - visual_identity.accessories
+    - visual_identity.environment
+  - clause: Character-specific gameplay mechanic and explicit distinction from adjacent
+      Legendary identities
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - gameplay_identity.strategic_identity
+    - gameplay_identity.differentiation
+  - clause: Pose, camera, three depth planes, silhouette hierarchy, visual reading
+      order, and card-frame-safe space
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+    - knowledge/prompt_engineering/PROMPT_TEMPLATES.md
+  - clause: Mood, scene-motivated lighting, palette, tactile textures, and premium
+      rendering language
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  - clause: Divine-agency restraint, anachronism prevention, clean-art restrictions,
+      and character-specific negative constraints
+    source_paths:
+    - visual_identity.continuity_constraints
+    - art_direction.prohibited_elements
+    - knowledge/prompt_development/legendary/README.md
+    - docs/ARTWORK_REVIEW_STANDARD.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: because Scripture supplies no location, human review may reduce
+    the distant household further; the fixed first-pass decision remains a nonspecific
+    upland path with no invented landmark.'
