@@ -1,0 +1,242 @@
+schema_version: 0.1.0
+collector_id: L005
+character_name: Joseph
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: Master of Dreams
+  depicted_life_stage: adult Egyptian administrator
+  era: Second Intermediate or Middle Bronze Age narrative setting
+  culture: royal Egyptian court
+biblical_basis:
+  primary_passages:
+  - Genesis 41:14-40
+  secondary_passages:
+  - Genesis 37:3-11
+  - Genesis 45:1-15
+  - Genesis 50:15-21
+  defining_scene: Joseph interprets Pharaoh's troubling dream with composed discernment,
+    indicating the coming cycle of abundance and famine
+  claims:
+  - statement: Joseph interprets Pharaoh’s dreams as seven years of abundance followed
+      by seven years of famine and proposes organized collection and storage.
+    classification: scripture
+    source_refs:
+    - Genesis 41:14-36
+  - statement: Pharaoh recognizes Joseph’s discernment and appoints him over Egypt;
+      the selected instant remains interpretation-before-investiture so Joseph’s wisdom
+      is focal.
+    classification: scripture
+    source_refs:
+    - Genesis 41:37-45
+  - statement: Court textiles, columns, papyrus planning surface, seal furniture,
+      and grain samples are conservative Egyptian-context choices rather than exact
+      details in Genesis.
+    classification: historical_context
+    source_refs:
+    - Genesis 41:14-45
+gameplay_identity:
+  archetype: Providential Strategist
+  traits:
+  - Wisdom
+  - Discernment
+  - Administration
+  signature_ability: Seven Years of Plenty
+  strategic_identity: 'Prediction, resource storage, administration, and reversal:
+    Seven Years of Plenty banks resources before crisis. Joseph’s discernment serves
+    preservation under providence; dream imagery is information, not sorcery.'
+  differentiation:
+  - Joseph governs stored resources inside an imperial system; Moses later leads an
+    enslaved people out of Egyptian control and opens passage.
+  - Abraham trusts a future promise without seeing its administration; Joseph turns
+    revealed warning into a concrete multi-year plan.
+visual_identity:
+  presentation:
+  - Adult Hebrew court official at the interpretation moment, recently prepared to
+    appear before Pharaoh yet composed and observant rather than lavishly enthroned.
+  - Levantine identity and Egyptian office should coexist without claiming exact facial
+    features, complexion shade, stature, body type, hairstyle, or jewellery.
+  wardrobe:
+  - Freshly laundered fine linen wrap garment and simple shoulder cloth appropriate
+    to entering an Egyptian audience, with a restrained belt and sandals.
+  - 'Office details remain subordinate: no European crown, striped cinema headdress,
+    pharaoh regalia, or extravagant jewellery on Joseph.'
+  materials:
+  - fine pale linen, woven shoulder cloth, leather sandals
+  - papyrus sheets, reed pen, wooden counting board, clay sealings
+  - polished stone floor, painted plaster, baskets and grain
+  accessories:
+  - rolled papyrus planning sheet on a low table
+  - small ordered samples of grain and a single clay sealing
+  signature_objects:
+  - seven measured grain portions arranged as a planning motif
+  - papyrus plan and reed pen, with no readable writing
+  environment:
+  - Egyptian royal audience hall with restrained painted columns and a side opening
+    toward sunlit granary courtyards.
+  - Pharaoh and attendants occupy a recessed, softer focal plane; Joseph remains larger
+    and brighter.
+  supporting_figures:
+  - Pharaoh is seated in the middle distance as listener, never the dominant portrait.
+  - Two scribes or officials remain quiet silhouettes near the planning table.
+  continuity_constraints:
+  - Use the adult interpretation moment before Joseph receives full investiture; do
+    not mix his youth coat, prison clothing, and governor regalia.
+  - Keep dream references physical and restrained—grain measures and distant cattle
+    relief—not floating holograms, spectral animals, or magic from Joseph.
+  - Joseph’s hands explain an administrative sequence over the table; he does not
+    bow as a defeated captive or pose as Pharaoh.
+composition:
+  focal_action: Joseph places seven measured grain portions in an ordered line while
+    explaining the coming abundance and famine to Pharaoh.
+  pose: Standing three-quarter figure beside a low planning table, one hand arranging
+    grain and the other indicating storage courtyards; composed face turned between
+    Pharaoh and the plan.
+  camera: Slightly elevated medium-full view, echoing strategic oversight; Joseph
+    occupies the central foreground and the table creates a diagonal toward the distant
+    ruler.
+  foreground:
+  - Papyrus edge, ordered grain measures, and reed pen establish planning without
+    readable script.
+  middle_ground:
+  - Joseph’s face and two explanatory hands dominate beside the measured grain.
+  background:
+  - Pharaoh, columned hall, attendants, and sunlit storage court recede in distinct
+    layers.
+  card_frame_safe_space: Keep a quiet painted wall above Joseph’s shoulder and an
+    uncluttered table edge below; all explanatory hands, face, grain sequence, and
+    papyrus remain central and crop-safe.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - discernment under pressure
+  - administrative clarity
+  - providential reversal
+  - restrained court gravity
+  lighting:
+  - High warm daylight from the granary side opening shapes Joseph and the grain.
+  - Cooler ambient court shadow keeps Pharaoh legible but subordinate; no glowing
+    dream projection.
+  palette:
+  - fine linen ivory
+  - sandstone gold
+  - restrained lapis blue
+  - grain ochre
+  - cool court shadow
+  textures:
+  - fine linen folds, papyrus fibre, matte grain, clay seal, polished stone
+  - subtle painted plaster, dry courtyard dust, and natural skin
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically restrained reconstruction
+  - highly detailed natural materials, clear facial emotion, strong silhouette, controlled
+    atmospheric depth, dramatic but reverent vertical composition, premium finish
+  prohibited_elements:
+  - text, readable hieroglyphs, pseudo-writing, letters, numbers, logos, watermark,
+    card frame, UI, modern suit, modern office, modern weapons, medieval European
+    armour, fantasy robes, science-fiction elements, anime or cartoon proportions,
+    extra limbs or fingers, duplicated Joseph, distorted hands, deformed face, blurry
+    subject, low detail, flat lighting, oversaturated magic; European king, crown
+    on Joseph, generic cinema pharaoh costume, striped royal headdress on Joseph,
+    pyramids dominating the image, floating cows or grain, dream holograms, magical
+    projection, glowing eyes, prison chains, youth coat, Pharaoh as focal subject
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Joseph, Master of Dreams, an adult Hebrew interpreter in an Egyptian royal
+    audience hall at the moment he explains seven years of abundance followed by famine
+    and proposes organized storage. Keep Joseph the dominant foreground figure beside
+    a low planning table; he arranges seven measured grain portions with one hand
+    and indicates sunlit granary courtyards with the other, his expression composed,
+    discerning, and administratively precise. Dress him for court entry in fresh fine
+    pale linen, a restrained woven shoulder cloth, simple belt, and sandals—Egyptian
+    office context without pharaoh regalia, European royalty, or extravagant jewellery.
+    Place a fibre-textured papyrus plan, reed pen, counting board, and one clay sealing
+    on the table, but show no readable writing. Pharaoh listens from a recessed middle-distance
+    seat with two subdued officials; restrained painted columns and the storage court
+    layer the background. Use a slightly elevated medium-full view: table and grain
+    sequence lead toward Joseph’s face and hands, then toward the subordinate ruler.
+    Preserve quiet wall above his shoulder and simple table edge below for later framing.
+    Shape Joseph with warm daylight from the granary opening and cooler court shadow;
+    use linen ivory, sandstone gold, restrained lapis, grain ochre, and cool grey-blue.
+    Render linen, papyrus, matte grain, clay, polished stone, plaster, dust, and natural
+    skin in cinematic painterly realism with intellectual focus, clear anatomy, deep
+    staging, and premium finish. Dream meaning reads through material planning, never
+    magic. Artwork only: no typography, border, logo, or interface.'
+  negative_prompt: text, readable hieroglyphs, pseudo-writing, letters, numbers, logos,
+    watermark, card frame, UI, modern suit, modern office, modern weapons, medieval
+    European armour, fantasy robes, science-fiction elements, anime or cartoon proportions,
+    extra limbs or fingers, duplicated Joseph, distorted hands, deformed face, blurry
+    subject, low detail, flat lighting, oversaturated magic; European king, crown
+    on Joseph, generic cinema pharaoh costume, striped royal headdress on Joseph,
+    pyramids dominating the image, floating cows or grain, dream holograms, magical
+    projection, glowing eyes, prison chains, youth coat, Pharaoh as focal subject
+  variations:
+  - Tighter waist-up planning portrait retaining both explanatory hands, seven grain
+    portions, papyrus, and subordinate Pharaoh.
+  - Wider court-and-granary view retaining interpretation-before-investiture, Joseph’s
+    dominant scale, and physical planning motifs without floating dream imagery.
+traceability:
+  prompt_clauses:
+  - clause: Canonical name, Legendary title, archetype, traits, signature ability,
+      and collection differentiation
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+  - clause: Selected defining scene, focal action, signature objects, environment,
+      and supporting participants
+    source_paths:
+    - 'Scripture: Genesis 41:14-40'
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - biblical_basis.claims
+  - clause: Life stage aligned to the selected event and restrained physical presentation
+    source_paths:
+    - 'Scripture: Genesis 41:14-40'
+    - 'Scripture: Genesis 37:3-11'
+    - 'Scripture: Genesis 45:1-15'
+    - 'Scripture: Genesis 50:15-21'
+    - identity.depicted_life_stage
+    - visual_identity.presentation
+  - clause: Regional clothing, materials, accessories, and environmental reconstruction
+      classified without unsupported certainty
+    source_paths:
+    - biblical_basis.claims
+    - visual_identity.wardrobe
+    - visual_identity.materials
+    - visual_identity.accessories
+    - visual_identity.environment
+  - clause: Character-specific gameplay mechanic and explicit distinction from adjacent
+      Legendary identities
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - gameplay_identity.strategic_identity
+    - gameplay_identity.differentiation
+  - clause: Pose, camera, three depth planes, silhouette hierarchy, visual reading
+      order, and card-frame-safe space
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+    - knowledge/prompt_engineering/PROMPT_TEMPLATES.md
+  - clause: Mood, scene-motivated lighting, palette, tactile textures, and premium
+      rendering language
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  - clause: Divine-agency restraint, anachronism prevention, clean-art restrictions,
+      and character-specific negative constraints
+    source_paths:
+    - visual_identity.continuity_constraints
+    - art_direction.prohibited_elements
+    - knowledge/prompt_development/legendary/README.md
+    - docs/ARTWORK_REVIEW_STANDARD.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: human historical review may simplify the shoulder cloth or court
+    paint scheme; neither affects Joseph’s fixed life stage, interpretation moment,
+    or planning action.'

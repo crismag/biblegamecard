@@ -1,0 +1,243 @@
+schema_version: 0.1.0
+collector_id: L001
+character_name: Noah
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: Guardian of Creation
+  depicted_life_stage: mature patriarch
+  era: antediluvian world
+  culture: ancient Near Eastern primeval setting
+biblical_basis:
+  primary_passages:
+  - Genesis 6:13-22
+  - Genesis 7:1-16
+  secondary_passages:
+  - Genesis 8:15-22
+  - Genesis 9:8-17
+  defining_scene: Noah stands protectively at the ark entrance as the storm gathers
+  claims:
+  - statement: Noah obeys the command to build the ark and bring his household and
+      living creatures into it.
+    classification: scripture
+    source_refs:
+    - Genesis 6:13-22
+    - Genesis 7:1-16
+  - statement: The selected moment places Noah outside the ark shortly before entry
+      so obedience, shelter, and approaching judgment read in one image.
+    classification: project_interpretation
+    source_refs:
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+  - statement: A pegged or tied, hand-worked timber construction and undyed woven
+      work garments are conservative visual choices; exact antediluvian material culture
+      is unknown.
+    classification: inference
+    source_refs:
+    - Genesis 6:14-16
+gameplay_identity:
+  archetype: Fortress Guardian
+  traits:
+  - Obedience
+  - Protection
+  - Endurance
+  signature_ability: Ark of Salvation
+  strategic_identity: 'Catastrophe defence and team shelter: Ark of Salvation protects
+    allied units from a field-wide loss. It treats preservation as obedience to God’s
+    warning, not Noah controlling weather or floodwater.'
+  differentiation:
+  - Noah prepares a shelter that preserves others through catastrophe; Moses leads
+    others through a divinely opened catastrophe.
+  - Abraham receives a promise about descendants; Noah safeguards a household and
+    living creatures through judgment.
+visual_identity:
+  presentation:
+  - Mature patriarch and practiced builder, weathered by sustained outdoor labour;
+    alert eyes and protective bearing rather than a warrior physique.
+  - Ancient Near Eastern regional appearance expressed broadly, without assigning
+    exact facial features, stature, complexion shade, hair, or beard as biblical facts.
+  wardrobe:
+  - Knee-to-calf work tunic of coarse undyed woven fibre, wrapped mantle pulled back
+    from the arms, tied leather waist belt, and simple sandals suitable for a muddy
+    worksite.
+  - Garments are dampened and wind-tugged at the edges but remain practical rather
+    than theatrical.
+  materials:
+  - rough woven wool or linen-like fibre
+  - hand-worked timber darkened with pitch
+  - fibre rope, leather belt, mud, and stone
+  accessories:
+  - single wooden mallet tucked at the belt
+  - coiled fibre rope beside the ramp
+  signature_objects:
+  - towering timber ark with pitch-darkened seams
+  - open ark ramp forming a sheltering diagonal
+  environment:
+  - Ark construction clearing at the edge of settled land; churned mud and timber
+    offcuts below an increasingly violent sky.
+  - Only a few paired animals and Noah’s family appear near the ramp, controlled in
+    scale and secondary to Noah.
+  supporting_figures:
+  - Noah’s family gathers near the open ramp as a compact subordinate group.
+  - Two or three paired animals establish preservation without becoming a catalogue
+    or comic parade.
+  continuity_constraints:
+  - 'Always depict the pre-entry moment: Noah remains outside at the ramp, the ark
+    is complete enough to receive life, and floodwater has not engulfed the scene.'
+  - Keep the ark a massive pitch-darkened timber refuge with an open ramp, never a
+    modern keeled vessel with masts, wheelhouse, or steel fittings.
+  - Noah protects and directs his household; wind and rain belong to the environment
+    and never emanate from him.
+composition:
+  focal_action: Noah braces one hand against the open ark ramp and extends the other
+    toward his family, urging them into shelter as the first hard rain crosses the
+    clearing.
+  pose: Full-body, weight shifted into the wind; shoulders turned protectively toward
+    the family, face visible in three-quarter profile, one hand in physical contact
+    with the ramp.
+  camera: Low-angle medium-wide environmental portrait from near the muddy ground;
+    Noah fills the central-right vertical axis while the ark rises behind him.
+  foreground:
+  - Wet timber chips, rope, and one shallow footprint lead upward without covering
+    Noah’s feet.
+  middle_ground:
+  - Noah, the ramp, and the compact family group form the primary sheltering triangle.
+  background:
+  - The ark’s immense timber flank occupies one side; controlled animal pairs approach
+    below layered storm clouds.
+  card_frame_safe_space: Reserve quieter storm sky above Noah’s head and a dark, simple
+    ramp area below; keep his face, directing hand, and ark entrance inside the central
+    safe crop.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - approaching catastrophe
+  - protective resolve
+  - obedient urgency
+  - covenant hope held in reserve
+  lighting:
+  - Cold storm light from upper left rakes across Noah and wet timber.
+  - A narrow warm reflection from the ark entrance suggests refuge without becoming
+    a supernatural portal or personified divine presence.
+  palette:
+  - slate blue storm
+  - pitch-dark timber
+  - wet earth umber
+  - undyed fibre beige
+  - restrained amber refuge
+  textures:
+  - splintered adze-cut timber and sticky pitch seams
+  - rain-heavy woven cloth, fibre rope, churned mud, and natural weathered skin
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically restrained reconstruction
+  - highly detailed natural materials, clear facial emotion, strong silhouette, controlled
+    atmospheric depth, dramatic but reverent vertical composition, premium finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, UI, modern clothing, modern
+    tools, modern weapons, medieval European armour, plate armour, fantasy robes,
+    science-fiction elements, anime or cartoon proportions, extra limbs or fingers,
+    duplicated Noah, distorted hands, deformed face, obscured face, blurry subject,
+    low detail, flat lighting, oversaturated magic; modern ocean liner, steel hull,
+    masts, wheelhouse, fantasy warship, cartoon ark, comical crowd of animals, every
+    animal species, floodwater already covering Noah, Noah commanding the storm, magic
+    from Noah, visible human depiction of God the Father
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Noah, Guardian of Creation, a mature patriarch and practiced builder, outside
+    the completed ark immediately before entry as the first hard rain sweeps the clearing.
+    He braces one hand against the open timber ramp and reaches the other toward his
+    family, his weathered face showing protective resolve and obedient urgency rather
+    than command over the storm. Dress him in a coarse undyed knee-to-calf work tunic,
+    a wind-tugged wrapped mantle, leather belt, and simple mud-marked sandals; include
+    one wooden mallet at his belt and fibre rope near the ramp. Make the ark an immense
+    hand-worked timber refuge with visible pitch-darkened seams, not a modern ship.
+    Place Noah as the single dominant figure in a low-angle medium-wide portrait;
+    his family and only two or three paired animals remain small near the entrance.
+    Use wet timber chips and rope in the foreground, Noah and the open ramp in the
+    middle ground, and the ark flank beneath layered slate storm clouds behind. Preserve
+    quiet sky above and a simple lower ramp area for later framing while keeping face,
+    hand, and entrance crop-safe. Light the rain from cold upper-left storm light
+    with a restrained warm reflection from inside the ark; use slate blue, pitch brown,
+    wet umber, fibre beige, and muted amber. Render splintered timber, sticky pitch,
+    soaked woven cloth, rope, mud, and natural skin in cinematic painterly realism
+    with reverent tension, strong silhouette, controlled depth, and premium finish.
+    Artwork only: no typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, UI, modern
+    clothing, modern tools, modern weapons, medieval European armour, plate armour,
+    fantasy robes, science-fiction elements, anime or cartoon proportions, extra limbs
+    or fingers, duplicated Noah, distorted hands, deformed face, obscured face, blurry
+    subject, low detail, flat lighting, oversaturated magic; modern ocean liner, steel
+    hull, masts, wheelhouse, fantasy warship, cartoon ark, comical crowd of animals,
+    every animal species, floodwater already covering Noah, Noah commanding the storm,
+    magic from Noah, visible human depiction of God the Father
+  variations:
+  - Tighter knee-up crop at the ramp, retaining Noah’s directing hand, the pitch seams,
+    family silhouettes, and first rain.
+  - Slightly wider environmental crop that increases ark scale but keeps Noah at least
+    one-third of image height and limits visible animals to controlled pairs.
+traceability:
+  prompt_clauses:
+  - clause: Canonical name, Legendary title, archetype, traits, signature ability,
+      and collection differentiation
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+  - clause: Selected defining scene, focal action, signature objects, environment,
+      and supporting participants
+    source_paths:
+    - 'Scripture: Genesis 6:13-22'
+    - 'Scripture: Genesis 7:1-16'
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - biblical_basis.claims
+  - clause: Life stage aligned to the selected event and restrained physical presentation
+    source_paths:
+    - 'Scripture: Genesis 6:13-22'
+    - 'Scripture: Genesis 7:1-16'
+    - 'Scripture: Genesis 8:15-22'
+    - 'Scripture: Genesis 9:8-17'
+    - identity.depicted_life_stage
+    - visual_identity.presentation
+  - clause: Regional clothing, materials, accessories, and environmental reconstruction
+      classified without unsupported certainty
+    source_paths:
+    - biblical_basis.claims
+    - visual_identity.wardrobe
+    - visual_identity.materials
+    - visual_identity.accessories
+    - visual_identity.environment
+  - clause: Character-specific gameplay mechanic and explicit distinction from adjacent
+      Legendary identities
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - gameplay_identity.strategic_identity
+    - gameplay_identity.differentiation
+  - clause: Pose, camera, three depth planes, silhouette hierarchy, visual reading
+      order, and card-frame-safe space
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+    - knowledge/prompt_engineering/PROMPT_TEMPLATES.md
+  - clause: Mood, scene-motivated lighting, palette, tactile textures, and premium
+      rendering language
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  - clause: Divine-agency restraint, anachronism prevention, clean-art restrictions,
+      and character-specific negative constraints
+    source_paths:
+    - visual_identity.continuity_constraints
+    - art_direction.prohibited_elements
+    - knowledge/prompt_development/legendary/README.md
+    - docs/ARTWORK_REVIEW_STANDARD.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking: choose during candidate review whether one distant animal pair
+    or two best preserves Noah’s silhouette; the prompt already caps and subordinates
+    them.'

@@ -1,0 +1,239 @@
+schema_version: 0.1.0
+collector_id: L004
+character_name: Jacob
+status: GENERATION_READY_DRAFT
+identity:
+  legendary_title: Israel’s Overcomer
+  depicted_life_stage: mature patriarch
+  era: Middle Bronze Age patriarchal period
+  culture: Jabbok ford in ancient Canaan
+biblical_basis:
+  primary_passages:
+  - Genesis 32:22-32
+  secondary_passages:
+  - Genesis 28:10-22
+  - Genesis 35:9-15
+  defining_scene: Jacob struggles through the final moments before dawn, exhausted
+    yet refusing to release his opponent
+  claims:
+  - statement: Jacob is left alone, wrestles until dawn, suffers a hip injury, receives
+      the name Israel, and names the place Peniel.
+    classification: scripture
+    source_refs:
+    - Genesis 32:22-32
+  - statement: The opponent is rendered as a backlit, partially obscured humanlike
+      silhouette because the passage’s identification is theologically sensitive and
+      physical details are not supplied.
+    classification: project_interpretation
+    source_refs:
+    - Genesis 32:24-30
+    - knowledge/prompt_development/legendary/README.md
+  - statement: Travel garments, river stones, reeds, and a shallow Jabbok ford are
+      contextual reconstruction; exact clothing and river appearance are uncertain.
+    classification: inference
+    source_refs:
+    - Genesis 32:22-24
+gameplay_identity:
+  archetype: Transforming Patriarch
+  traits:
+  - Perseverance
+  - Strategy
+  - Covenant
+  signature_ability: Wrestle Until Dawn
+  strategic_identity: 'Transformation after surviving decisive conflict: Wrestle Until
+    Dawn changes Jacob’s play identity after he endures a major attack. The mechanic
+    represents perseverance and renaming, not magical combat power.'
+  differentiation:
+  - Isaac preserves continuity through peaceful settlement; Jacob becomes Israel through
+    exhausting struggle and blessing.
+  - Job endures suffering while retaining integrity; Jacob’s defining gameplay beat
+    explicitly changes his identity after conflict.
+visual_identity:
+  presentation:
+  - 'Adult patriarch at the end of an all-night struggle: sweat, dust, fatigue, and
+    pain visible while determination remains.'
+  - Broad ancient Near Eastern regional credibility without assigning exact facial
+    structure, complexion shade, stature, build, hair, or beard as known facts.
+  wardrobe:
+  - Travel-worn woven tunic with sleeves pushed or torn back from exertion, short
+    wool mantle fallen around the waist, leather belt, and simple sandals loosened
+    by the struggle.
+  - No armour, crown, wrestling costume, sacred vestment, or supernatural markings.
+  materials:
+  - sweat-darkened woven wool and linen-like fibre
+  - leather belt and sandals, rounded river stone, reeds, wet earth
+  - shallow water, mist, dust, and natural skin
+  accessories:
+  - travel mantle fallen low but still attached
+  - no weapon or magical implement
+  signature_objects:
+  - Jabbok ford stones and shallow water
+  - first line of dawn behind the obscured opponent
+  environment:
+  - Secluded Jabbok river ford after Jacob’s household has crossed, with wet stones,
+    reeds, low mist, and no audience.
+  - Predawn darkness yields to a narrow amber horizon behind the two locked figures.
+  supporting_figures:
+  - One mysterious opponent only, kept secondary through backlight, partial silhouette,
+    and obscured facial detail.
+  continuity_constraints:
+  - 'Keep the moment just before release at dawn: Jacob is exhausted, his hip has
+    been struck, and the struggle remains unresolved in the pose.'
+  - The opponent must remain humanlike but backlit and visually indeterminate—no visible
+    God the Father, named angel anatomy, wings, demon traits, armour, or monster design.
+  - Show Jacob’s injured hip through asymmetrical weight and pain, not graphic dislocation
+    or body horror.
+composition:
+  focal_action: Jacob clings through the last instant before dawn, one leg buckling
+    at the injured hip while he refuses to release the backlit opponent.
+  pose: Dynamic diagonal grapple with Jacob’s face turned toward camera, jaw tight
+    and eyes conscious; injured leg bears reduced weight and both figures maintain
+    believable contact.
+  camera: Close medium, shoulder-to-knee action portrait at water level with a slight
+    Dutch-free cant created by bodies, not the horizon; Jacob occupies two-thirds
+    of the frame.
+  foreground:
+  - Rippling shallow water and one hand gripping damp cloth establish contact and
+    anatomy.
+  middle_ground:
+  - Jacob’s illuminated face, locked arms, and failing leg create the dominant triangle;
+    the opponent remains darker.
+  background:
+  - Reeds and empty far bank dissolve into blue mist beneath the first amber dawn
+    line.
+  card_frame_safe_space: Keep dawn sky quiet at the top and water shadow simple at
+    bottom; protect Jacob’s face, hands, injured stance, and opponent contact from
+    trim and overlay zones.
+  orientation: vertical_collectible_card
+art_direction:
+  mood:
+  - physical exhaustion
+  - unyielding perseverance
+  - vulnerability
+  - identity at the threshold of change
+  lighting:
+  - Cold predawn fill reveals wet skin and cloth.
+  - A narrow amber backlight silhouettes the opponent and edges Jacob without turning
+    into an aura or visible divine body.
+  palette:
+  - predawn indigo
+  - river slate
+  - wet earth umber
+  - worn wool grey
+  - thin amber dawn
+  textures:
+  - sweat-dark cloth, strained leather, wet hair and natural skin
+  - slick river stones, reeds, shallow ripples, and low mist
+  rendering_language:
+  - premium biblical collectible-card illustration
+  - cinematic painterly realism with historically restrained reconstruction
+  - highly detailed natural materials, clear facial emotion, strong silhouette, controlled
+    atmospheric depth, dramatic but reverent vertical composition, premium finish
+  prohibited_elements:
+  - text, letters, numbers, logos, watermark, card frame, UI, modern clothing, modern
+    combat clothing, modern weapons, medieval European armour, fantasy robes, science-fiction
+    elements, anime or cartoon proportions, extra limbs or fingers, duplicated Jacob,
+    fused bodies, impossible grapple, distorted hands, deformed face, blurry subject,
+    low detail, flat lighting, oversaturated magic; professional wrestling ring, sports
+    arena, superhero fight, visible anthropomorphic God the Father, clearly defined
+    deity face, winged angel, fantasy demon opponent, monster, magic aura, glowing
+    fists, graphic hip injury, audience crowd
+prompt_source:
+  positive_prompt: 'Create clean vertical artwork for a premium biblical collectible
+    card: Jacob, Israel’s Overcomer, an adult patriarch at the Jabbok ford in the
+    final instant of an all-night struggle before dawn. Show Jacob clinging to one
+    mysterious humanlike opponent as his injured hip causes one leg to buckle; keep
+    Jacob’s exhausted face turned readable toward the viewer, jaw set with vulnerability
+    and unyielding perseverance. The opponent must remain secondary, backlit, partially
+    silhouetted, and facially indeterminate—neither a visible portrayal of God the
+    Father nor a defined fantasy angel or demon. Dress Jacob in a sweat-darkened travel
+    tunic, a wool mantle fallen around the waist, plain leather belt, and loosened
+    sandals, with no armour or weapon. Surround them with shallow rippling water,
+    slick rounded stones, reeds, wet earth, and blue mist on an empty far bank. Use
+    a close shoulder-to-knee action portrait at water level; Jacob fills two-thirds
+    of the frame, his face, locked arms, believable hand contact, and asymmetrical
+    injured stance forming the focal hierarchy. Leave quiet dawn sky above and simple
+    water shadow below for later framing. Use cold predawn fill with only a thin amber
+    horizon backlight defining the opponent; palette of indigo, slate, wet umber,
+    wool grey, and narrow amber. Render wet cloth, strained leather, river texture,
+    mist, fatigue, and natural anatomy in cinematic painterly realism with spiritual
+    tension, layered depth, strong silhouette, and premium finish. Artwork only: no
+    typography, border, logo, or interface.'
+  negative_prompt: text, letters, numbers, logos, watermark, card frame, UI, modern
+    clothing, modern combat clothing, modern weapons, medieval European armour, fantasy
+    robes, science-fiction elements, anime or cartoon proportions, extra limbs or
+    fingers, duplicated Jacob, fused bodies, impossible grapple, distorted hands,
+    deformed face, blurry subject, low detail, flat lighting, oversaturated magic;
+    professional wrestling ring, sports arena, superhero fight, visible anthropomorphic
+    God the Father, clearly defined deity face, winged angel, fantasy demon opponent,
+    monster, magic aura, glowing fists, graphic hip injury, audience crowd
+  variations:
+  - Tighter chest-up struggle preserving Jacob’s readable face, both gripping hands,
+    indeterminate opponent, and dawn rim.
+  - Slightly wider knee-up view emphasizing Jacob’s failed weight-bearing and river
+    contact while retaining the same pre-release instant.
+traceability:
+  prompt_clauses:
+  - clause: Canonical name, Legendary title, archetype, traits, signature ability,
+      and collection differentiation
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+  - clause: Selected defining scene, focal action, signature objects, environment,
+      and supporting participants
+    source_paths:
+    - 'Scripture: Genesis 32:22-32'
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - biblical_basis.claims
+  - clause: Life stage aligned to the selected event and restrained physical presentation
+    source_paths:
+    - 'Scripture: Genesis 32:22-32'
+    - 'Scripture: Genesis 28:10-22'
+    - 'Scripture: Genesis 35:9-15'
+    - identity.depicted_life_stage
+    - visual_identity.presentation
+  - clause: Regional clothing, materials, accessories, and environmental reconstruction
+      classified without unsupported certainty
+    source_paths:
+    - biblical_basis.claims
+    - visual_identity.wardrobe
+    - visual_identity.materials
+    - visual_identity.accessories
+    - visual_identity.environment
+  - clause: Character-specific gameplay mechanic and explicit distinction from adjacent
+      Legendary identities
+    source_paths:
+    - registry/legendary_cards.json
+    - registry/LEGENDARY_CHARACTER_PLAN.md
+    - gameplay_identity.strategic_identity
+    - gameplay_identity.differentiation
+  - clause: Pose, camera, three depth planes, silhouette hierarchy, visual reading
+      order, and card-frame-safe space
+    source_paths:
+    - composition
+    - docs/ARTWORK_REVIEW_STANDARD.md
+    - knowledge/prompt_engineering/PROMPT_TEMPLATES.md
+  - clause: Mood, scene-motivated lighting, palette, tactile textures, and premium
+      rendering language
+    source_paths:
+    - art_direction
+    - knowledge/ART_DIRECTION_GUIDE.md
+    - knowledge/prompt_engineering/PROMPT_GRAMMAR.md
+  - clause: Divine-agency restraint, anachronism prevention, clean-art restrictions,
+      and character-specific negative constraints
+    source_paths:
+    - visual_identity.continuity_constraints
+    - art_direction.prohibited_elements
+    - knowledge/prompt_development/legendary/README.md
+    - docs/ARTWORK_REVIEW_STANDARD.md
+readiness:
+  content_state: GENERATION_READY_DRAFT
+  automated_schema_validation: PASSED
+  theological_review: PENDING_HUMAN_REVIEW
+  historical_review: PENDING_HUMAN_REVIEW
+  gameplay_review: PENDING_HUMAN_REVIEW
+  artwork_generation: NOT_STARTED
+  unresolved_questions:
+  - 'Non-blocking theological sensitivity: human review must evaluate whether the
+    opponent’s degree of silhouette is sufficiently restrained; generation is not
+    asked to define identity, face, wings, or species.'

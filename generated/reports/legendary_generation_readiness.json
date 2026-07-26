@@ -1,0 +1,128 @@
+{
+  "schema_version": "0.1.0",
+  "source_directory": "knowledge/prompt_development/legendary",
+  "profile_count": 8,
+  "generation_ready_count": 8,
+  "profiles": [
+    {
+      "collector_id": "L001",
+      "character_name": "Noah",
+      "profile_path": "knowledge/prompt_development/legendary/L001_noah.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L002",
+      "character_name": "Abraham",
+      "profile_path": "knowledge/prompt_development/legendary/L002_abraham.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L003",
+      "character_name": "Isaac",
+      "profile_path": "knowledge/prompt_development/legendary/L003_isaac.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L004",
+      "character_name": "Jacob",
+      "profile_path": "knowledge/prompt_development/legendary/L004_jacob.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L005",
+      "character_name": "Joseph",
+      "profile_path": "knowledge/prompt_development/legendary/L005_joseph.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L006",
+      "character_name": "Enoch",
+      "profile_path": "knowledge/prompt_development/legendary/L006_enoch.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L007",
+      "character_name": "Job",
+      "profile_path": "knowledge/prompt_development/legendary/L007_job.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    },
+    {
+      "collector_id": "L008",
+      "character_name": "Moses",
+      "profile_path": "knowledge/prompt_development/legendary/L008_moses.yaml",
+      "declared_content_state": "GENERATION_READY_DRAFT",
+      "computed_generation_ready": true,
+      "missing_required_fields": [],
+      "unresolved_question_count": 1,
+      "deferred_reviews": {
+        "theological": "PENDING_HUMAN_REVIEW",
+        "historical": "PENDING_HUMAN_REVIEW",
+        "gameplay": "PENDING_HUMAN_REVIEW"
+      },
+      "artwork_generation": "NOT_STARTED"
+    }
+  ]
+}
