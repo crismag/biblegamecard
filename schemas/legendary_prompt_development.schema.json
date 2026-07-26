@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/legendary_prompt_development.schema.json",
+  "title": "Legendary Prompt Development Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "collector_id", "character_name", "status", "identity", "biblical_basis", "gameplay_identity", "visual_identity", "composition", "art_direction", "prompt_source", "traceability", "readiness"],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "collector_id": {"type": "string", "pattern": "^L[0-9]{3}$"},
+    "character_name": {"type": "string", "minLength": 1},
+    "status": {"enum": ["AUTHORING_DRAFT", "PROMPT_SOURCE_COMPLETE", "GENERATION_READY_DRAFT"]},
+    "identity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["legendary_title", "depicted_life_stage", "era", "culture"],
+      "properties": {
+        "legendary_title": {"type": "string", "minLength": 1},
+        "depicted_life_stage": {"type": "string", "minLength": 1},
+        "era": {"type": "string", "minLength": 1},
+        "culture": {"type": "string", "minLength": 1}
+      }
+    },
+    "biblical_basis": {
+      "type": "object", "additionalProperties": false,
+      "required": ["primary_passages", "secondary_passages", "defining_scene", "claims"],
+      "properties": {
+        "primary_passages": {"$ref": "#/$defs/nonEmptyStrings"},
+        "secondary_passages": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "defining_scene": {"type": "string", "minLength": 1},
+        "claims": {"type": "array", "items": {"$ref": "#/$defs/claim"}}
+      }
+    },
+    "gameplay_identity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["archetype", "traits", "signature_ability", "strategic_identity", "differentiation"],
+      "properties": {
+        "archetype": {"type": "string", "minLength": 1},
+        "traits": {"$ref": "#/$defs/nonEmptyStrings"},
+        "signature_ability": {"type": "string", "minLength": 1},
+        "strategic_identity": {"type": "string", "minLength": 1},
+        "differentiation": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "visual_identity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["presentation", "wardrobe", "materials", "accessories", "signature_objects", "environment", "supporting_figures", "continuity_constraints"],
+      "properties": {
+        "presentation": {"$ref": "#/$defs/nonEmptyStrings"},
+        "wardrobe": {"$ref": "#/$defs/nonEmptyStrings"},
+        "materials": {"$ref": "#/$defs/nonEmptyStrings"},
+        "accessories": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "signature_objects": {"$ref": "#/$defs/nonEmptyStrings"},
+        "environment": {"$ref": "#/$defs/nonEmptyStrings"},
+        "supporting_figures": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "continuity_constraints": {"$ref": "#/$defs/nonEmptyStrings"}
+      }
+    },
+    "composition": {
+      "type": "object", "additionalProperties": false,
+      "required": ["focal_action", "pose", "camera", "foreground", "middle_ground", "background", "card_frame_safe_space", "orientation"],
+      "properties": {
+        "focal_action": {"type": "string", "minLength": 1},
+        "pose": {"type": "string", "minLength": 1},
+        "camera": {"type": "string", "minLength": 1},
+        "foreground": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "middle_ground": {"$ref": "#/$defs/nonEmptyStrings"},
+        "background": {"$ref": "#/$defs/nonEmptyStrings"},
+        "card_frame_safe_space": {"type": "string", "minLength": 1},
+        "orientation": {"const": "vertical_collectible_card"}
+      }
+    },
+    "art_direction": {
+      "type": "object", "additionalProperties": false,
+      "required": ["mood", "lighting", "palette", "textures", "rendering_language", "prohibited_elements"],
+      "properties": {
+        "mood": {"$ref": "#/$defs/nonEmptyStrings"},
+        "lighting": {"$ref": "#/$defs/nonEmptyStrings"},
+        "palette": {"$ref": "#/$defs/nonEmptyStrings"},
+        "textures": {"$ref": "#/$defs/nonEmptyStrings"},
+        "rendering_language": {"$ref": "#/$defs/nonEmptyStrings"},
+        "prohibited_elements": {"$ref": "#/$defs/nonEmptyStrings"}
+      }
+    },
+    "prompt_source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["positive_prompt", "negative_prompt", "variations"],
+      "properties": {
+        "positive_prompt": {"type": "string"},
+        "negative_prompt": {"type": "string"},
+        "variations": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "traceability": {
+      "type": "object", "additionalProperties": false,
+      "required": ["prompt_clauses"],
+      "properties": {
+        "prompt_clauses": {"type": "array", "items": {"$ref": "#/$defs/promptClause"}}
+      }
+    },
+    "readiness": {
+      "type": "object", "additionalProperties": false,
+      "required": ["content_state", "automated_schema_validation", "theological_review", "historical_review", "gameplay_review", "artwork_generation", "unresolved_questions"],
+      "properties": {
+        "content_state": {"enum": ["AUTHORING_DRAFT", "PROMPT_SOURCE_COMPLETE", "GENERATION_READY_DRAFT"]},
+        "automated_schema_validation": {"enum": ["PENDING_TOOL_EXECUTION", "PASSED", "FAILED"]},
+        "theological_review": {"const": "PENDING_HUMAN_REVIEW"},
+        "historical_review": {"const": "PENDING_HUMAN_REVIEW"},
+        "gameplay_review": {"const": "PENDING_HUMAN_REVIEW"},
+        "artwork_generation": {"enum": ["NOT_STARTED", "ATTEMPT_RECORDED"]},
+        "unresolved_questions": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyStrings": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "claim": {
+      "type": "object", "additionalProperties": false,
+      "required": ["statement", "classification", "source_refs"],
+      "properties": {
+        "statement": {"type": "string", "minLength": 1},
+        "classification": {"enum": ["scripture", "historical_context", "inference", "tradition", "project_interpretation"]},
+        "source_refs": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "promptClause": {
+      "type": "object", "additionalProperties": false,
+      "required": ["clause", "source_paths"],
+      "properties": {
+        "clause": {"type": "string", "minLength": 1},
+        "source_paths": {"$ref": "#/$defs/nonEmptyStrings"}
+      }
+    }
+  }
+}
