@@ -1,0 +1,11 @@
+schema_version: 1.0.0
+authority_note: Lifecycle tracking only; approval requires repository review evidence and never changes canonical facts.
+allowed_states: [NOT_GENERATED, GENERATED, UNDER_REVIEW, APPROVED, REJECTED, RELEASED]
+transitions:
+  NOT_GENERATED: [GENERATED]
+  GENERATED: [UNDER_REVIEW]
+  UNDER_REVIEW: [APPROVED, REJECTED]
+  REJECTED: [GENERATED]
+  APPROVED: [RELEASED, UNDER_REVIEW]
+  RELEASED: []
+assets: []

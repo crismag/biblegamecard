@@ -1,0 +1,13 @@
+schema_version: 1.0.0
+character_id: L000
+prompt_version: 1.0.0
+compiler_version: 1.0.0
+adapter: openai
+model: gpt-image-1
+seed: 0
+resolution: 1024x1536
+source_commit: 0000000000000000000000000000000000000000
+source_profile: knowledge/prompt_development/legendary/L000_example.yaml
+compiled_at: '1970-01-01T00:00:00Z'
+artifact_state: NOT_GENERATED
+source_hashes: {}

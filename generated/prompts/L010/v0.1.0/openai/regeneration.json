@@ -1,0 +1,18 @@
+{
+  "source_commit": "6649ee690dd5d344b0e5bfba90afe5d27ac061f3",
+  "compiled_at": "2026-07-26T05:01:44Z",
+  "source_hashes": {
+    "docs/ARTWORK_REVIEW_STANDARD.md": "b330f0bb24d7462b49b14f9ddd58b8ec1c25aa8586f4d3ddb072daaa03781dca",
+    "knowledge/ART_DIRECTION_GUIDE.md": "45cbf9d1d8bd09bc3e65d013d2af6a471c040c44bee088de67e61f0db773194b",
+    "knowledge/characters/legendary/L010_joshua/data/art.yaml": "537d7374eb06386fd0d54fce2cb1f9806a5b3bcf2b6c91884fe5149bd759a8b0",
+    "knowledge/characters/legendary/L010_joshua/data/character.yaml": "c4da7c52caca5a34139293122ddcdd70738868ee441848309f450fac1fcc2bc4",
+    "knowledge/characters/legendary/L010_joshua/data/gameplay.yaml": "936986d211706ceb6b2518d33c5d894bfe5daf4f0d460b96d72c923936ee75ec",
+    "knowledge/characters/legendary/L010_joshua/data/prompt.yaml": "b82b65fab0f709dbf1d1c2714b2d78cc08c610cbf4e26a6823ffbe89d2fcbb36",
+    "knowledge/characters/legendary/L010_joshua/data/symbols.yaml": "90bc6f484434d9d45a12279c5f284088f9528c2508eeaf354aa697ad4cbd5918",
+    "knowledge/prompt_development/legendary/L010_joshua.yaml": "ddcd235de92279aa0a0f59fec5cc8d3746848498199662381af3ceee65d4d70b",
+    "knowledge/prompt_development/legendary/README.md": "43c3385ba58a0c3ed78195c358b37e80aced59e0d94cd624fe58df9f9fef6890",
+    "registry/legendary_prompt_development.json": "ab58ca90d2afd37ecc80c90a1b66ca9dc980dc59fa7a97e789e8cc733015a00d",
+    "templates/production/generation_manifest.yaml": "bd27beb2af0b894f6dca233887d35813a463422082172314b96d057a0dd1f052"
+  },
+  "command": "ruby tools/compile_prompts.rb --profile knowledge/prompt_development/legendary/L010_joshua.yaml --adapter openai --model gpt-image-1 --seed 0 --resolution 1024x1536"
+}
