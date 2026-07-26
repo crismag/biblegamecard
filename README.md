@@ -4,7 +4,7 @@ A version-controlled design and context repository for a premium biblical collec
 
 ## Current focus
 
-The current milestone is to define and complete the 34-card **Core Legendary Collection**, then regenerate every card as a consistent Official V2 release set.
+The current milestone is to complete the L010 Joshua production reference, validate the reusable character-package architecture with Esther and Moses, and then expand across the 34-card **Core Legendary Collection** as a consistent Official V2 release set.
 
 ## Start here
 
@@ -25,18 +25,19 @@ The current milestone is to define and complete the 34-card **Core Legendary Col
 3. Traits should feel desirable in a fighting or strategy card game while remaining biblically grounded.
 4. Earlier images are prototypes and references, not official release assets.
 5. Collector IDs are permanent; production order and artwork versions are tracked separately.
-6. The repository is the source of truth for character data, prompts, RAG context, revision history, and final assets.
+6. Canonical knowledge and review evidence are authoritative; generated outputs and human-facing trackers are reproducible projections.
 
 ## Immediate queue
 
-1. Review L010 Joshua reference sources and compiled prompt.
-2. Generate and review Joshua official artwork after prompt approval.
-3. Validate the final card layout and package workflow.
-4. Apply the proven package structure to the remaining Legendary collection.
+1. Complete L010 Joshua cross-discipline review and approve the exact compiled prompt.
+2. Select the Joshua model adapter and output settings, then generate and evaluate official artwork candidates.
+3. Begin L026 Esther and L008 Moses as controlled canonical-package architecture tests while Joshua production continues.
+4. Complete the print-production specification before final Joshua card approval.
+5. Apply the proven package structure and production workflow to the remaining Legendary collection.
 
-## Branch
+## Development workflow
 
-Foundation work is currently maintained on `setup/card-context-foundation` until reviewed and merged into `main`.
+`main` is the canonical integration branch. New work is developed on focused branches and merged through reviewed pull requests after required validation, deterministic-generation, and drift checks pass.
 
 ## Canonical validation
 
