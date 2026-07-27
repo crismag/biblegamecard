@@ -1,10 +1,19 @@
 # BibleGameCard Development Work Package
 
-This directory is the execution workspace for Codex, Claude, and human contributors implementing the next non-image-generation capabilities of BibleGameCard.
+> **Active direction:** asset production. Start with
+> [`asset-production/README.md`](asset-production/README.md). The supplementary
+> platform roadmap and its numbered prompts are retained as history, but are
+> paused and must not be executed automatically.
+
+This directory is the execution workspace for Codex, Claude, and human
+contributors completing BibleGameCard's content, artwork, composition, and
+asset-packaging lifecycle.
 
 ## Purpose
 
-The package turns the repository roadmap into bounded, reviewable development work while protecting the pending local image-generation feasibility test.
+The active package turns the asset-production roadmap into bounded, reviewable
+work, beginning with an approved inventory and visual system and then proving
+the complete Joshua vertical slice.
 
 The current Ruby tools remain the deterministic core for canonical validation, assembly, readiness reporting, and prompt compilation. New application-level capabilities should be implemented primarily in Python and should call the Ruby tools rather than duplicate their behaviour.
 
@@ -33,7 +42,10 @@ The current Ruby tools remain the deterministic core for canonical validation, a
 | `prompts/09_ci_and_quality_gates.md` | CI orchestration and repository health checks | None |
 | `prompts/10_provider_plugin_contracts.md` | Provider interfaces without executing image generation | Low; contracts only |
 
-## Recommended execution order
+## Historical execution order (paused)
+
+The sequence below is not an active backlog. Work from it requires explicit
+reauthorisation and a demonstrated card-production need.
 
 1. Python platform bootstrap.
 2. Unified CLI and service layer.
