@@ -41,3 +41,18 @@ def test_invalid_repository_has_clear_error(
 ) -> None:
     assert main(["--repository", str(tmp_path), "repository", "inspect"]) == 2
     assert "not a BibleGameCard repository" in caplog.text
+
+
+def test_status_json_from_real_repository(capsys: pytest.CaptureFixture[str]) -> None:
+    root = Path(__file__).resolve().parents[2]
+    assert main(["--repository", str(root), "--json", "status"]) == 0
+    payload = __import__("json").loads(capsys.readouterr().out)
+    assert payload["operation"] == "status"
+    assert payload["status"] == "SUCCESS"
+
+
+def test_compile_invalid_id_has_stable_exit_and_json(capsys: pytest.CaptureFixture[str]) -> None:
+    root = Path(__file__).resolve().parents[2]
+    assert main(["--repository", str(root), "--json", "compile", "bad"]) == 2
+    payload = __import__("json").loads(capsys.readouterr().out)
+    assert payload["status"] == "INVALID_INPUT"

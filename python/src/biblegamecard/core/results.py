@@ -39,6 +39,7 @@ class OperationResult:
     affected: tuple[str, ...] = ()
     invoked_tool: tuple[str, ...] | None = None
     output_paths: tuple[str, ...] = ()
+    data: object | None = None
 
     def __post_init__(self) -> None:
         if self.success != (self.status is StatusCategory.SUCCESS):

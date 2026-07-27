@@ -15,3 +15,7 @@ class InvalidCollectorIdError(BibleGameCardError, ValueError):
 
 class InvalidLifecycleError(BibleGameCardError, ValueError):
     """Raised when an asset lifecycle value is not part of the shared contract."""
+
+
+class CollectorNotFoundError(BibleGameCardError, LookupError):
+    """Raised when a valid collector ID is absent from a repository registry."""
