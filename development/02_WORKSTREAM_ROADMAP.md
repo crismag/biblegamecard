@@ -1,5 +1,11 @@
 # Supplementary Development Roadmap
 
+> **Status: PAUSED / DEFERRED.** This is a historical planning record, not an
+> active task queue. Do not automatically continue its numbered phases. The
+> active roadmap is the [asset-production roadmap](asset-production/README.md).
+> A phase here may be reconsidered only when it solves a demonstrated asset-
+> production problem and is explicitly authorised.
+
 ## Planning principle
 
 This roadmap covers useful repository development that can proceed without running, changing, or approving image generation. Work is ordered by dependency and risk rather than feature appeal.
